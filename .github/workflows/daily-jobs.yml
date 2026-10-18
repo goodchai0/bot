@@ -36,8 +36,8 @@ jobs:
           pip install requests playwright
           playwright install --with-deps chromium
 
-      - name: Start clean
-        run: rm -f new_jobs.csv
+      # - name: Start clean
+      #   run: rm -f new_jobs.csv
 
       # - name: Company ATS APIs
       #   run: python job_scraper_v2.py
