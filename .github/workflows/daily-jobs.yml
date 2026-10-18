@@ -1,0 +1,61 @@
+# Save as .github/workflows/daily-jobs.yml in a PRIVATE repo.
+# Repo needs: job_scraper_v2.py, crawler.py, notify.py (jobs_boards.py can sit there too; it is NOT run here)
+# Secrets: EMAIL_USER, EMAIL_APP_PASSWORD, EMAIL_TO  (optional: TG_TOKEN, TG_CHAT)
+name: daily-job-email
+
+on:
+  schedule:
+    - cron: "30 3 * * *"      # 03:30 UTC = 09:00 IST
+  workflow_dispatch: {}        # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      EMAIL_USER: ${{ secrets.EMAIL_USER }}
+      EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      TG_TOKEN: ${{ secrets.TG_TOKEN }}
+      TG_CHAT: ${{ secrets.TG_CHAT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: |
+          pip install requests playwright
+          playwright install --with-deps chromium
+
+      - name: Start clean
+        run: rm -f new_jobs.csv
+
+      - name: Company ATS APIs
+        run: python job_scraper_v2.py
+
+      # Crawler diffs against what it saw last time, so running Mon/Wed/Fri loses nothing
+      # and saves free minutes. A manual run always includes it.
+      - name: Company career pages (browser)
+        continue-on-error: true
+        run: |
+          DOW=$(date +%u)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$DOW" = "1" ] || [ "$DOW" = "3" ] || [ "$DOW" = "5" ]; then
+            python crawler.py
+          else
+            echo "Skipping crawler today"
+          fi
+
+      - name: Email results (grouped by location)
+        run: python notify.py
+
+      - name: Save state so only NEW jobs appear next time
+        run: |
+          git config user.name "job-bot"
+          git config user.email "job-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "update job state $(date -u +%F)" || echo "nothing to commit"
+          git push
