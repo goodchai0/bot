@@ -1,0 +1,58 @@
+# Save as .github/workflows/test-email.yml
+# Manual only: Actions tab -> "test-email" -> Run workflow. Sends one test email using your secrets.
+name: test-email
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      EMAIL_USER: ${{ secrets.EMAIL_USER }}
+      EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check secrets are set (values are never printed)
+        run: |
+          python - << 'PY'
+          import os
+          for k in ("EMAIL_USER", "EMAIL_APP_PASSWORD", "EMAIL_TO"):
+              v = os.environ.get(k, "")
+              print(f"{k}: {'SET' if v.strip() else 'MISSING'} (length {len(v)})")
+          pw = os.environ.get("EMAIL_APP_PASSWORD", "").replace(" ", "")
+          print("App password length without spaces:", len(pw), "(should be 16 for Gmail)")
+          print("EMAIL_TO addresses:", len([x for x in __import__('re').split(r'[,;\s]+', os.environ.get('EMAIL_TO','')) if x]))
+          PY
+
+      - name: Check Gmail servers are reachable from GitHub
+        run: |
+          python - << 'PY'
+          import socket
+          for port in (465, 587):
+              try:
+                  socket.create_connection(("smtp.gmail.com", port), timeout=10).close()
+                  print(f"port {port}: reachable")
+              except Exception as e:
+                  print(f"port {port}: FAILED - {type(e).__name__}: {e}")
+          PY
+
+      - name: Send test email
+        run: |
+          python - << 'PY'
+          import sys
+          import notify          # uses the same sending code as the daily job (needs notify.py in the repo)
+          ok = notify.send_email(
+              "Test email from your job bot",
+              "If you can read this, email sending from GitHub Actions works.",
+              "<h3>It works.</h3><p>Email sending from GitHub Actions is working.</p>")
+          if not ok:
+              sys.exit("TEST FAILED: email was not sent. See messages above.")
+          print("TEST PASSED: email sent. Check your inbox and spam folder.")
+          PY
