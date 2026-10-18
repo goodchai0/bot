@@ -11,10 +11,11 @@ Settings come from a .env file in the same folder (see .env.example), or environ
     EMAIL_USER, EMAIL_APP_PASSWORD, EMAIL_TO   (Gmail: use an App Password, not your login password)
     SMTP_HOST (default smtp.gmail.com)
     TG_TOKEN, TG_CHAT                          (optional Telegram)
+    Other SMTP providers (Brevo etc.): SMTP_HOST, SMTP_USER (login), EMAIL_FROM (verified sender), SMTP_PORT
 The job data is written directly in the email / Telegram message body (no attachments).
 Also writes per-city CSVs into history/<date>/ so you can open just one city in Excel.
 """
-import argparse, csv, html, os, re, shutil, smtplib, sys
+import argparse, csv, html, os, re, shutil, smtplib, sys, time
 from collections import defaultdict
 from datetime import date
 from email.message import EmailMessage
@@ -74,19 +75,72 @@ def build_text(groups, total):
     return "\n".join(out)
 
 
+def parse_recipients(value):
+    return [x.strip() for x in re.split(r"[,;\s]+", value or "") if x.strip()]
+
+
+def build_markdown(groups, total):
+    out = [f"# {total} new jobs - {date.today():%d %b %Y}\n"]
+    for city, rows in groups:
+        out.append(f"## {city} ({len(rows)})\n")
+        for r in rows:
+            posted = f" - {r['posted']}" if r.get("posted") else ""
+            out.append(f"- **{r['company']}** - [{r['title']}]({r['url']}) - {r['location']}{posted}")
+        out.append("")
+    return "\n".join(out)
+
+
 def send_email(subject, text, html_body):
-    user, pw, to = (os.environ.get(k) for k in ("EMAIL_USER", "EMAIL_APP_PASSWORD", "EMAIL_TO"))
-    if not (user and pw and to):
+    env = os.environ.get
+    from_addr = (env("EMAIL_FROM") or env("EMAIL_USER") or "").strip()
+    login_user = (env("SMTP_USER") or env("EMAIL_USER") or "").strip()
+    pw = (env("EMAIL_APP_PASSWORD") or "").replace(" ", "").strip()
+    to = env("EMAIL_TO")
+    if not (from_addr and login_user and pw and to):
         print("Email not configured (EMAIL_USER / EMAIL_APP_PASSWORD / EMAIL_TO) - skipping email.")
-        return
+        return True
+    recipients = parse_recipients(to)
+    if not recipients:
+        print("EMAIL_TO has no valid addresses.")
+        return False
     msg = EmailMessage()
-    msg["Subject"], msg["From"], msg["To"] = subject, user, to
+    msg["Subject"], msg["From"], msg["To"] = subject, from_addr, ", ".join(recipients)
     msg.set_content(text)
     msg.add_alternative(html_body, subtype="html")
-    with smtplib.SMTP_SSL(os.environ.get("SMTP_HOST", "smtp.gmail.com"), 465) as s:
-        s.login(user, pw)
-        s.send_message(msg)
-    print(f"Email sent to {to}")
+
+    host = env("SMTP_HOST") or "smtp.gmail.com"
+    port = (env("SMTP_PORT") or "").strip()
+    if port == "465":
+        modes = ["ssl465"]
+    elif port == "587":
+        modes = ["starttls587"]
+    elif host.endswith("gmail.com"):
+        modes = ["ssl465", "starttls587"]
+    else:
+        modes = ["starttls587", "ssl465"]
+
+    for attempt in range(1, 4):
+        for mode in modes:
+            try:
+                if mode == "ssl465":
+                    server = smtplib.SMTP_SSL(host, 465, timeout=30)
+                else:
+                    server = smtplib.SMTP(host, 587, timeout=30)
+                    server.ehlo()
+                    server.starttls()
+                    server.ehlo()
+                with server:
+                    server.login(login_user, pw)
+                    server.send_message(msg, to_addrs=recipients)
+                print(f"Email sent to {', '.join(recipients)} (via {host} {mode})")
+                return True
+            except smtplib.SMTPAuthenticationError as e:
+                print("SMTP server rejected the login. Check the username/password secrets.", e)
+                return False
+            except Exception as e:
+                print(f"  attempt {attempt} via {host} {mode} failed: {type(e).__name__}: {e}")
+        time.sleep(5)
+    return False
 
 
 def chunk_text(text, limit=3800):
@@ -105,13 +159,21 @@ def chunk_text(text, limit=3800):
 def send_telegram(text):
     token, chat = os.environ.get("TG_TOKEN"), os.environ.get("TG_CHAT")
     if not (token and chat):
-        return
+        return True
     import requests
-    base = f"https://api.telegram.org/bot{token}"
+    base = f"https://api.telegram.org/bot{token.strip()}"
+    ok = True
     for part in chunk_text(text):
-        requests.post(f"{base}/sendMessage", timeout=20,
-                      data={"chat_id": chat, "text": part, "disable_web_page_preview": "true"})
-    print("Telegram sent")
+        r = requests.post(f"{base}/sendMessage", timeout=20,
+                          data={"chat_id": chat.strip(), "text": part,
+                                "disable_web_page_preview": "true"})
+        if not r.ok:
+            ok = False
+            print(f"Telegram error {r.status_code}: {r.text[:200]}")
+            break
+    if ok:
+        print("Telegram sent")
+    return ok
 
 
 def main():
@@ -147,6 +209,9 @@ def main():
         print(text)
         return
 
+    with open("message.md", "w", encoding="utf-8") as f:     # used by the GitHub Issue step
+        f.write(build_markdown(groups, total))
+
     outdir = os.path.join("history", date.today().isoformat())
     os.makedirs(outdir, exist_ok=True)
     fields = ["company", "title", "location", "posted", "source", "url"]
@@ -158,15 +223,29 @@ def main():
             w.writerows(rs)
     shutil.copy(a.csv, os.path.join("history", f"new_jobs_{date.today().isoformat()}.csv"))
 
+    email_ok = True
     try:
-        send_email(f"{total} new jobs - {date.today():%d %b}", text, html_body)
+        email_ok = send_email(f"{total} new jobs - {date.today():%d %b}", text, html_body)
     except Exception as e:
+        email_ok = False
         print("Email failed:", type(e).__name__, e)
+    tg_ok = True
     try:
-        send_telegram(text)
+        tg_ok = send_telegram(text)
     except Exception as e:
+        tg_ok = False
         print("Telegram failed:", type(e).__name__, e)
+    tg_configured = bool(os.environ.get("TG_TOKEN") and os.environ.get("TG_CHAT"))
+    email_configured = bool(os.environ.get("EMAIL_USER") and os.environ.get("EMAIL_APP_PASSWORD")
+                            and os.environ.get("EMAIL_TO"))
+    # run counts as delivered if ANY configured channel worked
+    delivered = (email_configured and email_ok) or (tg_configured and tg_ok) \
+        or not (email_configured or tg_configured)
+    email_ok = delivered
     print(f"Per-city CSVs saved in {outdir}/")
+    if not email_ok:
+        sys.exit("DELIVERY FAILED on every configured channel - exiting with error so this run's "
+                 "state is not saved and these jobs are re-sent next time.")
 
 
 if __name__ == "__main__":
