@@ -36,11 +36,11 @@ jobs:
           pip install requests playwright
           playwright install --with-deps chromium
 
-      # - name: Start clean
-      #   run: rm -f new_jobs.csv
+      - name: Start clean
+        run: rm -f new_jobs.csv
 
-      # - name: Company ATS APIs
-      #   run: python job_scraper_v2.py
+      - name: Company ATS APIs
+        run: python job_scraper_v2.py
 
       # Crawler diffs against what it saw last time, so running Mon/Wed/Fri loses nothing
       # and saves free minutes. A manual run always includes it.
@@ -53,9 +53,9 @@ jobs:
       #     else
       #       echo "Skipping crawler today"
       #     fi
-      # - name: Company career pages (browser)
-      #   continue-on-error: true
-      #   run: python crawler.py
+      - name: Company career pages (browser)
+        continue-on-error: true
+        run: python crawler.py
 
         
       - name: Email results (grouped by location)
