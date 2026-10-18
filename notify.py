@@ -12,7 +12,8 @@ Settings come from a .env file in the same folder (see .env.example), or environ
     SMTP_HOST (default smtp.gmail.com)
     TG_TOKEN, TG_CHAT                          (optional Telegram)
     Other SMTP providers (Brevo etc.): SMTP_HOST, SMTP_USER (login), EMAIL_FROM (verified sender), SMTP_PORT
-The job data is written directly in the email / Telegram message body (no attachments).
+The jobs are sent as CSV text (company,title,location,posted,source,url) in the email /
+Telegram message body - no attachments.
 Also writes per-city CSVs into history/<date>/ so you can open just one city in Excel.
 """
 import argparse, csv, html, os, re, shutil, smtplib, sys, time
@@ -65,18 +66,19 @@ def build_html(groups, total):
     return "".join(parts)
 
 
+CSV_FIELDS = ["company", "title", "location", "posted", "source", "url"]
+
+
 def build_text(groups, total):
-    out = [f"{total} new jobs\n"]
+    """All jobs as CSV text: company,title,location,posted,source,url (grouped by city order)."""
+    import io
+    buf = io.StringIO()
+    w = csv.writer(buf, lineterminator="\n")
+    w.writerow(CSV_FIELDS)
     for city, rows in groups:
-        out.append(f"== {city} ({len(rows)}) ==")
         for r in rows:
-            out.append(f"- {r['company']}: {r['title']} [{r['location']}]\n  {r['url']}")
-        out.append("")
-    return "\n".join(out)
-
-
-def parse_recipients(value):
-    return [x.strip() for x in re.split(r"[,;\s]+", value or "") if x.strip()]
+            w.writerow([r.get(k, "") or "" for k in CSV_FIELDS])
+    return buf.getvalue()
 
 
 def build_markdown(groups, total):
@@ -90,7 +92,7 @@ def build_markdown(groups, total):
     return "\n".join(out)
 
 
-def send_email(subject, text, html_body):
+def send_email(subject, text, html_body=None):
     env = os.environ.get
     from_addr = (env("EMAIL_FROM") or env("EMAIL_USER") or "").strip()
     login_user = (env("SMTP_USER") or env("EMAIL_USER") or "").strip()
@@ -106,7 +108,8 @@ def send_email(subject, text, html_body):
     msg = EmailMessage()
     msg["Subject"], msg["From"], msg["To"] = subject, from_addr, ", ".join(recipients)
     msg.set_content(text)
-    msg.add_alternative(html_body, subtype="html")
+    if html_body:
+        msg.add_alternative(html_body, subtype="html")
 
     host = env("SMTP_HOST") or "smtp.gmail.com"
     port = (env("SMTP_PORT") or "").strip()
@@ -144,14 +147,21 @@ def send_email(subject, text, html_body):
 
 
 def chunk_text(text, limit=3800):
-    """Split text into pieces under Telegram's 4096-char limit, breaking on blank lines/lines."""
-    chunks, cur = [], ""
-    for line in text.split("\n"):
-        if len(cur) + len(line) + 1 > limit and cur:
+    """Split into pieces under Telegram's 4096-char limit. If the text starts with the CSV
+    header, repeat that header at the top of every piece."""
+    first, _, rest = text.partition("\n")
+    header = first if first.startswith("company,") else None
+    lines = rest.split("\n") if header else text.split("\n")
+    base = (header + "\n") if header else ""
+    chunks, cur = [], base
+    for line in lines:
+        if not line:
+            continue
+        if len(cur) + len(line) + 1 > limit and cur.strip() != base.strip():
             chunks.append(cur)
-            cur = ""
+            cur = base
         cur += line + "\n"
-    if cur.strip():
+    if cur.strip() and cur.strip() != base.strip():
         chunks.append(cur)
     return chunks
 
@@ -204,7 +214,7 @@ def main():
     groups = [(c, sorted(by_city[c], key=lambda r: r["company"].lower())) for c in order if c in by_city]
     total = len(rows)
 
-    text, html_body = build_text(groups, total), build_html(groups, total)
+    text = build_text(groups, total)
     if a.dry_run:
         print(text)
         return
@@ -225,7 +235,8 @@ def main():
 
     email_ok = True
     try:
-        email_ok = send_email(f"{total} new jobs - {date.today():%d %b}", text, html_body)
+        counts = ", ".join(f"{c} {len(r)}" for c, r in groups)
+        email_ok = send_email(f"{total} new jobs - {date.today():%d %b} ({counts})", text)
     except Exception as e:
         email_ok = False
         print("Email failed:", type(e).__name__, e)
