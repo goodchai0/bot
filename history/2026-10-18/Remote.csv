@@ -1,0 +1,46 @@
+company,title,location,posted,source,url
+Ably,"Software Engineer, Pub/Sub","London, UK (Remote)",,crawler,https://job-boards.eu.greenhouse.io/ably30/jobs/4880791101
+Ably,GTM Engineer,"London, UK (Remote)",,crawler,https://job-boards.eu.greenhouse.io/ably30/jobs/4958779101
+Ably,"Software Engineer, Pub/Sub","{""name"": ""London, UK (Remote)""}",,crawler-json,https://job-boards.eu.greenhouse.io/ably30/jobs/4880791101
+Ably,GTM Engineer,"{""name"": ""London, UK (Remote)""}",,crawler-json,https://job-boards.eu.greenhouse.io/ably30/jobs/4958779101
+Eventbrite,"Graduate software engineer, US","Atlanta (GA), Boston (MA), Miami (FL), New York (NY), or fully remote from eligible countries",,crawler,https://jobs.bendingspoons.com/positions/6ace4e547cbcd6cf9947b5b0?utm_campaign=homepage&utm_content=footer_link&utm_medium=website&utm_source=eventbrite
+Evernote,"Graduate software engineer, US","Atlanta (GA), Boston (MA), Miami (FL), New York (NY), or fully remote from eligible countries",,crawler,https://jobs.bendingspoons.com/positions/6ace4e547cbcd6cf9947b5b0
+Gitlab,"Backend Engineer (Python),AI Engineering: Agent Foundations","Remote, Canada; Remote, Poland; Remote, United Kingdom",2026-10-15,greenhouse,https://job-boards.greenhouse.io/gitlab/jobs/8704363002
+Gitlab,"Backend Engineer (Ruby), AI Engineering: Agent Foundations","Remote, Canada; Remote, Poland; Remote, United Kingdom",2026-10-15,greenhouse,https://job-boards.greenhouse.io/gitlab/jobs/8620720002
+Gitlab,"Fullstack Engineer (TypeScript), AI Engineering: Duo Client SDK","Remote, Canada; Remote, United States",2026-10-15,greenhouse,https://job-boards.greenhouse.io/gitlab/jobs/8698330002
+Harness,Security Engineer – Cloud & Infrastructure Security,"{""name"": ""India (Remote)""}",,crawler-json,https://www.harness.io/company/jobs/apply?gh_jid=5239607007&gh_jid=5239607007
+Harness,"Content Engineer, Developer Relations","{""name"": ""U.S. (Remote)""}",,crawler-json,https://www.harness.io/company/jobs/apply?gh_jid=5198641007&gh_jid=5198641007
+Harness,"Content Engineer, Developer Relations","{""name"": ""U.S. (Remote)""}",,crawler-json,https://www.harness.io/company/jobs/apply?gh_jid=5198641007&gh_jid=5198641007
+Harness,Security Engineer – Cloud & Infrastructure Security,"{""name"": ""India (Remote)""}",,crawler-json,https://www.harness.io/company/jobs/apply?gh_jid=5239607007&gh_jid=5239607007
+Harness,Security Engineer – Cloud & Infrastructure Security,"{""name"": ""India (Remote)""}",,crawler-json,https://www.harness.io/company/jobs/apply?gh_jid=5239607007&gh_jid=5239607007
+Harness,"Content Engineer, Developer Relations","{""name"": ""U.S. (Remote)""}",,crawler-json,https://www.harness.io/company/jobs/apply?gh_jid=5198641007&gh_jid=5198641007
+InApp,DBT / Analytical Engineer,Remote/Hybrid,,crawler,https://inapp.com/jobs/dbt-analytical-engineer/
+Kin + Carta,"Software Engineer, Back-End Focus",Remote (United States),2026-10-15,ashby,https://jobs.ashbyhq.com/kin/56db2161-84b4-42ab-b1c6-adae6c1f325c
+Omnicell,Junior Implementation Engineer (Fluent German & English),"Darmstadt, HE, DE Remote",,crawler,https://apply.omnicell.com/careers/job/1133914895698
+Reddit,"Frontend Engineer, Ads",Remote - United States,2026-10-18,greenhouse,https://job-boards.greenhouse.io/reddit/jobs/8194576
+Reddit,"Front End Software Engineer, Media Player",Remote - United States,2026-10-15,greenhouse,https://job-boards.greenhouse.io/reddit/jobs/8198102
+Reddit,"Software Engineer, Ads",Remote - United States,2026-10-15,greenhouse,https://job-boards.greenhouse.io/reddit/jobs/6469397
+Reddit,"Software Engineer, Content Platform",Remote - United States,2026-10-15,greenhouse,https://job-boards.greenhouse.io/reddit/jobs/8139781
+Segment,Developer Success Engineer,Engineering Remote - US,,crawler,https://jobs.twilio.com/careers/job/1099556514015
+Segment,Technical Support Engineer 2,Customer Support Remote - Ireland,,crawler,https://jobs.twilio.com/careers/job/1099556477834
+Segment,Software Engineer L2 - Cloud Infrastructure,Engineering Remote - US,,crawler,https://jobs.twilio.com/careers/job/1099550724703
+Segment,"Software Engineer, Platform Engineering (L2)",Engineering Remote - US,,crawler,https://jobs.twilio.com/careers/job/1099554230886
+Segment,Software Engineer L3,Engineering Remote - US,,crawler,https://jobs.twilio.com/careers/job/1099554087438
+Segment,"Software Engineer, Platform Access (L2)",Engineering Remote - US,,crawler,https://jobs.twilio.com/careers/job/1099554230879
+Segment,Software Engineer - Video,Engineering Remote - US,,crawler,https://jobs.twilio.com/careers/job/1099552156513
+Segment,Software Engineer (Observability),Engineering Remote - Ireland,,crawler,https://jobs.twilio.com/careers/job/1099555313697
+Segment,Developer Success Engineer,"[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,Technical Support Engineer 2,"[""Remote - Ireland""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,Software Engineer L2 - Cloud Infrastructure ,"[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,"Software Engineer, Platform Engineering (L2)","[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,Software Engineer L3,"[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,"Software Engineer, Platform Access (L2)","[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,Software Engineer - Video,"[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,Software Engineer (Observability),"[""Remote - Ireland""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,Software Engineer - Video,"[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,"Software Engineer, Platform Engineering (L2)","[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,"Software Engineer, Platform Access (L2)","[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Segment,Software Engineer L3,"[""Remote - US""]",,crawler-json,https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099550724703&sort_by=relevance
+Shopify,"Software Engineers, Frontend",REMOTE - AMERICAS,,crawler,https://www.shopify.com/careers/software-engineers-frontend_819eb2d1-1bf6-4f0d-91dd-419aea8bd9d5?keyword=software+engineer
+Stripe,"Software Engineer, Metronome Infrastructure","Toronto, Vancouver, Canada-Remote",2026-10-07,greenhouse,https://stripe.com/jobs/search?gh_jid=8231439
+Stripe,"Software Engineer, Revenue and Financial Automation","San Francisco, New York City, Seattle, Chicago, US-Remote",2026-10-07,greenhouse,https://stripe.com/jobs/search?gh_jid=8127182

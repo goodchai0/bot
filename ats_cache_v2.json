@@ -1,0 +1,2374 @@
+{
+ "Accenture": {
+  "ats": "workday",
+  "slug": "accenture|wd103|AccentureCareers"
+ },
+ "AbhiBus": {
+  "ats": "smartrecruiters",
+  "slug": "AbhiBus"
+ },
+ "AirGarage": {
+  "ats": "ashby",
+  "slug": "airgarage"
+ },
+ "1mg": {
+  "ats": null
+ },
+ "Ably": {
+  "ats": "greenhouse",
+  "slug": "ably30"
+ },
+ "Adobe": {
+  "ats": null
+ },
+ "Airbase": {
+  "ats": null
+ },
+ "Airbnb": {
+  "ats": "greenhouse",
+  "slug": "airbnb",
+  "guessed": true
+ },
+ "Airtable": {
+  "ats": "greenhouse",
+  "slug": "airtable",
+  "guessed": true
+ },
+ "Akamai": {
+  "ats": null
+ },
+ "Acaira": {
+  "ats": null
+ },
+ "Algolia": {
+  "ats": "greenhouse",
+  "slug": "algolia",
+  "guessed": true
+ },
+ "314e Corporation": {
+  "ats": null
+ },
+ "Ajio": {
+  "ats": null
+ },
+ "Acko": {
+  "ats": null
+ },
+ "Accolite software": {
+  "ats": null
+ },
+ "Alstom": {
+  "ats": null
+ },
+ "Anaplan": {
+  "ats": "greenhouse",
+  "slug": "anaplan",
+  "guessed": true
+ },
+ "Anthropic": {
+  "ats": "greenhouse",
+  "slug": "anthropic",
+  "guessed": true
+ },
+ "Amazon": {
+  "ats": null
+ },
+ "Agnikul Cosmos": {
+  "ats": null
+ },
+ "3i Infotech": {
+  "ats": null
+ },
+ "Apna": {
+  "ats": "workable",
+  "slug": "apna"
+ },
+ "Amdocs": {
+  "ats": null
+ },
+ "Accord software": {
+  "ats": "ashby",
+  "slug": "accord",
+  "guessed": true
+ },
+ "Alibaba Group": {
+  "ats": null
+ },
+ "Agile Infoway": {
+  "ats": null
+ },
+ "Amway": {
+  "ats": null
+ },
+ "Appfolio": {
+  "ats": "ashby",
+  "slug": "appfolio",
+  "guessed": true
+ },
+ "Arcesium": {
+  "ats": null
+ },
+ "Amadeus labs": {
+  "ats": null
+ },
+ "Appen": {
+  "ats": "lever",
+  "slug": "appen",
+  "guessed": true
+ },
+ "Apple": {
+  "ats": null
+ },
+ "American express": {
+  "ats": null
+ },
+ "AppInventiv": {
+  "ats": null
+ },
+ "Asana": {
+  "ats": "greenhouse",
+  "slug": "asana",
+  "guessed": true
+ },
+ "[24]7.ai": {
+  "ats": null
+ },
+ "Aptiv": {
+  "ats": null
+ },
+ "Alphabet Inc": {
+  "ats": null
+ },
+ "Atlan": {
+  "ats": "ashby",
+  "slug": "atlan",
+  "guessed": true
+ },
+ "Arista Networks": {
+  "ats": null
+ },
+ "Athena Health": {
+  "ats": "greenhouse",
+  "slug": "athena",
+  "guessed": true
+ },
+ "Axon": {
+  "ats": "greenhouse",
+  "slug": "axon",
+  "guessed": true
+ },
+ "Auth0": {
+  "ats": null
+ },
+ "Aujas": {
+  "ats": null
+ },
+ "Ark Info": {
+  "ats": "greenhouse",
+  "slug": "ark",
+  "guessed": true
+ },
+ "App Dynamics": {
+  "ats": null
+ },
+ "Atos": {
+  "ats": null
+ },
+ "BambooHR": {
+  "ats": null
+ },
+ "Automation Anywhere": {
+  "ats": null
+ },
+ "Avaya": {
+  "ats": null
+ },
+ "Benchling": {
+  "ats": "ashby",
+  "slug": "benchling"
+ },
+ "Bacancy Technology": {
+  "ats": null
+ },
+ "Bazaarvoice": {
+  "ats": "lever",
+  "slug": "bazaarvoice",
+  "guessed": true
+ },
+ "Ather Energy": {
+  "ats": null
+ },
+ "Bain & Co": {
+  "ats": null
+ },
+ "Atlassian": {
+  "ats": null
+ },
+ "BankBazar": {
+  "ats": null
+ },
+ "Barclays": {
+  "ats": "workday",
+  "slug": "barclays|wd3|External_Career_Site_Barclays"
+ },
+ "Bill.com": {
+  "ats": "greenhouse",
+  "slug": "billcom",
+  "guessed": true
+ },
+ "BigBasket": {
+  "ats": null
+ },
+ "BharatPe": {
+  "ats": null
+ },
+ "Biocon": {
+  "ats": null
+ },
+ "Bitly": {
+  "ats": null
+ },
+ "Aryaka networks": {
+  "ats": null
+ },
+ "Bluestacks": {
+  "ats": null
+ },
+ "BARC India": {
+  "ats": null
+ },
+ "Boeing": {
+  "ats": "workday",
+  "slug": "boeing|wd1|EXTERNAL_CAREERS"
+ },
+ "Better": {
+  "ats": null
+ },
+ "BlackBuck": {
+  "ats": null
+ },
+ "Blackrock": {
+  "ats": null
+ },
+ "Box": {
+  "ats": null
+ },
+ "Braze": {
+  "ats": "greenhouse",
+  "slug": "braze",
+  "guessed": true
+ },
+ "Bosch": {
+  "ats": null
+ },
+ "Bloomberg L.P.": {
+  "ats": null
+ },
+ "Brex": {
+  "ats": "greenhouse",
+  "slug": "brex",
+  "guessed": true
+ },
+ "BrowserStack": {
+  "ats": "workday",
+  "slug": "browserstack|wd3|External"
+ },
+ "Bugcrowd": {
+  "ats": "greenhouse",
+  "slug": "bugcrowd"
+ },
+ "Booking.com": {
+  "ats": null
+ },
+ "Brooklinen": {
+  "ats": "ashby",
+  "slug": "brooklinen"
+ },
+ "Bitrix Infotech": {
+  "ats": null
+ },
+ "Bungie": {
+  "ats": "greenhouse",
+  "slug": "bungie",
+  "guessed": true
+ },
+ "Cameo": {
+  "ats": "greenhouse",
+  "slug": "cameo",
+  "guessed": true
+ },
+ "Calendly": {
+  "ats": "greenhouse",
+  "slug": "calendly"
+ },
+ "BNY Mellon": {
+  "ats": null
+ },
+ "Cadence": {
+  "ats": "workday",
+  "slug": "cadence|wd1|External_Careers"
+ },
+ "BMC Software": {
+  "ats": null
+ },
+ "Capgemini": {
+  "ats": null
+ },
+ "Capita": {
+  "ats": null
+ },
+ "Bose": {
+  "ats": "workday",
+  "slug": "boseallaboutme|wd503|Bose_Careers"
+ },
+ "Blizzard Entertainment": {
+  "ats": "workday",
+  "slug": "xboxgaming|wd1|Blizzard_External_Careers"
+ },
+ "ByteDance": {
+  "ats": null
+ },
+ "CarDekho": {
+  "ats": null
+ },
+ "BYJU\u2019S": {
+  "ats": null
+ },
+ "CasaOne": {
+  "ats": null
+ },
+ "Canva": {
+  "ats": null
+ },
+ "CarWale": {
+  "ats": null
+ },
+ "Byteridge": {
+  "ats": null
+ },
+ "Celonis": {
+  "ats": "greenhouse",
+  "slug": "celonis",
+  "guessed": true
+ },
+ "Chainalysis": {
+  "ats": null
+ },
+ "Chime": {
+  "ats": "greenhouse",
+  "slug": "chime",
+  "guessed": true
+ },
+ "Chargebee": {
+  "ats": null
+ },
+ "CashFree": {
+  "ats": null
+ },
+ "Apex Technology": {
+  "ats": "greenhouse",
+  "slug": "apex",
+  "guessed": true
+ },
+ "Chronus": {
+  "ats": null
+ },
+ "CitiGroup": {
+  "ats": "workday",
+  "slug": "citi|wd5|2"
+ },
+ "Cisco": {
+  "ats": null
+ },
+ "Cimpress": {
+  "ats": null
+ },
+ "Capital Numbers": {
+  "ats": "lever",
+  "slug": "capital",
+  "guessed": true
+ },
+ "Cloudflare": {
+  "ats": "greenhouse",
+  "slug": "cloudflare",
+  "guessed": true
+ },
+ "Cloudera": {
+  "ats": "workday",
+  "slug": "cloudera|wd5|External_Career"
+ },
+ "Cerner": {
+  "ats": null
+ },
+ "Celigo": {
+  "ats": "greenhouse",
+  "slug": "celigo",
+  "guessed": true
+ },
+ "Cockroach Labs": {
+  "ats": "greenhouse",
+  "slug": "cockroachlabs",
+  "guessed": true
+ },
+ "Asteria Aerospace Ltd": {
+  "ats": null
+ },
+ "ClearTrip": {
+  "ats": null
+ },
+ "Cohesity": {
+  "ats": null
+ },
+ "Cognizant": {
+  "ats": null
+ },
+ "CoinDCX": {
+  "ats": null
+ },
+ "CodingNinjas": {
+  "ats": null
+ },
+ "Commvault": {
+  "ats": "greenhouse",
+  "slug": "commvault",
+  "guessed": true
+ },
+ "Collabera": {
+  "ats": null
+ },
+ "CRED": {
+  "ats": "lever",
+  "slug": "cred"
+ },
+ "Cargill": {
+  "ats": null
+ },
+ "ClearTax": {
+  "ats": null
+ },
+ "Confluent": {
+  "ats": null
+ },
+ "Colgate-Palmolive": {
+  "ats": null
+ },
+ "Ardentisys": {
+  "ats": null
+ },
+ "Clarion Technologies": {
+  "ats": "ashby",
+  "slug": "clarion",
+  "guessed": true
+ },
+ "BPL India": {
+  "ats": null
+ },
+ "Airtel x labs": {
+  "ats": null
+ },
+ "Continental": {
+  "ats": null
+ },
+ "Cradlepoint": {
+  "ats": null
+ },
+ "COSGrid": {
+  "ats": null
+ },
+ "Crowdstrike": {
+  "ats": "workday",
+  "slug": "crowdstrike|wd5|crowdstrikecareers"
+ },
+ "Curology": {
+  "ats": "workable",
+  "slug": "curology"
+ },
+ "Cybage": {
+  "ats": null
+ },
+ "Dataiku": {
+  "ats": "greenhouse",
+  "slug": "dataiku"
+ },
+ "CGI Group": {
+  "ats": null
+ },
+ "CueMath": {
+  "ats": null
+ },
+ "Databricks": {
+  "ats": "greenhouse",
+  "slug": "databricks",
+  "guessed": true
+ },
+ "Cognologix": {
+  "ats": null
+ },
+ "Dataminr": {
+  "ats": null
+ },
+ "Dave": {
+  "ats": "ashby",
+  "slug": "dave"
+ },
+ "Datadog": {
+  "ats": "greenhouse",
+  "slug": "datadog",
+  "guessed": true
+ },
+ "Capillary": {
+  "ats": null
+ },
+ "Crestron": {
+  "ats": null
+ },
+ "Datamatics": {
+  "ats": null
+ },
+ "Cygnet": {
+  "ats": null
+ },
+ "Cvent": {
+  "ats": null
+ },
+ "Coinswitch kuber": {
+  "ats": null
+ },
+ "Delhivery": {
+  "ats": null
+ },
+ "Directi": {
+  "ats": "lever",
+  "slug": "directi"
+ },
+ "Discord": {
+  "ats": "greenhouse",
+  "slug": "discord",
+  "guessed": true
+ },
+ "Dialpad": {
+  "ats": "greenhouse",
+  "slug": "dialpad",
+  "guessed": true
+ },
+ "Dell": {
+  "ats": null
+ },
+ "Divvy Homes": {
+  "ats": "greenhouse",
+  "slug": "divvyhomes"
+ },
+ "Deloitte": {
+  "ats": null
+ },
+ "DigitalOcean": {
+  "ats": null
+ },
+ "Doximity": {
+  "ats": "greenhouse",
+  "slug": "doximity",
+  "guessed": true
+ },
+ "DE Shaw": {
+  "ats": null
+ },
+ "Cult.fit": {
+  "ats": null
+ },
+ "Dentsu": {
+  "ats": "workday",
+  "slug": "dentsuaegis|wd3|DAN_GLOBAL"
+ },
+ "Diebold": {
+  "ats": null
+ },
+ "Credit Suisse": {
+  "ats": null
+ },
+ "Domino Data Lab": {
+  "ats": "greenhouse",
+  "slug": "dominodatalab",
+  "guessed": true
+ },
+ "Disney": {
+  "ats": "greenhouse",
+  "slug": "disney",
+  "guessed": true
+ },
+ "DropBox": {
+  "ats": "greenhouse",
+  "slug": "dropbox",
+  "guessed": true
+ },
+ "Dream11": {
+  "ats": "lever",
+  "slug": "dreamsports"
+ },
+ "Duck Creek Technologies": {
+  "ats": "workday",
+  "slug": "duckcreek|wd1|duckcreekcareers"
+ },
+ "DoorDash": {
+  "ats": null
+ },
+ "Delta Air Lines": {
+  "ats": null
+ },
+ "Dispatch": {
+  "ats": "ashby",
+  "slug": "dispatch",
+  "guessed": true
+ },
+ "Druva": {
+  "ats": "greenhouse",
+  "slug": "druva"
+ },
+ "Elastic": {
+  "ats": "greenhouse",
+  "slug": "elastic",
+  "guessed": true
+ },
+ "Drift": {
+  "ats": null
+ },
+ "Dunzo": {
+  "ats": null
+ },
+ "Dhruva Space": {
+  "ats": null
+ },
+ "Epic Games": {
+  "ats": "greenhouse",
+  "slug": "epicgames",
+  "guessed": true
+ },
+ "Faire": {
+  "ats": "greenhouse",
+  "slug": "faire",
+  "guessed": true
+ },
+ "Ericsson": {
+  "ats": null
+ },
+ "EY": {
+  "ats": null
+ },
+ "Deutsche Bank": {
+  "ats": null
+ },
+ "Expedia": {
+  "ats": "workday",
+  "slug": "expedia|wd108|search"
+ },
+ "DP World": {
+  "ats": null
+ },
+ "Experian": {
+  "ats": null
+ },
+ "Etsy": {
+  "ats": null
+ },
+ "Eurofins": {
+  "ats": "smartrecruiters",
+  "slug": "Eurofins"
+ },
+ "Fastly": {
+  "ats": "greenhouse",
+  "slug": "fastly",
+  "guessed": true
+ },
+ "Figma": {
+  "ats": "greenhouse",
+  "slug": "figma"
+ },
+ "EA Games": {
+  "ats": null
+ },
+ "Flexport": {
+  "ats": "greenhouse",
+  "slug": "flexport"
+ },
+ "Five9": {
+  "ats": "greenhouse",
+  "slug": "five9",
+  "guessed": true
+ },
+ "Daffodil Software": {
+  "ats": null
+ },
+ "Eventbrite": {
+  "ats": null
+ },
+ "FamPay": {
+  "ats": "lever",
+  "slug": "fampay",
+  "guessed": true
+ },
+ "Facebook": {
+  "ats": null
+ },
+ "Freshworks": {
+  "ats": "smartrecruiters",
+  "slug": "Freshworks"
+ },
+ "Flock": {
+  "ats": "ashby",
+  "slug": "flock",
+  "guessed": true
+ },
+ "Evernote": {
+  "ats": null
+ },
+ "Flytxt": {
+  "ats": null
+ },
+ "Fractal": {
+  "ats": "workday",
+  "slug": "fractal|wd1|Careers"
+ },
+ "Fiserv": {
+  "ats": "workday",
+  "slug": "fiserv|wd5|EXT"
+ },
+ "FreeCharge": {
+  "ats": null
+ },
+ "Fingent": {
+  "ats": null
+ },
+ "EBay": {
+  "ats": "workday",
+  "slug": "ebay|wd5|apply"
+ },
+ "Flipkart": {
+  "ats": null
+ },
+ "Fidelity investments": {
+  "ats": null
+ },
+ "GE": {
+  "ats": null
+ },
+ "Full Story": {
+  "ats": "ashby",
+  "slug": "fullstory",
+  "guessed": true
+ },
+ "FireEye": {
+  "ats": null
+ },
+ "Gitlab": {
+  "ats": "greenhouse",
+  "slug": "gitlab",
+  "guessed": true
+ },
+ "Flatworld Solutions": {
+  "ats": null
+ },
+ "Ghost": {
+  "ats": "greenhouse",
+  "slug": "ghost",
+  "guessed": true
+ },
+ "Glassdoor": {
+  "ats": null
+ },
+ "GlobalLogic": {
+  "ats": null
+ },
+ "Fischer Jordan": {
+  "ats": null
+ },
+ "Getaround": {
+  "ats": null
+ },
+ "GoDaddy": {
+  "ats": "greenhouse",
+  "slug": "godaddy",
+  "guessed": true
+ },
+ "Fyle": {
+  "ats": null
+ },
+ "GoDigit": {
+  "ats": null
+ },
+ "Groww": {
+  "ats": "greenhouse",
+  "slug": "groww"
+ },
+ "Gojek": {
+  "ats": null
+ },
+ "Groupon": {
+  "ats": "greenhouse",
+  "slug": "groupon",
+  "guessed": true
+ },
+ "GE Healthcare": {
+  "ats": null
+ },
+ "Frugal Testing": {
+  "ats": null
+ },
+ "Gong": {
+  "ats": "greenhouse",
+  "slug": "gongio"
+ },
+ "Garuda Aerospace private Ltd": {
+  "ats": null
+ },
+ "GitHub": {
+  "ats": null
+ },
+ "GreyOrange": {
+  "ats": null
+ },
+ "Frappe Technologies": {
+  "ats": null
+ },
+ "Google": {
+  "ats": null
+ },
+ "GeeksForGeeks": {
+  "ats": null
+ },
+ "HackerRank": {
+  "ats": "greenhouse",
+  "slug": "hackerrank",
+  "guessed": true
+ },
+ "Grab": {
+  "ats": null
+ },
+ "Hackerearth": {
+  "ats": null
+ },
+ "HashiCorp": {
+  "ats": null
+ },
+ "HealthAsyst": {
+  "ats": null
+ },
+ "Hinge": {
+  "ats": null
+ },
+ "Harness": {
+  "ats": "greenhouse",
+  "slug": "harnessinc"
+ },
+ "HERE": {
+  "ats": null
+ },
+ "Goldman Sachs": {
+  "ats": null
+ },
+ "Hitachi": {
+  "ats": "workday",
+  "slug": "hitachi|wd1|hitachi"
+ },
+ "Hashedin": {
+  "ats": null
+ },
+ "Hootsuite": {
+  "ats": "greenhouse",
+  "slug": "hootsuite",
+  "guessed": true
+ },
+ "Hewlett-Packard": {
+  "ats": null
+ },
+ "Hopper": {
+  "ats": "ashby",
+  "slug": "hopper",
+  "guessed": true
+ },
+ "Guild Education": {
+  "ats": "greenhouse",
+  "slug": "guild",
+  "guessed": true
+ },
+ "Illumina": {
+  "ats": "workday",
+  "slug": "illumina|wd1|illumina-careers"
+ },
+ "HelloFresh": {
+  "ats": "greenhouse",
+  "slug": "hellofresh",
+  "guessed": true
+ },
+ "Honeywell": {
+  "ats": null
+ },
+ "HubSpot": {
+  "ats": null
+ },
+ "Healthify me": {
+  "ats": null
+ },
+ "Hotstar": {
+  "ats": "workday",
+  "slug": "jiostar|wd102|JioStar"
+ },
+ "IBM": {
+  "ats": null
+ },
+ "HSBC": {
+  "ats": null
+ },
+ "IndiGo": {
+  "ats": "greenhouse",
+  "slug": "indigo",
+  "guessed": true
+ },
+ "Hiring Plug": {
+  "ats": null
+ },
+ "Hyperlink InfoSystem": {
+  "ats": null
+ },
+ "Hyundai": {
+  "ats": null
+ },
+ "InMobi": {
+  "ats": "greenhouse",
+  "slug": "inmobi",
+  "guessed": true
+ },
+ "Infosys": {
+  "ats": null
+ },
+ "Infogain": {
+  "ats": null
+ },
+ "Info Edge": {
+  "ats": null
+ },
+ "Impact Analytics": {
+  "ats": "greenhouse",
+  "slug": "impact",
+  "guessed": true
+ },
+ "InApp": {
+  "ats": null
+ },
+ "Intercom": {
+  "ats": "greenhouse",
+  "slug": "intercom"
+ },
+ "Instacart": {
+  "ats": "greenhouse",
+  "slug": "instacart",
+  "guessed": true
+ },
+ "Invesco": {
+  "ats": "workday",
+  "slug": "invesco|wd1|IVZ"
+ },
+ "Innovid": {
+  "ats": "greenhouse",
+  "slug": "innovid",
+  "guessed": true
+ },
+ "Informatica": {
+  "ats": null
+ },
+ "Ironclad": {
+  "ats": "ashby",
+  "slug": "ironcladhq"
+ },
+ "Innovaccer": {
+  "ats": "workable",
+  "slug": "j"
+ },
+ "Goibibo": {
+  "ats": null
+ },
+ "Incedo": {
+  "ats": null
+ },
+ "Intel": {
+  "ats": "workday",
+  "slug": "intel|wd1|External"
+ },
+ "Indus Valley Partners": {
+  "ats": null
+ },
+ "Intuitive": {
+  "ats": null
+ },
+ "IXL": {
+  "ats": null
+ },
+ "Intuit": {
+  "ats": null
+ },
+ "Innoviti": {
+  "ats": null
+ },
+ "Karat": {
+  "ats": "greenhouse",
+  "slug": "karat",
+  "guessed": true
+ },
+ "Ipreo": {
+  "ats": null
+ },
+ "Karix": {
+  "ats": null
+ },
+ "J.P. Morgan Chase": {
+  "ats": null
+ },
+ "iRobot": {
+  "ats": null
+ },
+ "Kaleyra": {
+  "ats": null
+ },
+ "Ivy Mobility": {
+  "ats": null
+ },
+ "Juniper Networks": {
+  "ats": "workday",
+  "slug": "hpe|wd5|Jobsathpe"
+ },
+ "JP Morgan": {
+  "ats": null
+ },
+ "Klaviyo": {
+  "ats": "greenhouse",
+  "slug": "klaviyo",
+  "guessed": true
+ },
+ "Iris Business Services": {
+  "ats": "greenhouse",
+  "slug": "iris",
+  "guessed": true
+ },
+ "KlearNow": {
+  "ats": "lever",
+  "slug": "klearnow",
+  "guessed": true
+ },
+ "Kloutix": {
+  "ats": null
+ },
+ "Klook": {
+  "ats": null
+ },
+ "Kraken": {
+  "ats": "ashby",
+  "slug": "kraken.com"
+ },
+ "Knime": {
+  "ats": null
+ },
+ "Kodak": {
+  "ats": null
+ },
+ "Kestone": {
+  "ats": null
+ },
+ "John Deere": {
+  "ats": null
+ },
+ "Kohls": {
+  "ats": "workday",
+  "slug": "kohls|wd504|kohlscareers"
+ },
+ "Kaspersky": {
+  "ats": null
+ },
+ "L\u2019Oreal": {
+  "ats": null
+ },
+ "Katalyst Technologies": {
+  "ats": "greenhouse",
+  "slug": "katalyst",
+  "guessed": true
+ },
+ "KPIT": {
+  "ats": null
+ },
+ "KTM": {
+  "ats": null
+ },
+ "Lemonade": {
+  "ats": "ashby",
+  "slug": "lemonade",
+  "guessed": true
+ },
+ "Korn Ferry": {
+  "ats": null
+ },
+ "Langoor": {
+  "ats": null
+ },
+ "Landmark Group": {
+  "ats": "greenhouse",
+  "slug": "landmark",
+  "guessed": true
+ },
+ "Kin + Carta": {
+  "ats": "ashby",
+  "slug": "kin",
+  "guessed": true
+ },
+ "KPMG": {
+  "ats": null
+ },
+ "LiveRamp": {
+  "ats": "workday",
+  "slug": "liveramp|wd5|LiveRampCareers"
+ },
+ "Lenovo": {
+  "ats": null
+ },
+ "Lenskart": {
+  "ats": null
+ },
+ "Liftoff": {
+  "ats": "greenhouse",
+  "slug": "liftoff",
+  "guessed": true
+ },
+ "LogicMonitor": {
+  "ats": "greenhouse",
+  "slug": "logicmonitor",
+  "guessed": true
+ },
+ "Lybrate": {
+  "ats": "lever",
+  "slug": "lybrate"
+ },
+ "Lookout": {
+  "ats": "greenhouse",
+  "slug": "lookout",
+  "guessed": true
+ },
+ "Lam Research": {
+  "ats": null
+ },
+ "Linktree": {
+  "ats": null
+ },
+ "Lucid": {
+  "ats": "greenhouse",
+  "slug": "lucidsoftware"
+ },
+ "IdeaForge": {
+  "ats": null
+ },
+ "Looker": {
+  "ats": null
+ },
+ "Licious": {
+  "ats": null
+ },
+ "Lumen": {
+  "ats": null
+ },
+ "Lyft": {
+  "ats": "greenhouse",
+  "slug": "lyft",
+  "guessed": true
+ },
+ "LatentView Analytics": {
+  "ats": null
+ },
+ "Leverage Edu": {
+  "ats": null
+ },
+ "Manhattan Associates": {
+  "ats": "workday",
+  "slug": "manh|wd5|External"
+ },
+ "Maersk": {
+  "ats": null
+ },
+ "Mars": {
+  "ats": null
+ },
+ "Makemytrip": {
+  "ats": null
+ },
+ "Marqeta": {
+  "ats": null
+ },
+ "Lowe's": {
+  "ats": null
+ },
+ "Kalido": {
+  "ats": null
+ },
+ "LogiNext": {
+  "ats": null
+ },
+ "Mailchimp": {
+  "ats": null
+ },
+ "Mathworks": {
+  "ats": null
+ },
+ "MapMyIndia": {
+  "ats": null
+ },
+ "Matterport": {
+  "ats": null
+ },
+ "MasterCard": {
+  "ats": null
+ },
+ "Medtronic": {
+  "ats": "workday",
+  "slug": "medtronic|wd1|MedtronicCareers"
+ },
+ "McAfee": {
+  "ats": "greenhouse",
+  "slug": "mcafee",
+  "guessed": true
+ },
+ "Microsoft": {
+  "ats": null
+ },
+ "MindTickle": {
+  "ats": "lever",
+  "slug": "mindtickle",
+  "guessed": true
+ },
+ "Meesho": {
+  "ats": "lever",
+  "slug": "meesho",
+  "guessed": true
+ },
+ "Miko": {
+  "ats": null
+ },
+ "Mixpanel": {
+  "ats": "greenhouse",
+  "slug": "mixpanel"
+ },
+ "Mphasis": {
+  "ats": null
+ },
+ "Lyca Digital": {
+  "ats": null
+ },
+ "Medlife": {
+  "ats": null
+ },
+ "Mankind Pharma": {
+  "ats": null
+ },
+ "MongoDB": {
+  "ats": "greenhouse",
+  "slug": "mongodb",
+  "guessed": true
+ },
+ "Merck": {
+  "ats": null
+ },
+ "Mubi": {
+  "ats": "ashby",
+  "slug": "MUBI"
+ },
+ "Myntra": {
+  "ats": null
+ },
+ "Mindfire Solutions": {
+  "ats": null
+ },
+ "Nagarro": {
+  "ats": null
+ },
+ "Mudrex": {
+  "ats": null
+ },
+ "Mu Sigma": {
+  "ats": null
+ },
+ "NEETprep": {
+  "ats": null
+ },
+ "Max Life Insurance": {
+  "ats": null
+ },
+ "Netapp": {
+  "ats": null
+ },
+ "NCR Corporation": {
+  "ats": "workday",
+  "slug": "ncr|wd1|ext_apac"
+ },
+ "Netflix": {
+  "ats": null
+ },
+ "Mashreq Bank": {
+  "ats": null
+ },
+ "Netsuite": {
+  "ats": null
+ },
+ "National Payments Corporation of India": {
+  "ats": "greenhouse",
+  "slug": "national",
+  "guessed": true
+ },
+ "Notion": {
+  "ats": "ashby",
+  "slug": "notion"
+ },
+ "Narayana Group": {
+  "ats": null
+ },
+ "Nexthink": {
+  "ats": null
+ },
+ "Nokia": {
+  "ats": null
+ },
+ "Nissan": {
+  "ats": "workday",
+  "slug": "alliance|wd3|nissanjobs"
+ },
+ "Nuro": {
+  "ats": "greenhouse",
+  "slug": "nuro",
+  "guessed": true
+ },
+ "Khatabook": {
+  "ats": null
+ },
+ "Nutanix": {
+  "ats": null
+ },
+ "Nexus Ventures": {
+  "ats": "greenhouse",
+  "slug": "nexus",
+  "guessed": true
+ },
+ "Nvidia": {
+  "ats": "workday",
+  "slug": "nvidia|wd5|NVIDIAExternalCareerSite"
+ },
+ "Nutrien": {
+  "ats": null
+ },
+ "Okta": {
+  "ats": "greenhouse",
+  "slug": "okta",
+  "guessed": true
+ },
+ "Nuance": {
+  "ats": null
+ },
+ "Opendoor": {
+  "ats": null
+ },
+ "NXP Semiconductors": {
+  "ats": null
+ },
+ "Lacework": {
+  "ats": null
+ },
+ "Nucleus Software": {
+  "ats": "greenhouse",
+  "slug": "nucleus",
+  "guessed": true
+ },
+ "Ola Cabs": {
+  "ats": null
+ },
+ "OnePlus": {
+  "ats": null
+ },
+ "Optum": {
+  "ats": null
+ },
+ "OpenText": {
+  "ats": null
+ },
+ "Outreach": {
+  "ats": "lever",
+  "slug": "outreach"
+ },
+ "OYO": {
+  "ats": "lever",
+  "slug": "linkedin",
+  "guessed": true
+ },
+ "Palo Alto Networks": {
+  "ats": "workday",
+  "slug": "paloaltonetworks|wd5|panwexternalcareers"
+ },
+ "PagerDuty": {
+  "ats": "greenhouse",
+  "slug": "pagerduty",
+  "guessed": true
+ },
+ "Paytm": {
+  "ats": "lever",
+  "slug": "paytm"
+ },
+ "PayPal": {
+  "ats": null
+ },
+ "Orient Electric": {
+  "ats": null
+ },
+ "Pegasystems": {
+  "ats": null
+ },
+ "Pearson": {
+  "ats": null
+ },
+ "Petco": {
+  "ats": "workday",
+  "slug": "petco|wd504|External"
+ },
+ "National Instruments": {
+  "ats": "greenhouse",
+  "slug": "national",
+  "guessed": true
+ },
+ "NASA": {
+  "ats": null
+ },
+ "Orange": {
+  "ats": null
+ },
+ "Onmobile": {
+  "ats": null
+ },
+ "Nelito Systems": {
+  "ats": null
+ },
+ "Petal": {
+  "ats": null
+ },
+ "Omnicell": {
+  "ats": null
+ },
+ "MulticoreWare": {
+  "ats": null
+ },
+ "MetLife": {
+  "ats": "lever",
+  "slug": "metlife",
+  "guessed": true
+ },
+ "Pinnacle Group": {
+  "ats": "workday",
+  "slug": "pinnaclegroup|wd1|PinnacleGroup"
+ },
+ "Pitney Bowes": {
+  "ats": "workday",
+  "slug": "pitneybowes|wd1|PBCareers"
+ },
+ "Paysafe": {
+  "ats": null
+ },
+ "PhonePe": {
+  "ats": "smartrecruiters",
+  "slug": "PHONEPELIMITED"
+ },
+ "Ping Identity": {
+  "ats": "greenhouse",
+  "slug": "pingidentity",
+  "guessed": true
+ },
+ "Oracle": {
+  "ats": null
+ },
+ "PPRO": {
+  "ats": "ashby",
+  "slug": "ppro",
+  "guessed": true
+ },
+ "Plume Design": {
+  "ats": "greenhouse",
+  "slug": "plume",
+  "guessed": true
+ },
+ "Postman": {
+  "ats": "workday",
+  "slug": "postman|wd108|careers"
+ },
+ "Philips": {
+  "ats": "workday",
+  "slug": "philips|wd3|jobs-and-careers"
+ },
+ "PubMatic": {
+  "ats": "greenhouse",
+  "slug": "pubmatic",
+  "guessed": true
+ },
+ "Pi Techniques": {
+  "ats": null
+ },
+ "PayU": {
+  "ats": null
+ },
+ "Pine Labs": {
+  "ats": "greenhouse",
+  "slug": "pine",
+  "guessed": true
+ },
+ "PowerSchool": {
+  "ats": null
+ },
+ "PwC": {
+  "ats": null
+ },
+ "Qualcomm": {
+  "ats": null
+ },
+ "Piramal Group": {
+  "ats": null
+ },
+ "Pyxis": {
+  "ats": null
+ },
+ "Procore": {
+  "ats": null
+ },
+ "QikPod": {
+  "ats": null
+ },
+ "Plaid": {
+  "ats": "ashby",
+  "slug": "plaid",
+  "guessed": true
+ },
+ "Prodapt": {
+  "ats": null
+ },
+ "Qualitest": {
+  "ats": null
+ },
+ "Razorpay": {
+  "ats": "greenhouse",
+  "slug": "razorpaysoftwareprivatelimited"
+ },
+ "Publicis Sapient": {
+  "ats": null
+ },
+ "Qwikcilver": {
+  "ats": null
+ },
+ "Quora": {
+  "ats": "ashby",
+  "slug": "quora",
+  "guessed": true
+ },
+ "Mercedes-Benz": {
+  "ats": null
+ },
+ "Practo": {
+  "ats": null
+ },
+ "Quintype": {
+  "ats": null
+ },
+ "Ramp": {
+  "ats": "ashby",
+  "slug": "ramp"
+ },
+ "Niantic": {
+  "ats": "greenhouse",
+  "slug": "scopely"
+ },
+ "Quipper": {
+  "ats": null
+ },
+ "Reddit": {
+  "ats": "greenhouse",
+  "slug": "reddit"
+ },
+ "Redhat": {
+  "ats": null
+ },
+ "Rippling": {
+  "ats": null
+ },
+ "Quovantis": {
+  "ats": null
+ },
+ "Remidio": {
+  "ats": null
+ },
+ "Rocketium": {
+  "ats": null
+ },
+ "Reliance": {
+  "ats": null
+ },
+ "Roku": {
+  "ats": "greenhouse",
+  "slug": "roku",
+  "guessed": true
+ },
+ "Rubrik": {
+  "ats": "greenhouse",
+  "slug": "rubrik",
+  "guessed": true
+ },
+ "Pidilite Industries": {
+  "ats": null
+ },
+ "QuEST Global": {
+  "ats": null
+ },
+ "Relex Solutions": {
+  "ats": "greenhouse",
+  "slug": "relex",
+  "guessed": true
+ },
+ "Reputation.com": {
+  "ats": "workday",
+  "slug": "reputation|wd1|External"
+ },
+ "S&P Global": {
+  "ats": "workday",
+  "slug": "spgi|wd5|SPGI_Careers"
+ },
+ "Rupifi": {
+  "ats": null
+ },
+ "Rogers Communications": {
+  "ats": null
+ },
+ "Quick Ride": {
+  "ats": null
+ },
+ "Samsung": {
+  "ats": "workday",
+  "slug": "sec|wd3|Samsung_Careers"
+ },
+ "Sabre": {
+  "ats": "workday",
+  "slug": "sabre|wd1|SabreJobs"
+ },
+ "Reliance Jio": {
+  "ats": null
+ },
+ "Ruckus Networks": {
+  "ats": null
+ },
+ "Raytheon Technologies": {
+  "ats": null
+ },
+ "RPM International Inc.": {
+  "ats": null
+ },
+ "Saviynt": {
+  "ats": "lever",
+  "slug": "saviynt",
+  "guessed": true
+ },
+ "Salesforce": {
+  "ats": null
+ },
+ "Royal Enfield": {
+  "ats": null
+ },
+ "Sanofi": {
+  "ats": null
+ },
+ "Robosoft Technologies": {
+  "ats": null
+ },
+ "SAP Labs": {
+  "ats": null
+ },
+ "Securly": {
+  "ats": "greenhouse",
+  "slug": "securly13"
+ },
+ "Seagate": {
+  "ats": null
+ },
+ "Scripbox": {
+  "ats": null
+ },
+ "Shell": {
+  "ats": "workday",
+  "slug": "shell|wd3|shellcareers"
+ },
+ "Sigmoid": {
+  "ats": "greenhouse",
+  "slug": "sigmoid",
+  "guessed": true
+ },
+ "Segment": {
+  "ats": null
+ },
+ "Sennheiser": {
+  "ats": null
+ },
+ "Shipsy": {
+  "ats": null
+ },
+ "Simplilearn": {
+  "ats": null
+ },
+ "ShareChat": {
+  "ats": null
+ },
+ "SilverPush": {
+  "ats": null
+ },
+ "Signify": {
+  "ats": null
+ },
+ "Sitecore": {
+  "ats": "ashby",
+  "slug": "sitecore"
+ },
+ "SAS": {
+  "ats": "greenhouse",
+  "slug": "sas",
+  "guessed": true
+ },
+ "Persistent Systems": {
+  "ats": null
+ },
+ "Skillsoft": {
+  "ats": "greenhouse",
+  "slug": "skillsoft",
+  "guessed": true
+ },
+ "Simpl": {
+  "ats": null
+ },
+ "Schlumberger": {
+  "ats": null
+ },
+ "Slack": {
+  "ats": "workday",
+  "slug": "salesforce|wd12|Slack"
+ },
+ "Shopify": {
+  "ats": null
+ },
+ "Skillate": {
+  "ats": null
+ },
+ "Skillz": {
+  "ats": null
+ },
+ "SmartServ": {
+  "ats": null
+ },
+ "ServiceNow": {
+  "ats": null
+ },
+ "SiSense": {
+  "ats": "ashby",
+  "slug": "sisense",
+  "guessed": true
+ },
+ "Silicon Valley Bank": {
+  "ats": "greenhouse",
+  "slug": "silicon",
+  "guessed": true
+ },
+ "Skedulo": {
+  "ats": null
+ },
+ "Siemens": {
+  "ats": null
+ },
+ "Snyk": {
+  "ats": "ashby",
+  "slug": "snyk",
+  "guessed": true
+ },
+ "Sirion Labs": {
+  "ats": null
+ },
+ "Schneider Electric": {
+  "ats": null
+ },
+ "Snap": {
+  "ats": null
+ },
+ "SOTI": {
+  "ats": "workday",
+  "slug": "soti|wd3|Careers"
+ },
+ "Sony": {
+  "ats": null
+ },
+ "Softura": {
+  "ats": null
+ },
+ "Sprinklr": {
+  "ats": "workday",
+  "slug": "sprinklr|wd1|careers"
+ },
+ "Solugenix": {
+  "ats": null
+ },
+ "Softcell": {
+  "ats": null
+ },
+ "SpringRole": {
+  "ats": null
+ },
+ "Snowflake": {
+  "ats": "ashby",
+  "slug": "snowflake",
+  "guessed": true
+ },
+ "Sonder": {
+  "ats": "ashby",
+  "slug": "sonder",
+  "guessed": true
+ },
+ "Skylark Drones": {
+  "ats": null
+ },
+ "SlicePay": {
+  "ats": null
+ },
+ "Softdel Systems": {
+  "ats": null
+ },
+ "Soroco": {
+  "ats": null
+ },
+ "Spotify": {
+  "ats": "lever",
+  "slug": "spotify",
+  "guessed": true
+ },
+ "Springworks": {
+  "ats": null
+ },
+ "Striveworks": {
+  "ats": "greenhouse",
+  "slug": "striveworks"
+ },
+ "Stripe": {
+  "ats": "greenhouse",
+  "slug": "stripe",
+  "guessed": true
+ },
+ "Spectra": {
+  "ats": null
+ },
+ "Srijan": {
+  "ats": null
+ },
+ "SunPower": {
+  "ats": "breezy",
+  "slug": "sunpower"
+ },
+ "Square": {
+  "ats": null
+ },
+ "Square Yards": {
+  "ats": null
+ },
+ "Stride.ai": {
+  "ats": null
+ },
+ "StyleDotMe": {
+  "ats": null
+ },
+ "Symphony": {
+  "ats": "greenhouse",
+  "slug": "symphony",
+  "guessed": true
+ },
+ "Srijan Capital": {
+  "ats": null
+ },
+ "Studytonight": {
+  "ats": null
+ },
+ "Stridely Solutions": {
+  "ats": null
+ },
+ "Syncron": {
+  "ats": null
+ },
+ "Swiggy": {
+  "ats": null
+ },
+ "Standard Chartered Bank": {
+  "ats": null
+ },
+ "Starship Technologies": {
+  "ats": null
+ },
+ "SymphonyAI": {
+  "ats": null
+ },
+ "Stratbeans Consulting": {
+  "ats": null
+ },
+ "Tact.ai": {
+  "ats": "lever",
+  "slug": "tact",
+  "guessed": true
+ },
+ "Tableau": {
+  "ats": null
+ },
+ "Swiss Re": {
+  "ats": null
+ },
+ "Sugar Cosmetics": {
+  "ats": null
+ },
+ "Systweak Software": {
+  "ats": null
+ },
+ "Telstra": {
+  "ats": "workday",
+  "slug": "telstra|wd3|Telstra_Careers"
+ },
+ "Tavant": {
+  "ats": null
+ },
+ "Talview": {
+  "ats": null
+ },
+ "Systools Software": {
+  "ats": null
+ },
+ "TextUs": {
+  "ats": "greenhouse",
+  "slug": "textus"
+ },
+ "Syz": {
+  "ats": null
+ },
+ "TextNow": {
+  "ats": null
+ },
+ "Tally": {
+  "ats": null
+ },
+ "Tata Play": {
+  "ats": null
+ },
+ "Tecnotree": {
+  "ats": null
+ },
+ "Tata Consultancy Services": {
+  "ats": null
+ },
+ "Systech Solutions": {
+  "ats": null
+ },
+ "ThoughtSpot": {
+  "ats": null
+ },
+ "Sysvine Technologies": {
+  "ats": null
+ },
+ "Tesco": {
+  "ats": null
+ },
+ "TicketNew": {
+  "ats": null
+ },
+ "Thrillophilia": {
+  "ats": null
+ },
+ "Texas Instruments": {
+  "ats": null
+ },
+ "Timescale": {
+  "ats": null
+ },
+ "Traveloka": {
+  "ats": null
+ },
+ "TomTom": {
+  "ats": null
+ },
+ "Times Internet": {
+  "ats": null
+ },
+ "Tinder": {
+  "ats": null
+ },
+ "Toll Group": {
+  "ats": "workday",
+  "slug": "tollgroup|wd5|TollGroup"
+ },
+ "Tech Mahindra": {
+  "ats": null
+ },
+ "Tredence": {
+  "ats": null
+ },
+ "Trantor": {
+  "ats": null
+ },
+ "The Better India": {
+  "ats": null
+ },
+ "Toyota": {
+  "ats": "workday",
+  "slug": "toyota|wd503|TMNA"
+ },
+ "The MathWorks": {
+  "ats": null
+ },
+ "Truecaller": {
+  "ats": "greenhouse",
+  "slug": "truecaller",
+  "guessed": true
+ },
+ "Tresata": {
+  "ats": null
+ },
+ "Tonetag": {
+  "ats": null
+ },
+ "Trax": {
+  "ats": null
+ },
+ "Tripoto": {
+  "ats": null
+ },
+ "Turing": {
+  "ats": "greenhouse",
+  "slug": "turing",
+  "guessed": true
+ },
+ "Sophos": {
+  "ats": "lever",
+  "slug": "sophos",
+  "guessed": true
+ },
+ "Trello": {
+  "ats": null
+ },
+ "Tonbo Imaging": {
+  "ats": null
+ },
+ "Unilever": {
+  "ats": "greenhouse",
+  "slug": "unilever",
+  "guessed": true
+ },
+ "Twitch": {
+  "ats": "greenhouse",
+  "slug": "twitch",
+  "guessed": true
+ },
+ "Uniphore": {
+  "ats": "workday",
+  "slug": "uniphore|wd503|Uniphore"
+ },
+ "Twilio": {
+  "ats": "greenhouse",
+  "slug": "twilio",
+  "guessed": true
+ },
+ "UiPath": {
+  "ats": "ashby",
+  "slug": "uipath"
+ },
+ "Trusona": {
+  "ats": null
+ },
+ "Uber": {
+  "ats": null
+ },
+ "Unisys": {
+  "ats": "workday",
+  "slug": "unisys|wd5|External"
+ },
+ "Tyfone": {
+  "ats": null
+ },
+ "Trimble": {
+  "ats": null
+ },
+ "Tyroo": {
+  "ats": null
+ },
+ "Unschool": {
+  "ats": null
+ },
+ "Upstox": {
+  "ats": null
+ },
+ "Tricog Health Services": {
+  "ats": null
+ },
+ "UpGrad": {
+  "ats": null
+ },
+ "True North": {
+  "ats": null
+ },
+ "Tricon Infotech": {
+  "ats": null
+ },
+ "ValueLabs": {
+  "ats": null
+ },
+ "Truist": {
+  "ats": "workday",
+  "slug": "truist|wd1|Careers"
+ },
+ "Verloop": {
+  "ats": null
+ },
+ "Verizon": {
+  "ats": null
+ },
+ "Vakilsearch": {
+  "ats": null
+ },
+ "UrbanPiper": {
+  "ats": null
+ },
+ "Vedantu": {
+  "ats": null
+ },
+ "Vianai Systems": {
+  "ats": "breezy",
+  "slug": "vianai-systems"
+ },
+ "Urban Ladder": {
+  "ats": null
+ },
+ "Via": {
+  "ats": "greenhouse",
+  "slug": "via",
+  "guessed": true
+ },
+ "Vidooly": {
+  "ats": null
+ },
+ "United Health Group": {
+  "ats": null
+ },
+ "Vestas": {
+  "ats": null
+ },
+ "Vi": {
+  "ats": null
+ },
+ "Viewpoint": {
+  "ats": null
+ },
+ "Virtusa": {
+  "ats": null
+ },
+ "Vimeo": {
+  "ats": null
+ },
+ "Visa": {
+  "ats": "workday",
+  "slug": "visa|wd5|Visa"
+ },
+ "Verificient Technologies": {
+  "ats": null
+ },
+ "The Washington Post": {
+  "ats": null
+ },
+ "Walmart Labs": {
+  "ats": "workday",
+  "slug": "walmart|wd504|WalmartExternal"
+ },
+ "Vidhema Technologies": {
+  "ats": null
+ },
+ "Virsec": {
+  "ats": null
+ },
+ "Wappier": {
+  "ats": "workable",
+  "slug": "wappier"
+ },
+ "Wayfair": {
+  "ats": null
+ },
+ "Wave": {
+  "ats": null
+ },
+ "Wealthbox": {
+  "ats": null
+ },
+ "Wadhwani Foundation": {
+  "ats": "greenhouse",
+  "slug": "wadhwanifoundation",
+  "guessed": true
+ },
+ "Whatfix": {
+  "ats": null
+ },
+ "Volvo": {
+  "ats": null
+ },
+ "Wingify": {
+  "ats": null
+ },
+ "WNS": {
+  "ats": null
+ },
+ "WealthEngine": {
+  "ats": null
+ },
+ "Urban Company": {
+  "ats": null
+ },
+ "World Resources Institute": {
+  "ats": "greenhouse",
+  "slug": "wri",
+  "guessed": true
+ },
+ "Wipro": {
+  "ats": null
+ },
+ "Udaan": {
+  "ats": null
+ },
+ "Xoxoday": {
+  "ats": null
+ },
+ "Xebia": {
+  "ats": "greenhouse",
+  "slug": "xebiaapac"
+ },
+ "Xpheno": {
+  "ats": null
+ },
+ "Vantage Circle": {
+  "ats": "ashby",
+  "slug": "vantage",
+  "guessed": true
+ },
+ "XP Power": {
+  "ats": "smartrecruiters",
+  "slug": "XPPower2"
+ },
+ "Yodlee": {
+  "ats": null
+ },
+ "Xiaomi": {
+  "ats": null
+ },
+ "Xpressbees": {
+  "ats": null
+ },
+ "Yoodle": {
+  "ats": null
+ },
+ "Xseed Education": {
+  "ats": null
+ },
+ "Zenoti": {
+  "ats": "greenhouse",
+  "slug": "zenoti"
+ },
+ "Unity Technologies": {
+  "ats": null
+ },
+ "Winjit Technologies": {
+  "ats": null
+ },
+ "Yulu": {
+  "ats": null
+ },
+ "WorkIndia": {
+  "ats": null
+ },
+ "Wealthy": {
+  "ats": null
+ },
+ "Vehant Technologies": {
+  "ats": null
+ },
+ "Vestige Marketing": {
+  "ats": null
+ },
+ "Vymo": {
+  "ats": null
+ },
+ "Zebra Technologies": {
+  "ats": null
+ },
+ "Yum! Brands": {
+  "ats": null
+ },
+ "Wadhwani AI": {
+  "ats": null
+ },
+ "Zeta": {
+  "ats": "lever",
+  "slug": "zeta",
+  "guessed": true
+ },
+ "Zoomcar": {
+  "ats": null
+ },
+ "Zuora": {
+  "ats": "greenhouse",
+  "slug": "zuora",
+  "guessed": true
+ },
+ "ZoomRx": {
+  "ats": "greenhouse",
+  "slug": "zoomrx",
+  "guessed": true
+ },
+ "Zimyo": {
+  "ats": null
+ },
+ "ZingHR": {
+  "ats": null
+ },
+ "Westpac Group": {
+  "ats": null
+ },
+ "Zomato": {
+  "ats": null
+ },
+ "Zup": {
+  "ats": null
+ },
+ "Xactly Corporation": {
+  "ats": null
+ },
+ "ZestMoney": {
+  "ats": null
+ },
+ "Zetwerk": {
+  "ats": null
+ },
+ "Zoho": {
+  "ats": null
+ },
+ "Zoom Video Communications": {
+  "ats": null
+ },
+ "Zynga": {
+  "ats": null
+ },
+ "Zensar Technologies": {
+  "ats": null
+ },
+ "Zenq": {
+  "ats": null
+ },
+ "Yatra": {
+  "ats": null
+ },
+ "Yellow ai": {
+  "ats": null
+ }
+}

@@ -1,0 +1,480 @@
+company,status,links_seen,matching_jobs
+1mg,error:TimeoutError,0,0
+314e Corporation,ok,3,0
+3i Infotech,ok,1,0
+Ably,ats:greenhouse,4,10
+Acaira,ok,1,1
+Accolite software,error:Error,0,0
+Acko,ok,0,1
+Adobe,ok,0,0
+Agile Infoway,ok,0,0
+Agnikul Cosmos,error:TimeoutError,0,0
+Airbase,error:AttributeError,0,0
+Airtel x labs,error:TimeoutError,0,0
+Ajio,ok,0,0
+Akamai,ok,0,0
+Alibaba Group,error:TimeoutError,0,0
+Alphabet Inc,ok,2,0
+Alstom,ok,0,0
+Amadeus labs,ok,0,0
+Amazon,ok,0,0
+Amdocs,ok,0,0
+American express,ok,0,0
+Amway,ok,0,0
+App Dynamics,ok,0,0
+AppInventiv,ok,0,0
+Apple,error:TimeoutError,0,0
+Aptiv,ok,15,1
+Arcesium,ok,0,0
+Ardentisys,error:TimeoutError,0,0
+Arista Networks,error:TimeoutError,0,0
+Aryaka networks,ok,12,3
+Asteria Aerospace Ltd,error:TimeoutError,0,0
+Ather Energy,error:TimeoutError,0,0
+Atlassian,error:TimeoutError,0,0
+Atos,ok,0,0
+Aujas,ok,0,0
+Auth0,ok,111,5
+Automation Anywhere,error:Error,0,0
+Avaya,ok,0,6
+BARC India,ok,0,0
+BMC Software,error:TimeoutError,0,0
+BNY Mellon,ok,0,0
+BPL India,ok,0,0
+BYJU’S,ok,0,0
+Bacancy Technology,error:TimeoutError,0,0
+Bain & Co,error:TimeoutError,0,0
+BambooHR,ok,0,7
+BankBazar,ok,0,0
+Barclays,ats:workday,26,10
+Better,error:AttributeError,0,0
+BharatPe,ok,0,0
+BigBasket,ok,0,0
+Biocon,ok,0,0
+Bitly,ok,0,0
+Bitrix Infotech,ok,0,0
+BlackBuck,error:Error,0,0
+Blackrock,error:TimeoutError,0,0
+Blizzard Entertainment,ats:workday,10,4
+Bloomberg L.P.,ok,0,0
+Bluestacks,ok,0,0
+Booking.com,ok,38,7
+Bosch,ok,0,0
+Bose,ats:workday,50,2
+Box,ok,0,0
+ByteDance,ok,0,0
+Byteridge,ok,0,0
+CGI Group,ok,100,0
+COSGrid,ok,0,0
+Canva,ok,107,0
+Capgemini,error:TimeoutError,0,0
+Capillary,error:TimeoutError,0,0
+Capita,ok,0,0
+CarDekho,ok,0,0
+CarWale,ok,0,0
+Cargill,error:TimeoutError,0,0
+CasaOne,ok,0,0
+CashFree,error:TimeoutError,0,0
+Cerner,error:TimeoutError,0,0
+Chainalysis,error:TimeoutError,0,0
+Chargebee,ok,32,1
+Chronus,ok,0,0
+Cimpress,ok,6,0
+Cisco,ok,2,0
+ClearTax,error:TimeoutError,0,0
+ClearTrip,ok,0,0
+CodingNinjas,ok,0,0
+Cognizant,ok,76,23
+Cognologix,ok,5,2
+Cohesity,ok,0,0
+CoinDCX,error:TimeoutError,0,0
+Coinswitch kuber,ok,6,1
+Colgate-Palmolive,error:TimeoutError,0,0
+Collabera,ok,0,0
+Confluent,ok,0,0
+Continental,ok,0,0
+Cradlepoint,ok,0,0
+Credit Suisse,ok,0,0
+Crestron,ok,25,4
+CueMath,error:Error,0,0
+Cult.fit,ok,0,0
+Cvent,ok,214,19
+Cybage,ok,2,2
+Cygnet,ok,0,0
+DE Shaw,ok,0,0
+DP World,ok,0,2
+Daffodil Software,ok,0,0
+Datamatics,ok,0,0
+Dataminr,ok,0,0
+Delhivery,ok,0,0
+Dell,ok,0,0
+Deloitte,ok,19,6
+Delta Air Lines,ok,0,0
+Deutsche Bank,ok,0,0
+Dhruva Space,ok,0,0
+Diebold,ok,0,0
+DigitalOcean,ok,0,11
+DoorDash,ok,30,0
+Drift,ok,0,0
+Dunzo,error:Error,0,0
+EA Games,error:Error,0,0
+EBay,ats:workday,10,6
+EY,ok,50,5
+Ericsson,error:TimeoutError,0,0
+Etsy,ok,5,0
+Eventbrite,ok,53,1
+Evernote,ok,53,1
+Experian,ok,24,0
+Facebook,ok,0,0
+Fidelity investments,ok,20,0
+Fingent,ok,6,0
+FireEye,ok,0,0
+Fischer Jordan,error:Error,0,0
+Fiserv,ats:workday,55,2
+Flatworld Solutions,ok,0,0
+Flipkart,ok,0,0
+Flytxt,error:Error,0,0
+Frappe Technologies,error:TimeoutError,0,0
+FreeCharge,ok,4,0
+Frugal Testing,ok,0,0
+Fyle,ok,0,0
+GE,ok,0,0
+GE Healthcare,ok,0,0
+Garuda Aerospace private Ltd,ok,0,0
+GeeksForGeeks,ok,6,1
+Getaround,ok,0,0
+GitHub,ok,4,0
+Glassdoor,ok,0,0
+GlobalLogic,ok,0,0
+GoDigit,ok,0,0
+Goibibo,error:Error,0,0
+Gojek,ok,0,0
+Goldman Sachs,ok,0,3
+Gong,ats:greenhouse,11,0
+Google,ok,2,0
+Grab,ok,141,18
+GreyOrange,ok,0,1
+HERE,ok,0,0
+HSBC,ok,0,0
+Hackerearth,ok,0,0
+Harness,ats:greenhouse,8,126
+Hashedin,ok,0,0
+HashiCorp,ok,0,0
+HealthAsyst,ok,0,0
+Healthify me,ok,0,0
+Hewlett-Packard,ok,37,0
+Hinge,error:Error,0,0
+Hiring Plug,ok,0,0
+Honeywell,error:Error,0,0
+HubSpot,error:TimeoutError,0,0
+Hyperlink InfoSystem,error:TimeoutError,0,0
+Hyundai,ok,0,0
+IBM,error:TimeoutError,0,0
+IXL,ok,21,10
+IdeaForge,error:TimeoutError,0,0
+InApp,ok,5,1
+Incedo,ok,0,0
+Indus Valley Partners,ok,0,0
+Info Edge,ok,0,0
+Infogain,ok,0,0
+Informatica,ok,0,0
+Infosys,ok,0,0
+Innovaccer,ats:workable,7,2
+Innoviti,ok,0,0
+Intel,ats:workday,0,2
+Intuit,error:TimeoutError,0,0
+Intuitive,ok,145,21
+Ipreo,ok,0,0
+Ivy Mobility,ok,0,0
+J.P. Morgan Chase,error:TimeoutError,0,0
+JP Morgan,ok,0,0
+John Deere,error:TimeoutError,0,0
+KPIT,ok,0,0
+KPMG,ok,0,0
+KTM,ok,23,3
+Kaleyra,ok,0,0
+Kalido,error:Error,0,0
+Karix,ok,0,0
+Kaspersky,ok,15,3
+Kestone,ok,0,0
+Khatabook,error:TimeoutError,0,0
+Klook,ok,0,0
+Kloutix,ok,0,0
+Knime,ok,7,1
+Kodak,ok,26,1
+Korn Ferry,error:TimeoutError,0,0
+Lacework,error:TimeoutError,0,0
+Lam Research,error:TimeoutError,0,0
+Langoor,ok,0,0
+LatentView Analytics,ok,0,0
+Lenovo,ok,28,4
+Lenskart,ok,54,8
+Leverage Edu,error:TimeoutError,0,0
+Licious,ok,0,0
+Linktree,ok,0,0
+LogiNext,ok,44,10
+Looker,ok,0,0
+Lowe's,error:TimeoutError,0,0
+Lucid,ats:greenhouse,1,89
+Lumen,ok,0,0
+Lyca Digital,ok,0,0
+L’Oreal,ok,4,0
+Maersk,error:TimeoutError,0,0
+Mailchimp,error:TimeoutError,0,0
+Makemytrip,error:TimeoutError,0,0
+Mankind Pharma,error:Error,0,0
+MapMyIndia,ok,0,0
+Marqeta,ok,9,2
+Mars,error:TimeoutError,0,0
+Mashreq Bank,error:TimeoutError,0,0
+MasterCard,ok,0,0
+Mathworks,ok,0,0
+Matterport,ok,0,0
+Max Life Insurance,ok,0,0
+Medlife,ok,0,0
+Medtronic,ats:workday,0,4
+Mercedes-Benz,ok,0,0
+Merck,ok,0,0
+Microsoft,ok,0,0
+Miko,error:TimeoutError,0,0
+Mindfire Solutions,ok,0,0
+Mphasis,ok,10,2
+Mu Sigma,ok,0,0
+Mudrex,ok,0,0
+MulticoreWare,ok,9,4
+Myntra,ok,0,0
+NASA,ok,13,1
+NEETprep,ok,0,0
+NXP Semiconductors,error:TimeoutError,0,0
+Nagarro,ok,0,0
+Narayana Group,ok,10,0
+Nelito Systems,ok,0,0
+Netapp,ok,0,0
+Netflix,ok,0,0
+Netsuite,ok,0,0
+Nexthink,ok,0,2
+Niantic,ats:greenhouse,124,7
+Nissan,ats:workday,0,0
+Nokia,ok,0,0
+Nuance,ok,0,0
+Nutanix,ok,25,9
+Nutrien,ok,10,0
+Nvidia,ats:workday,36,4
+Ola Cabs,ok,0,0
+Omnicell,ok,29,1
+OnePlus,ok,0,0
+Onmobile,ok,0,0
+OpenText,ok,13,0
+Opendoor,ok,0,0
+Optum,error:TimeoutError,0,0
+Oracle,error:TimeoutError,0,0
+Orange,ok,0,0
+Orient Electric,error:TimeoutError,0,0
+PayPal,ok,16,0
+PayU,ok,25,1
+Paysafe,ok,0,0
+Pearson,ok,0,0
+Pegasystems,error:TimeoutError,0,0
+Persistent Systems,error:Error,0,0
+Petal,ok,0,0
+Philips,ats:workday,10,1
+PhonePe,ats:smartrecruiters,0,1
+Pi Techniques,ok,0,0
+Pidilite Industries,ok,0,0
+Piramal Group,ok,0,0
+Postman,ats:workday,25,8
+PowerSchool,error:TimeoutError,0,0
+Practo,ok,0,0
+Procore,ok,0,0
+Prodapt,ok,0,0
+Publicis Sapient,ok,0,0
+PwC,error:TimeoutError,0,0
+Pyxis,ok,2,0
+QikPod,error:Error,0,0
+QuEST Global,ok,5,2
+Qualcomm,ok,33,53
+Qualitest,error:Error,0,0
+Quick Ride,ok,0,0
+Quintype,ok,0,0
+Quipper,ok,0,0
+Quovantis,ok,0,0
+Qwikcilver,error:Error,0,0
+RPM International Inc.,ok,0,0
+Raytheon Technologies,ok,0,0
+Redhat,error:TimeoutError,0,0
+Reliance,ok,0,0
+Reliance Jio,ok,0,0
+Remidio,ok,0,0
+Rippling,ok,61,8
+Robosoft Technologies,ok,0,0
+Rocketium,ok,0,0
+Rogers Communications,error:TimeoutError,0,0
+Royal Enfield,ok,6,4
+Ruckus Networks,ok,0,0
+Rupifi,ok,0,0
+SAP Labs,ok,0,0
+Salesforce,ok,0,0
+Samsung,ats:workday,120,45
+Sanofi,ok,0,0
+Schlumberger,ok,0,5
+Schneider Electric,ok,0,0
+Scripbox,ok,0,0
+Seagate,ok,0,0
+Securly,ats:greenhouse,0,1
+Segment,ok,23,20
+Sennheiser,ok,0,0
+ServiceNow,ok,0,0
+ShareChat,ok,0,0
+Shell,ats:workday,0,2
+Shipsy,ok,0,0
+Shopify,ok,3,1
+Siemens,ok,5,0
+Signify,error:TimeoutError,0,0
+SilverPush,ok,1,1
+Simpl,ok,0,0
+Simplilearn,error:TimeoutError,0,0
+Sirion Labs,error:TimeoutError,0,0
+Skedulo,ok,0,0
+Skillate,error:Error,0,0
+Skillz,ok,0,0
+Skylark Drones,ok,0,5
+SlicePay,ok,0,4
+SmartServ,error:Error,0,0
+Snap,ok,30,2
+Softcell,ok,0,0
+Softdel Systems,ok,8,0
+Softura,error:TimeoutError,0,0
+Solugenix,ok,0,0
+Sony,ok,0,0
+Soroco,ok,2,0
+Spectra,ok,0,0
+SpringRole,error:Error,0,0
+Springworks,ok,8,0
+Square,error:TimeoutError,0,0
+Square Yards,ok,0,0
+Srijan,ok,2,7
+Srijan Capital,error:Error,0,0
+Standard Chartered Bank,ok,0,0
+Starship Technologies,ok,5,0
+Stratbeans Consulting,ok,0,0
+Stride.ai,ok,0,0
+Stridely Solutions,ok,15,0
+Studytonight,ok,0,0
+StyleDotMe,ok,0,0
+Sugar Cosmetics,error:TimeoutError,0,0
+Swiggy,error:TimeoutError,0,0
+Swiss Re,ok,256,23
+SymphonyAI,ok,34,13
+Syncron,ok,18,1
+Systech Solutions,ok,0,0
+Systools Software,error:TimeoutError,0,0
+Systweak Software,ok,0,0
+Sysvine Technologies,error:TimeoutError,0,0
+Syz,ok,0,0
+Tableau,ok,0,0
+Tally,ok,0,0
+Talview,error:TimeoutError,0,0
+Tata Consultancy Services,ok,0,0
+Tata Play,ok,0,0
+Tavant,ok,0,0
+Tech Mahindra,ok,0,0
+Tecnotree,error:TimeoutError,0,0
+Tesco,ok,0,0
+Texas Instruments,error:TimeoutError,0,0
+TextNow,error:TimeoutError,0,0
+The Better India,ok,0,0
+The MathWorks,ok,0,0
+The Washington Post,error:Error,0,0
+ThoughtSpot,ok,10,0
+Thrillophilia,ok,1,0
+TicketNew,ok,0,0
+Times Internet,error:Error,0,0
+Timescale,ok,1,2
+Tinder,ok,0,0
+TomTom,ok,3,26
+Tonbo Imaging,ok,0,0
+Tonetag,ok,0,0
+Trantor,timeout,0,0
+Traveloka,ok,0,0
+Trax,ok,0,0
+Tredence,error:TimeoutError,0,0
+Trello,error:TimeoutError,0,0
+Tresata,ok,0,0
+Tricog Health Services,ok,6,0
+Tricon Infotech,error:TimeoutError,0,0
+Trimble,ok,0,0
+Tripoto,error:TimeoutError,0,0
+True North,error:Error,0,0
+Truist,ats:workday,10,8
+Trusona,ok,0,0
+Tyfone,ok,1,1
+Tyroo,ok,0,0
+Uber,ok,1,0
+Udaan,error:TimeoutError,0,0
+United Health Group,error:TimeoutError,0,0
+Unity Technologies,ok,0,0
+Unschool,ok,0,0
+UpGrad,ok,0,0
+Upstox,ok,0,0
+Urban Company,ok,0,0
+Urban Ladder,error:TimeoutError,0,0
+UrbanPiper,ok,0,0
+Vakilsearch,ok,0,0
+ValueLabs,ok,0,0
+Vedantu,ok,0,0
+Vehant Technologies,ok,16,0
+Verificient Technologies,ok,0,0
+Verizon,ok,15,1
+Verloop,error:TimeoutError,0,0
+Vestas,error:TimeoutError,0,0
+Vestige Marketing,ok,0,0
+Vi,ok,16,0
+Vidhema Technologies,ok,0,0
+Vidooly,ok,0,0
+Viewpoint,ok,0,0
+Vimeo,ok,0,0
+Virsec,ok,0,0
+Virtusa,ok,0,0
+Visa,ats:workday,139,52
+Volvo,ok,29,2
+Vymo,ok,0,0
+WNS,ok,0,0
+Wadhwani AI,ok,48,3
+Wave,ok,73,0
+Wayfair,error:TimeoutError,0,0
+WealthEngine,ok,0,0
+Wealthbox,ok,2,0
+Wealthy,ok,0,0
+Westpac Group,ok,0,0
+Whatfix,ok,30,7
+Wingify,ok,9,5
+Winjit Technologies,ok,0,0
+Wipro,ok,20,10
+WorkIndia,ok,1,5
+Xactly Corporation,ok,22,0
+Xiaomi,ok,0,0
+Xoxoday,ok,0,0
+Xpheno,ok,0,0
+Xpressbees,ok,0,0
+Xseed Education,ok,0,0
+Yatra,error:Error,0,0
+Yellow ai,ok,0,0
+Yodlee,error:TimeoutError,0,0
+Yoodle,ok,0,0
+Yulu,ok,0,0
+Yum! Brands,error:TimeoutError,0,0
+Zebra Technologies,ok,0,0
+Zenq,ok,25,3
+Zensar Technologies,error:TimeoutError,0,0
+ZestMoney,ok,0,0
+Zetwerk,ok,29,0
+Zimyo,ok,0,0
+ZingHR,ok,0,0
+Zoho,ok,2,0
+Zomato,error:Error,0,0
+Zoom Video Communications,ok,3,2
+Zoomcar,ok,0,0
+Zup,ok,0,0
+Zynga,ok,6,0
+[24]7.ai,error:TimeoutError,0,0
+iRobot,ok,3,0
