@@ -1,0 +1,54 @@
+# 50 new jobs - 18 Oct 2026
+
+## Other / unspecified (50)
+
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Application-Developer_ATCI-5061758-S1871824-1) -  - 2026-10-18
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Application-Developer_ATCI-4936428-S1854082-1) -  - 2026-10-18
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5803100-S2072464-1) -  - 2026-10-18
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Application-Lead_ATCI-5146054-S1900493-1) -  - 2026-10-17
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5436835-S1978379) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5436834-S1977816) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5436827-S1978349-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5436824-S1977964-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5436819-S1977843) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5396802-S1961571-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5396790-S1961580-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396784-S1961582-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396781-S1961598-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396779-S1961588-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396775-S1961601-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5396564-S1961647-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396552-S1961659-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396551-S1961664-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396550-S1961660-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396543-S1961720-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396538-S1961723-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396477-S1961687-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396469-S1961695-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396466-S1961700-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5395341-S1960423) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5395295-S1960432-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5395179-S1960460-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5395177-S1960456-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5395175-S1960457-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5395156-S1960463-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5327418-S1942802-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Coimbatore/Custom-Software-Engineer_ATCI-5323410-S1941670-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5323402-S1941690-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5323400-S1941667-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5323396-S1941672-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5323368-S1941664-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5323362-S1941669-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5323257-S1941602-1) -  - 2026-10-16
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5323196-S1941652-1) -  - 2026-10-16
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chennai/Custom-Software-Engineer_ATCI-5818452-S2072411-1) -  - 2026-10-16
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5818437-S2072410-1) -  - 2026-10-16
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5815334-S2072420-1) -  - 2026-10-16
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chennai/Custom-Software-Engineer_ATCI-5815317-S2072418-1) -  - 2026-10-16
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chennai/Custom-Software-Engineer_ATCI-5815316-S2072419-1) -  - 2026-10-16
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5785915-S2072372) -  - 2026-10-16
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5785914-S2072371) -  - 2026-10-16
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Coimbatore/Custom-Software-Engineer_ATCI-5714448-S2064060-1) -  - 2026-10-16
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Hyderabad/Application-Developer_ATCI-R1-S1892319-1) -  - 2026-10-16
+- **Accenture** - [Software Engineer - Leeds](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Leeds/Software-Engineer---Leeds_R00288598) -  - 2026-10-16
+- **Accenture** - [Generative AI Software Engineer Specialist (all genders)](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Campus-Kronberg-1/Generative-AI-Software-Engineer-Specialist--all-genders-_R00362247) -  - 2026-10-14

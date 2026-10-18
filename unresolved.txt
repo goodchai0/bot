@@ -1,5 +1,4 @@
 1mg	https://www.1mg.com/jobs
-Ably	https://ably.com/careers
 Adobe	https://www.adobe.com/careers.html
 Airbase	https://www.airbase.com/careers
 Akamai	https://www.akamai.com/careers
@@ -37,7 +36,6 @@ Ather Energy	https://www.atherenergy.com/careers
 Bain & Co	https://www.bain.com/careers/
 Atlassian	https://www.atlassian.com/company/careers
 BankBazar	https://www.bankbazaar.com/careers.html
-Barclays	https://home.barclays/careers/
 BigBasket	https://www.bigbasket.com/careers/
 BharatPe	https://bharatpe.com/careers/
 Biocon	https://www.biocon.com/careers/
@@ -57,8 +55,6 @@ BNY Mellon	https://www.bnymellon.com/us/en/careers/index.jsp
 BMC Software	https://www.bmc.com/careers.html
 Capgemini	https://www.capgemini.com/careers/
 Capita	https://www.capita.com/careers
-Bose	https://www.bose.com/en_us/careers.html
-Blizzard Entertainment	https://careers.blizzard.com/en-us/
 ByteDance	https://bytedance.com/careers
 CarDekho	https://www.cardekho.com/careers
 BYJU’S	https://byjus.com/careers/
@@ -126,10 +122,8 @@ Eventbrite	https://www.eventbrite.com/careers/
 Facebook	https://www.facebook.com/careers/
 Evernote	https://evernote.com/careers
 Flytxt	https://www.flytxt.com/careers
-Fiserv	https://www.fiserv.com/en/careers.html
 FreeCharge	https://careers.freecharge.in/
 Fingent	https://www.fingent.com/careers
-EBay	https://jobs.ebayinc.com/us/en
 Flipkart	https://www.flipkartcareers.com/#!/
 Fidelity investments	https://jobs.fidelity.com/
 GE	https://www.ge.com/careers
@@ -144,7 +138,6 @@ GoDigit	https://www.godigit.com/careers
 Gojek	https://www.gojek.io/careers
 GE Healthcare	https://www.gehealthcare.com/careers
 Frugal Testing	https://frugaltesting.com/careers
-Gong	https://www.gong.io/careers/
 Garuda Aerospace private Ltd	https://garudaaerospace.com/careers
 GitHub	https://github.com/about/careers
 GreyOrange	https://www.greyorange.com/careers/
@@ -156,7 +149,6 @@ Hackerearth	https://www.hackerearth.com/careers/
 HashiCorp	https://www.hashicorp.com/careers
 HealthAsyst	https://www.healthasyst.com/careers/
 Hinge	https://careers.hinge.co/
-Harness	https://www.harness.io/careers/
 HERE	https://www.here.com/careers
 Goldman Sachs	https://www.goldmansachs.com/careers/
 Hashedin	https://hashedin.com/careers/
@@ -174,10 +166,8 @@ Infogain	https://www.infogain.com/careers/
 Info Edge	https://careers.infoedge.com/#!/
 InApp	https://www.inapp.com/careers/
 Informatica	https://www.informatica.com/careers.html
-Innovaccer	https://innovaccer.com/careers/
 Goibibo	https://www.goibibo.com/careers/
 Incedo	https://www.incedoinc.com/careers
-Intel	https://jobs.intel.com/
 Indus Valley Partners	https://www.ivp.in/careers
 Intuitive	https://careers.intuitive.com/
 IXL	https://www.ixl.com/company/careers
@@ -207,7 +197,6 @@ Lenovo	https://jobs.lenovo.com/en_US/careers
 Lenskart	https://hiring.lenskart.com/
 Lam Research	https://careers.lamresearch.com/
 Linktree	https://linktr.ee/s/about/careers/
-Lucid	https://lucid.co/careers
 IdeaForge	https://www.ideaforge.co.in/careers
 Looker	https://www.looker.com/careers
 Licious	https://www.licious.in/careers
@@ -226,7 +215,6 @@ Mathworks	https://www.mathworks.com/company/jobs/opportunities.html
 MapMyIndia	https://www.mapmyindia.com/careers/
 Matterport	https://matterport.com/careers
 MasterCard	https://www.mastercard.us/en-us/about-mastercard/careers.html
-Medtronic	https://www.medtronic.com/in-en/about/careers.html
 Microsoft	https://careers.microsoft.com/
 Miko	https://miko.ai/pages/careers
 Mphasis	https://careers.mphasis.com/home.html
@@ -248,10 +236,8 @@ Netsuite	https://www.netsuite.com/portal/company/career.shtml
 Narayana Group	https://jobs.narayanahealth.org/NH-India/search/
 Nexthink	https://www.nexthink.com/careers/
 Nokia	https://www.nokia.com/about-us/careers/
-Nissan	https://www.nissanmotor.jobs/
 Khatabook	https://www.khatabook.com/careers
 Nutanix	https://www.nutanix.com/company/careers
-Nvidia	https://www.nvidia.com/en-us/about-nvidia/careers/
 Nutrien	https://www.nutrien.com/careers
 Nuance	https://www.nuance.com/about-us/careers.html
 Opendoor	https://www.opendoor.com/careers
@@ -273,10 +259,7 @@ Petal	https://www.petalcard.com/careers
 Omnicell	https://www.omnicell.com/careers/
 MulticoreWare	https://www.multicorewareinc.com/careers/
 Paysafe	https://careers.paysafe.com/
-PhonePe	https://www.phonepe.com/careers/
 Oracle	https://www.oracle.com/corporate/careers/
-Postman	https://www.postman.com/company/careers/
-Philips	https://www.philips.co.in/a-w/careers/homepage.html
 Pi Techniques	https://www.pitechniques.com/careers.htm
 PayU	https://www.payu.in/careers
 PowerSchool	https://www.powerschool.com/company/careers/
@@ -293,7 +276,6 @@ Qwikcilver	https://www.qwikcilver.com/careers/
 Mercedes-Benz	https://www.mercedes-benz.co.in/passengercars/the-brand/careers.html
 Practo	https://www.practo.com/company/careers
 Quintype	https://quintype.com/careers
-Niantic	https://nianticlabs.com/careers/
 Quipper	https://www.quipper.com/careers/
 Redhat	https://www.redhat.com/en/jobs
 Rippling	https://www.rippling.com/careers
@@ -306,7 +288,6 @@ QuEST Global	https://www.quest-global.com/careers/
 Rupifi	https://www.rupifi.com/careers
 Rogers Communications	https://www.rogers.com/careers
 Quick Ride	https://quickride.in/careers
-Samsung	https://www.samsung.com/in/about-us/careers/
 Reliance Jio	https://careers.jio.com/
 Ruckus Networks	https://www.ruckusnetworks.com/company/careers
 Raytheon Technologies	https://www.rtx.com/careers
@@ -316,10 +297,8 @@ Royal Enfield	https://careers.royalenfield.com/
 Sanofi	https://www.sanofi.in/en/careers/
 Robosoft Technologies	https://www.robosoftin.com/careers/
 SAP Labs	https://www.sap.com/india/about/careers.html
-Securly	https://www.securly.com/careers
 Seagate	https://www.seagate.com/in/en/about-us/careers/
 Scripbox	https://scripbox.com/pages/careers
-Shell	https://www.shell.in/careers.html
 Segment	https://segment.com/careers/
 Sennheiser	https://www.sennheiser.com/en-in/jobs-and-careers
 Shipsy	https://shipsy.io/careers/
@@ -413,7 +392,6 @@ UpGrad	https://www.upgrad.com/careers/
 True North	https://www.truenorthco.in/careers
 Tricon Infotech	https://www.triconinfotech.com/careers/
 ValueLabs	https://careers.valuelabs.com/
-Truist	https://www.truist.com/careers
 Verloop	https://verloop.io/careers-opportunities/
 Verizon	https://www.verizon.com/about/careers
 Vakilsearch	https://vakilsearch.com/careers/
@@ -427,7 +405,6 @@ Vi	https://www.myvi.in/careers
 Viewpoint	https://www.viewpoint.com/en-gb/company/careers?redirected=y
 Virtusa	https://www.virtusa.com/careers
 Vimeo	https://vimeo.com/jobs
-Visa	https://www.visa.co.in/careers.html
 Verificient Technologies	https://www.verificient.com/careers/
 The Washington Post	https://www.washingtonpost.com/careers/
 Vidhema Technologies	https://www.vidhema.com/careers/
