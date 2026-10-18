@@ -81,6 +81,10 @@ def build_text(groups, total):
     return buf.getvalue()
 
 
+def parse_recipients(value):
+    return [x.strip() for x in re.split(r"[,;\s]+", value or "") if x.strip()]
+
+
 def build_markdown(groups, total):
     out = [f"# {total} new jobs - {date.today():%d %b %Y}\n"]
     for city, rows in groups:
