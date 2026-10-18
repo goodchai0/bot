@@ -39,8 +39,8 @@ jobs:
       - name: Start clean
         run: rm -f new_jobs.csv
 
-      - name: Company ATS APIs
-        run: python job_scraper_v2.py
+      # - name: Company ATS APIs
+      #   run: python job_scraper_v2.py
 
       # Crawler diffs against what it saw last time, so running Mon/Wed/Fri loses nothing
       # and saves free minutes. A manual run always includes it.
