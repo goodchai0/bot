@@ -14,7 +14,7 @@ Settings come from a .env file in the same folder (see .env.example), or environ
 The job data is written directly in the email / Telegram message body (no attachments).
 Also writes per-city CSVs into history/<date>/ so you can open just one city in Excel.
 """
-import argparse, csv, html, os, re, shutil, smtplib, sys
+import argparse, csv, html, os, re, shutil, smtplib, sys, time
 from collections import defaultdict
 from datetime import date
 from email.message import EmailMessage
@@ -74,19 +74,49 @@ def build_text(groups, total):
     return "\n".join(out)
 
 
+def parse_recipients(value):
+    return [x.strip() for x in re.split(r"[,;\s]+", value or "") if x.strip()]
+
+
 def send_email(subject, text, html_body):
     user, pw, to = (os.environ.get(k) for k in ("EMAIL_USER", "EMAIL_APP_PASSWORD", "EMAIL_TO"))
     if not (user and pw and to):
         print("Email not configured (EMAIL_USER / EMAIL_APP_PASSWORD / EMAIL_TO) - skipping email.")
-        return
+        return True
+    user, pw = user.strip(), pw.replace(" ", "").strip()
+    recipients = parse_recipients(to)
+    if not recipients:
+        print("EMAIL_TO has no valid addresses.")
+        return False
     msg = EmailMessage()
-    msg["Subject"], msg["From"], msg["To"] = subject, user, to
+    msg["Subject"], msg["From"], msg["To"] = subject, user, ", ".join(recipients)
     msg.set_content(text)
     msg.add_alternative(html_body, subtype="html")
-    with smtplib.SMTP_SSL(os.environ.get("SMTP_HOST", "smtp.gmail.com"), 465) as s:
-        s.login(user, pw)
-        s.send_message(msg)
-    print(f"Email sent to {to}")
+    host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
+
+    for attempt in range(1, 4):
+        for mode in ("ssl465", "starttls587"):
+            try:
+                if mode == "ssl465":
+                    server = smtplib.SMTP_SSL(host, 465, timeout=30)
+                else:
+                    server = smtplib.SMTP(host, 587, timeout=30)
+                    server.ehlo()
+                    server.starttls()
+                    server.ehlo()
+                with server:
+                    server.login(user, pw)
+                    server.send_message(msg, to_addrs=recipients)
+                print(f"Email sent to {', '.join(recipients)} (via {mode})")
+                return True
+            except smtplib.SMTPAuthenticationError as e:
+                print("Gmail rejected the login. Check EMAIL_USER matches the account that created the "
+                      "App Password, 2-Step Verification is on, and the secret has no extra characters.", e)
+                return False
+            except Exception as e:
+                print(f"  attempt {attempt} via {mode} failed: {type(e).__name__}: {e}")
+        time.sleep(5)
+    return False
 
 
 def chunk_text(text, limit=3800):
@@ -158,15 +188,20 @@ def main():
             w.writerows(rs)
     shutil.copy(a.csv, os.path.join("history", f"new_jobs_{date.today().isoformat()}.csv"))
 
+    email_ok = True
     try:
-        send_email(f"{total} new jobs - {date.today():%d %b}", text, html_body)
+        email_ok = send_email(f"{total} new jobs - {date.today():%d %b}", text, html_body)
     except Exception as e:
+        email_ok = False
         print("Email failed:", type(e).__name__, e)
     try:
         send_telegram(text)
     except Exception as e:
         print("Telegram failed:", type(e).__name__, e)
     print(f"Per-city CSVs saved in {outdir}/")
+    if not email_ok:
+        sys.exit("EMAIL FAILED - exiting with error so this run's state is not saved "
+                 "and these jobs are re-sent next time.")
 
 
 if __name__ == "__main__":
