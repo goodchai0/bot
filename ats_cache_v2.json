@@ -1189,7 +1189,8 @@
   "ats": null
  },
  "Mars": {
-  "ats": null
+  "ats": "workday",
+  "slug": "mars|wd3|External"
  },
  "Makemytrip": {
   "ats": null
@@ -1368,7 +1369,8 @@
   "ats": null
  },
  "NXP Semiconductors": {
-  "ats": null
+  "ats": "workday",
+  "slug": "nxp|wd3|careers"
  },
  "Lacework": {
   "ats": null
