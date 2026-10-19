@@ -204,7 +204,6 @@ Lumen	https://jobs.lumen.com/
 LatentView Analytics	https://www.latentview.com/career/
 Leverage Edu	https://leverageedu.com/work-with-us/
 Maersk	https://www.maersk.com/career
-Mars	https://www.mars.com/careers
 Makemytrip	https://careers.makemytrip.com/
 Marqeta	https://www.marqeta.com/careers
 Lowe's	https://jobs.lowes.com/
@@ -241,7 +240,6 @@ Nutanix	https://www.nutanix.com/company/careers
 Nutrien	https://www.nutrien.com/careers
 Nuance	https://www.nuance.com/about-us/careers.html
 Opendoor	https://www.opendoor.com/careers
-NXP Semiconductors	https://www.nxp.com/company/about-nxp/careers:CAREERS
 Lacework	https://www.lacework.com/careers/
 Ola Cabs	https://www.olacabs.com/careers
 OnePlus	https://www.oneplus.in/careers
