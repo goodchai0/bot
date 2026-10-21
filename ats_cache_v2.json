@@ -2094,7 +2094,8 @@
   "ats": null
  },
  "Trimble": {
-  "ats": null
+  "ats": "workday",
+  "slug": "trimble|wd1|TrimbleCareers"
  },
  "Tyroo": {
   "ats": null
@@ -2164,7 +2165,8 @@
   "ats": null
  },
  "Viewpoint": {
-  "ats": null
+  "ats": "workday",
+  "slug": "trimble|wd1|TrimbleCareers"
  },
  "Virtusa": {
   "ats": null
