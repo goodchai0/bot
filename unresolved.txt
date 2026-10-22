@@ -381,7 +381,6 @@ Tonbo Imaging	https://tonboimaging.com/main/careers/
 Trusona	https://www.trusona.com/careers/
 Uber	https://www.uber.com/in/en/careers/
 Tyfone	https://www.tyfone.com/careers/
-Trimble	https://www.trimble.com/careers/
 Tyroo	https://tyroo.com/careers/
 Unschool	https://www.unschool.in/work-with-us/
 Upstox	https://upstox.com/careers/
@@ -400,7 +399,6 @@ Vidooly	https://vidooly.com/careers
 United Health Group	https://careers.unitedhealthgroup.com/job-search-results/
 Vestas	https://careers.vestas.com/
 Vi	https://www.myvi.in/careers
-Viewpoint	https://www.viewpoint.com/en-gb/company/careers?redirected=y
 Virtusa	https://www.virtusa.com/careers
 Vimeo	https://vimeo.com/jobs
 Verificient Technologies	https://www.verificient.com/careers/
