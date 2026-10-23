@@ -33,7 +33,7 @@ Ather Energy,error:TimeoutError,0,0
 Atlassian,error:TimeoutError,0,0
 Atos,ok,0,0
 Aujas,ok,0,0
-Auth0,ok,104,1
+Auth0,ok,100,2
 Automation Anywhere,error:Error,0,0
 Avaya,ok,0,8
 BARC India,ok,0,0
@@ -55,14 +55,14 @@ BlackBuck,error:Error,0,0
 Blackrock,error:TimeoutError,0,0
 Bloomberg L.P.,ok,0,0
 Bluestacks,ok,0,0
-Booking.com,ok,40,7
+Booking.com,ok,3,0
 Bosch,ok,0,0
 Box,error:TimeoutError,0,0
-ByteDance,error:TimeoutError,0,0
+ByteDance,ok,0,0
 Byteridge,ok,0,0
 CGI Group,error:TimeoutError,0,0
 COSGrid,ok,0,0
-Canva,ok,100,0
+Canva,ok,99,0
 Capgemini,error:TimeoutError,0,0
 Capillary,error:TimeoutError,0,0
 Capita,ok,0,0
@@ -70,7 +70,7 @@ CarDekho,ok,0,0
 CarWale,ok,0,0
 Cargill,error:TimeoutError,0,0
 CasaOne,ok,0,0
-CashFree,ok,0,11
+CashFree,ok,0,10
 Cerner,error:TimeoutError,0,0
 Chainalysis,error:TimeoutError,0,0
 Chargebee,error:TimeoutError,0,0
@@ -80,7 +80,7 @@ Cisco,ok,2,0
 ClearTax,error:TimeoutError,0,0
 ClearTrip,ok,0,0
 CodingNinjas,ok,0,0
-Cognizant,ok,72,18
+Cognizant,ok,74,16
 Cognologix,ok,5,2
 Cohesity,ok,0,0
 CoinDCX,error:TimeoutError,0,0
@@ -94,9 +94,9 @@ Credit Suisse,ok,0,0
 Crestron,ok,25,2
 CueMath,error:Error,0,0
 Cult.fit,ok,0,0
-Cvent,ok,218,18
+Cvent,ok,218,19
 Cybage,ok,2,2
-Cygnet,error:TimeoutError,0,0
+Cygnet,ok,0,0
 DE Shaw,ok,0,0
 DP World,ok,0,2
 Daffodil Software,ok,0,0
@@ -114,15 +114,15 @@ DoorDash,ok,30,0
 Drift,ok,0,0
 Dunzo,error:Error,0,0
 EA Games,error:Error,0,0
-EY,ok,50,5
-Ericsson,error:TimeoutError,0,0
+EY,ok,50,6
+Ericsson,ok,33,3
 Etsy,ok,5,0
 Eventbrite,error:TimeoutError,0,0
 Evernote,error:TimeoutError,0,0
-Experian,ok,21,0
+Experian,ok,24,0
 Facebook,ok,0,0
-Fidelity investments,ok,20,0
-Fingent,ok,0,0
+Fidelity investments,ok,20,1
+Fingent,ok,6,0
 FireEye,ok,0,0
 Fischer Jordan,error:Error,0,0
 Flatworld Solutions,ok,0,0
@@ -132,39 +132,39 @@ Frappe Technologies,error:TimeoutError,0,0
 FreeCharge,ok,4,0
 Frugal Testing,ok,0,0
 Fyle,ok,0,0
-GE,ok,0,0
+GE,error:TimeoutError,0,0
 GE Healthcare,ok,0,0
 Garuda Aerospace private Ltd,ok,0,0
 GeeksForGeeks,ok,6,1
 Getaround,ok,0,0
 GitHub,ok,4,0
 Glassdoor,ok,0,0
-GlobalLogic,ok,0,0
+GlobalLogic,error:Error,0,0
 GoDigit,ok,0,0
 Goibibo,error:Error,0,0
 Gojek,ok,0,0
 Goldman Sachs,error:TimeoutError,0,0
 Google,ok,2,0
-Grab,ok,138,17
+Grab,ok,141,18
 GreyOrange,ok,0,1
 HERE,ok,0,0
 HSBC,ok,0,0
-Hackerearth,ok,0,0
+Hackerearth,ok,0,4
 Hashedin,ok,0,0
 HashiCorp,ok,0,0
 HealthAsyst,ok,0,0
 Healthify me,ok,0,0
-Hewlett-Packard,ok,33,0
+Hewlett-Packard,ok,34,0
 Hinge,error:Error,0,0
 Hiring Plug,ok,0,0
-Honeywell,error:Error,0,0
-HubSpot,ok,4,16
+Honeywell,ok,0,0
+HubSpot,ok,16,16
 Hyperlink InfoSystem,ok,2,0
 Hyundai,ok,0,0
-IBM,ok,188,2
+IBM,error:TimeoutError,0,0
 IXL,ok,21,10
 IdeaForge,ok,0,0
-InApp,error:TimeoutError,0,0
+InApp,ok,5,1
 Incedo,ok,0,0
 Indus Valley Partners,ok,0,0
 Info Edge,ok,0,0
@@ -173,7 +173,7 @@ Informatica,ok,0,0
 Infosys,ok,0,0
 Innoviti,ok,0,0
 Intuit,error:TimeoutError,0,0
-Intuitive,ok,143,21
+Intuitive,ok,142,20
 Ipreo,ok,0,0
 Ivy Mobility,ok,0,0
 J.P. Morgan Chase,error:TimeoutError,0,0
@@ -181,7 +181,7 @@ JP Morgan,error:TimeoutError,0,0
 John Deere,error:TimeoutError,0,0
 KPIT,ok,0,0
 KPMG,ok,0,0
-KTM,ok,23,3
+KTM,ok,24,3
 Kaleyra,ok,0,0
 Kalido,error:Error,0,0
 Karix,ok,0,0
@@ -190,15 +190,15 @@ Kestone,ok,0,0
 Khatabook,error:TimeoutError,0,0
 Klook,ok,0,0
 Kloutix,ok,0,0
-Knime,ok,6,1
-Kodak,ok,26,1
+Knime,ok,5,1
+Kodak,ok,26,2
 Korn Ferry,error:TimeoutError,0,0
 Lacework,error:TimeoutError,0,0
 Lam Research,error:TimeoutError,0,0
 Langoor,ok,0,0
 LatentView Analytics,ok,0,0
-Lenovo,ok,29,6
-Lenskart,ok,58,8
+Lenovo,ok,27,5
+Lenskart,ok,59,8
 Leverage Edu,error:TimeoutError,0,0
 Licious,ok,0,0
 Linktree,ok,0,0
@@ -230,7 +230,7 @@ Mu Sigma,ok,0,0
 Mudrex,ok,0,0
 MulticoreWare,ok,9,4
 Myntra,ok,0,0
-NASA,ok,10,2
+NASA,ok,13,2
 NEETprep,ok,0,0
 Nagarro,ok,0,0
 Narayana Group,ok,10,0
@@ -241,26 +241,26 @@ Netsuite,ok,0,0
 Nexthink,ok,0,2
 Nokia,ok,0,0
 Nuance,ok,0,0
-Nutanix,ok,25,6
+Nutanix,ok,22,7
 Nutrien,ok,10,0
 Ola Cabs,ok,0,0
-Omnicell,ok,31,1
+Omnicell,ok,30,1
 OnePlus,ok,0,0
 Onmobile,ok,0,0
-OpenText,ok,13,0
+OpenText,ok,17,0
 Opendoor,ok,0,0
 Optum,ok,0,1
 Oracle,error:TimeoutError,0,0
 Orange,ok,0,0
 Orient Electric,error:TimeoutError,0,0
 PayPal,ok,11,0
-PayU,ok,25,2
+PayU,ok,25,1
 Paysafe,ok,0,0
 Pearson,ok,0,0
 Pegasystems,error:TimeoutError,0,0
 Persistent Systems,error:Error,0,0
 Petal,ok,0,0
-Pi Techniques,ok,0,0
+Pi Techniques,error:TimeoutError,0,0
 Pidilite Industries,ok,0,0
 Piramal Group,ok,0,0
 PowerSchool,error:TimeoutError,0,0
@@ -269,10 +269,10 @@ Procore,ok,0,0
 Prodapt,ok,0,0
 Publicis Sapient,ok,0,0
 PwC,error:TimeoutError,0,0
-Pyxis,error:Error,0,0
+Pyxis,ok,2,0
 QikPod,error:Error,0,0
 QuEST Global,ok,5,0
-Qualcomm,ok,39,53
+Qualcomm,ok,34,53
 Qualitest,error:Error,0,0
 Quick Ride,ok,0,0
 Quintype,ok,0,0
@@ -285,7 +285,7 @@ Redhat,error:TimeoutError,0,0
 Reliance,ok,0,0
 Reliance Jio,ok,0,0
 Remidio,ok,0,0
-Rippling,ok,62,12
+Rippling,ok,127,12
 Robosoft Technologies,ok,0,0
 Rocketium,ok,0,0
 Rogers Communications,error:TimeoutError,0,0
@@ -299,11 +299,11 @@ Schlumberger,ok,0,0
 Schneider Electric,ok,0,0
 Scripbox,ok,0,0
 Seagate,ok,0,0
-Segment,ok,33,18
+Segment,ok,31,17
 Sennheiser,ok,0,0
 ServiceNow,ok,0,0
 ShareChat,ok,0,0
-Shipsy,ok,0,0
+Shipsy,error:TimeoutError,0,0
 Shopify,ok,3,1
 Siemens,ok,5,0
 Signify,error:TimeoutError,0,0
@@ -332,18 +332,18 @@ Square Yards,ok,0,0
 Srijan,ok,2,7
 Srijan Capital,error:Error,0,0
 Standard Chartered Bank,ok,0,0
-Starship Technologies,ok,5,0
+Starship Technologies,ok,3,0
 Stratbeans Consulting,ok,0,0
 Stride.ai,ok,0,0
 Stridely Solutions,ok,15,0
 Studytonight,ok,0,0
 StyleDotMe,ok,0,0
-Sugar Cosmetics,ok,0,0
+Sugar Cosmetics,error:TimeoutError,0,0
 Swiggy,error:TimeoutError,0,0
-Swiss Re,ok,250,22
-SymphonyAI,ok,34,13
+Swiss Re,ok,245,22
+SymphonyAI,ok,34,15
 Syncron,ok,17,1
-Systech Solutions,ok,0,0
+Systech Solutions,error:TimeoutError,0,0
 Systools Software,error:TimeoutError,0,0
 Systweak Software,ok,0,0
 Sysvine Technologies,error:TimeoutError,0,0
@@ -386,7 +386,7 @@ Tyfone,ok,1,1
 Tyroo,ok,6,0
 Uber,ok,1,0
 Udaan,error:TimeoutError,0,0
-United Health Group,ok,30,6
+United Health Group,ok,30,5
 Unity Technologies,ok,0,0
 Unschool,ok,0,0
 UpGrad,ok,0,0
@@ -399,32 +399,32 @@ ValueLabs,ok,0,0
 Vedantu,ok,0,0
 Vehant Technologies,ok,16,0
 Verificient Technologies,ok,0,0
-Verizon,ok,15,2
+Verizon,ok,14,2
 Verloop,error:TimeoutError,0,0
 Vestas,error:TimeoutError,0,0
 Vestige Marketing,ok,0,0
-Vi,error:TimeoutError,0,0
+Vi,ok,14,0
 Vidhema Technologies,ok,0,0
 Vidooly,ok,0,0
 Vimeo,ok,0,0
 Virsec,ok,0,0
 Virtusa,ok,0,0
-Volvo,ok,30,2
+Volvo,ok,29,1
 Vymo,ok,0,0
 WNS,ok,0,0
-Wadhwani AI,ok,49,3
-Wave,ok,74,0
+Wadhwani AI,ok,47,3
+Wave,ok,73,0
 Wayfair,error:TimeoutError,0,0
 WealthEngine,ok,0,0
 Wealthbox,ok,2,0
 Wealthy,ok,0,0
 Westpac Group,ok,0,0
-Whatfix,ok,29,7
+Whatfix,ok,30,7
 Wingify,ok,9,4
 Winjit Technologies,ok,0,0
 Wipro,ok,20,10
 WorkIndia,ok,1,5
-Xactly Corporation,ok,22,0
+Xactly Corporation,error:TimeoutError,0,0
 Xiaomi,ok,0,0
 Xoxoday,ok,0,0
 Xpheno,ok,0,0
@@ -436,9 +436,9 @@ Yodlee,error:TimeoutError,0,0
 Yoodle,ok,0,0
 Yulu,ok,0,0
 Yum! Brands,error:TimeoutError,0,0
-Zebra Technologies,ok,0,0
-Zenq,ok,25,3
-Zensar Technologies,ok,0,0
+Zebra Technologies,error:TimeoutError,0,0
+Zenq,ok,25,7
+Zensar Technologies,error:TimeoutError,0,0
 ZestMoney,ok,0,0
 Zetwerk,ok,29,0
 Zimyo,ok,0,0

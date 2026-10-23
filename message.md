@@ -1,116 +1,125 @@
-# 100 new jobs - 22 Oct 2026
+# 106 new jobs - 23 Oct 2026
 
-## Bengaluru (9)
+## Bengaluru (10)
 
-- **EBay** - [MTS 1, Software Engineer - Backend](https://ebay.wd5.myworkdayjobs.com/apply/job/Bengaluru-India/MTS-1--Software-Engineer---Full-Stack_R0076442) - Bengaluru, India - 2026-10-22
-- **EBay** - [MTS 1, Software Engineer - Backend](https://ebay.wd5.myworkdayjobs.com/apply/job/Bengaluru-India/MTS-1--Software-Engineer---Full-Stack_R0076442) - Bengaluru, India - 2026-10-22
-- **Juniper Networks** - [Python Developer](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Python-Developer_1210111-2) - Bengaluru, Karnātaka, India - 2026-10-21
-- **Juniper Networks** - [Embedded Software Developer](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Senior-Embedded-Software-Developer_1208460-3) - Bengaluru, Karnātaka, India - 2026-10-21
-- **Qualcomm** - [PMIC Applications Engineer](https://careers.qualcomm.com/careers/job/446721626248) - Bangalore, India Hardware Engineering
-- **Qualcomm** - [PMIC Applications Engineer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - ["Bangalore, India"]
-- **Rippling** - [Software Engineer I](https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67) - Engineering Bangalore, India
-- **Sabre** - [Software Engineer II](https://sabre.wd1.myworkdayjobs.com/SabreJobs/job/Bengaluru-Karnataka-India/Software-Engineer-II_JR108874) - Bengaluru, Karnataka, India - 2026-10-22
-- **Sabre** - [Software Engineer II](https://sabre.wd1.myworkdayjobs.com/SabreJobs/job/Bengaluru-Karnataka-India/Software-Engineer-II_JR108874) - Bengaluru, Karnataka, India - 2026-10-22
+- **Barclays** - [Platforms-API Software Engineer - BA4](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Platforms-API-Software-Engineer---BA4_JR-0000136765) - Bengaluru, Maruthi Onyx - TESCO TSA - 2026-10-22
+- **Barclays** - [API Software Engineer - AVP](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/API-Software-Engineer---AVP_JR-0000136766) - Bengaluru, Maruthi Onyx - TESCO TSA - 2026-10-22
+- **Intel** - [Low-Level Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Low-Level-Software-Engineer_JR0288298) - India, Bangalore - 2026-10-23
+- **Intel** - [Low-Level Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Low-Level-Software-Engineer_JR0288298) - India, Bangalore - 2026-10-23
+- **Juniper Networks** - [System/Software Engineer](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/System-Software-Engineer_1216386-2) - Bengaluru, Karnātaka, India - 2026-10-22
+- **Palo Alto Networks** - [IT Software Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---Bangalore-Bagmane-Tech-Park/IT-Software-Engineer_JR-023405) - Office - India - Bangalore Bagmane Tech Park - 2026-10-23
+- **Palo Alto Networks** - [IT Software Engineer](https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---India---Bangalore-Bagmane-Tech-Park/IT-Software-Engineer_JR-023405) - Office - India - Bangalore Bagmane Tech Park - 2026-10-23
+- **Philips** - [Apprentice Trainee (Software Developer Level 1)](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Apprentice-Trainee--Software-Developer-Level-1-_590732) - Bangalore - 2026-10-23
+- **Qualcomm** - [Engineer, Staff_CE_Device Driver Development](https://careers.qualcomm.com/careers/job/446721162727) - Bangalore, India Software Applications Engineering
+- **Qualcomm** - [Engineer, Staff_CE_Device Driver Development](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - ["Bangalore, India"]
 
-## Pune (3)
+## Pune (6)
 
-- **Barclays** - [Full Stack Developer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Developer_JR-0000126582) - Pune, Gera Commerzone SEZ - 2026-10-22
-- **Barclays** - [Full Stack Developer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Developer_JR-0000126582) - Pune, Gera Commerzone SEZ - 2026-10-22
-- **Crowdstrike** - [Backend Engineer II (Pune, Hybrid)](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/India---Pune/Engineer-II---SIEM-Integrations_R28246) - India - Pune - 2026-10-22
+- **Barclays** - [Java Full Stack Developer  - Vice President](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Java-Full-Stack-Developer----Vice-President_JR-0000092964) - Pune, Gera Commerzone SEZ - 2026-10-23
+- **Barclays** - [Java Full Stack Developer  - Vice President](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Java-Full-Stack-Developer----Vice-President_JR-0000092964) - Pune, Gera Commerzone SEZ - 2026-10-23
+- **Barclays** - [Full Stack Engineer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000125659) - Pune, Gera Commerzone SEZ - 2026-10-22
+- **Barclays** - [FullStack Developer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/FullStack-Developer_JR-0000111862) - Pune, Gera Commerzone SEZ - 2026-10-22
+- **Barclays** - [Full Stack Engineer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000125659) - Pune, Gera Commerzone SEZ - 2026-10-22
+- **Barclays** - [FullStack Developer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/FullStack-Developer_JR-0000111862) - Pune, Gera Commerzone SEZ - 2026-10-22
 
-## Delhi NCR (1)
+## Mumbai (1)
 
-- **Expedia** - [Software Development Engineer II](https://expedia.wd108.myworkdayjobs.com/search/job/India---Gurgaon/Software-Development-Engineer-II_R-110421) - India - Gurgaon - 2026-10-22
+- **Dentsu** - [Associate Software Engineer](https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/DGS-India---Mumbai---Thane-Ashar-IT-Park/Associate-Software-Engineer_R1132487) - DGS India - Mumbai - Thane Ashar IT Park - 2026-10-22
 
-## Remote (12)
+## Chennai (6)
 
-- **Airbnb** - [Software Engineer, Payments](https://careers.airbnb.com/positions/8274152?gh_jid=8274152) - Remote, USA - 2026-10-21
-- **Segment** - [Developer Success Engineer](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
-- **Segment** - [Software Engineer L3](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
-- **Segment** - [Software Engineer, Platform Access (L2)](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
-- **Segment** - [Software Engineer, Platform Engineering (L2)](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
-- **Segment** - [Software Engineer - Video](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
-- **Segment** - [Software Engineer (Observability)](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - Ireland"]
-- **Segment** - [Software Engineer (L2)](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
-- **Segment** - [Software Engineer (L2)](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
-- **Segment** - [Software Engineer L3](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
-- **Segment** - [Software Engineer - Video](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
-- **Segment** - [Software Engineer, Platform Access (L2)](https://jobs.twilio.com/careers?query=software+engineer&start=0&pid=1099551708857&sort_by=relevance) - ["Remote - US"]
+- **CitiGroup** - [Python Software Engineer](https://citi.wd5.myworkdayjobs.com/2/job/Chennai-Tamil-Nadu-India/Python-Software-Engineer_26998717) - Chennai Tamil Nadu India - 2026-10-23
+- **CitiGroup** - [Python Software Engineer](https://citi.wd5.myworkdayjobs.com/2/job/Chennai-Tamil-Nadu-India/Python-Software-Engineer_26998717) - Chennai Tamil Nadu India - 2026-10-23
+- **Trimble** - [Software Engineer in Test](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968) - India - Chennai - 2026-10-22
+- **Trimble** - [Software Engineer in Test](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968) - India - Chennai - 2026-10-22
+- **Viewpoint** - [Software Engineer in Test](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968) - India - Chennai - 2026-10-22
+- **Viewpoint** - [Software Engineer in Test](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968) - India - Chennai - 2026-10-22
 
-## Other / unspecified (75)
+## Remote (6)
 
-- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5707487-S2062879-1) -  - 2026-10-19
-- **Boeing** - [Experienced Software Engineer](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Experienced-Software-Engineer_JR2026523599-1) - 2 Locations - 2026-10-21
-- **Boeing** - [Experienced Software Engineer](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Experienced-Software-Engineer_JR2026523599-1) - 2 Locations - 2026-10-21
-- **Booking.com** - [Machine Learning Engineer II - GenAI applications](https://jobs.booking.com/booking/jobs/30497?lang=en-us) - 
-- **Cognizant** - [Java Angular with AI-Software Engineer](https://careers.cognizant.com/global-en/jobs/00070953791/java-angular-with-ai-software-engineer/) - 
-- **Cognizant** - [Agile PLM Data Migration expert - Software engineer](https://careers.cognizant.com/global-en/jobs/00070831281/agile-plm-data-migration-expert-software-engineer/) - 
-- **Cognizant** - [Java Developer](https://careers.cognizant.com/global-en/jobs/00070904121/java-developer/) - 
-- **HubSpot** - [Back-End Developer Insights: What is a Back-End Developer?](https://blog.hubspot.com/website/back-end-developer?hubs_content=www.hubspot.com%2Fsearch&hubs_content-cta=back-end20developer20insights20what20is20a20back-end20developer&q=software+engineer&from_search_result=true) - 
-- **HubSpot** - [Back-End Developer Insights: What is a Back-End Developer?](https://blog.hubspot.com/website/back-end-developer) - 
-- **Intuitive** - [Supplier Engineer](https://careers.intuitive.com/en/jobs/744000157047589/JOB219468/supplier-engineer/) - 
-- **Lenovo** - [Share Full Stack AI Solution Engineer with LinkedIn](https://jobs.lenovo.com/_linkedinApiv2?portalUrl=https%3A%2F%2Fjobs.lenovo.com%2F&action=INIT_SHARE&shareUrl=https%3A%2F%2Fjobs.lenovo.com%2Fen_US%2Fcareers%2FJobDetail%2FFull-Stack-AI-Solution-Engineer%2F82975) - 
-- **Nutanix** - [Software Developer 2 - Networking](https://careers.nutanix.com/en/jobs/32674/software-developer-2-networking/) - 
-- **Nvidia** - [Software Developer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Tel-Aviv/Software-Developer_JR2028112) - 3 Locations - 2026-10-21
-- **Nvidia** - [System Software Engineer, Tegra Security Software](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Bristol/System-Software-Engineer--Tegra-Security-Software_JR2028405) - 2 Locations - 2026-10-21
-- **Nvidia** - [Cloud Services Software Engineer](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Cloud-Services-Software-Engineer_JR2028162) - 5 Locations - 2026-10-21
-- **PayU** - [Software Engineer](https://careers.payu.in/PayU/job/Bengaluru-Software-Engineer/53362180/) - 
-- **PayU** - [Associate Software Engineer](https://careers.payu.in/PayU/job/Gurgaon-Associate-Software-Engineer/54283180/) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Common Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Restricted Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [software-code](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [software tools](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Developer Network](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software Providers](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Developer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Consumer Software Solutions](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Developer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Qualcomm Software Center](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Windows on Snapdragon | PC Developer Ecosystem | Qualcomm](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Developer Events](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Edge AI Developer Hackathon](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Developer Events Archive ](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Snapdragon Game Studios Developer Forum](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [RF Front-End](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Developer Tools](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Innominds Software iDhi - Edge AI Platform](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Innominds Software iDhi - Sensor Gateway](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Innominds Software iDHI - Telematics Control Unit](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Developer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Qualcomm** - [Developer Blog](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721155296&sort_by=relevance) - 
-- **Rippling** - [Software Engineer I ](https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67) - [{"country": "India", "countryCode": "IN", "flag": {"title": "India", "description": "India flag ico
-- **Snap** - [Cloud Software Engineer](https://careers.snap.com/job?id=R0047259&lang=en-US) - 
-- **SymphonyAI** - [Forward Deployment Engineer](https://jobs.symphonyai.com/jobs/3078?lang=en-us) - 
-- **Verizon** - [Princ Engr-Software Devt](https://mycareer.verizon.com/jobs/r-1102546/princ-engr-software-devt/) - 
-- **Verizon** - [Engineer Consultant-Technical Project Management](https://mycareer.verizon.com/jobs/r-1102763/engineer-consultant-technical-project-management/) - 
-- **Zenq** - [21121 - Test Automation and Software development](https://careers.quality-ai.com/job/Petach-_-Tikva-21121-Test-Automation-and-Software-development/51227644/) - 
-- **Zenq** - [24128 - Software Configuration Management (SCM) Engineer](https://careers.quality-ai.com/job/Petach-_-Tikva-24128-Software-Configuration-Management-%28SCM%29-Engineer/60890244/) - 
+- **Ably** - [Software Engineer, Pub/Sub](https://job-boards.eu.greenhouse.io/ably30/jobs/4880791101) - London, UK (Remote) - 2026-10-22
+- **Crowdstrike** - [Distinguished Software Engineer, Sensor (Remote)](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote-TX/Distinguished-Software-Engineer--Sensor--Remote-_R30441-1) - USA - Remote, TX - 2026-10-23
+- **Hackerearth** - [Entry Level Software Engineer (Multiple positions. US citizen required. $3k Relocation assist)](https://www.hackerearth.com/jobs/) - Remote
+- **Hackerearth** - [Entry Level Software Engineer (Multiple positions. US citizen required. $3k Relocation assist)](https://www.hackerearth.com/jobs/) - Remote
+- **Segment** - [Software Engineer L2-Messaging API](https://jobs.twilio.com/careers/job/1099553093091) - Engineering Remote - US
+- **United Health Group** - [Software Engineer](https://careers.unitedhealthgroup.com/job/bridgeton/software-engineer/34088/101676888224) - 2387034 | Bridgeton, Missouri | Remote
+
+## Other / unspecified (77)
+
+- **Cognizant** - [Software Engineer (.NET & Angular)](https://careers.cognizant.com/global-en/jobs/00070689821/software-engineer-net-angular/) - 
+- **Cognizant** - [Programmer Analyst](https://careers.cognizant.com/global-en/jobs/00070820267/programmer-analyst/) - 
+- **Cognizant** - [Java Developer](https://careers.cognizant.com/global-en/jobs/00070576502/java-developer/) - 
+- **EY** - [Government and Infrastructure - Service Delivery Center - Cybersecurity QA Engineer](https://careers.ey.com/ey/job/San-Antonio-Government-and-Infrastructure-Service-Delivery-Center-Cybersecurity-QA-Engineer-TX-78249/1419984233/) - 
+- **Fidelity investments** - [Full Stack Developer – Angular & Mobile](https://jobs.fidelity.com/en/jobs/2134996/full-stack-developer-angular-mobile/) - 
+- **Fiserv** - [Mainframe COBOL Software Engineer](https://fiserv.wd5.myworkdayjobs.com/EXT/job/Coral-Springs-Florida/Mainframe-COBOL-Software-Engineer_R-10399595) - 2 Locations - 2026-10-22
+- **Fiserv** - [Mainframe COBOL Software Engineer](https://fiserv.wd5.myworkdayjobs.com/EXT/job/Coral-Springs-Florida/Mainframe-COBOL-Software-Engineer_R-10399595) - 2 Locations - 2026-10-22
+- **Grab** - [Software Engineer, Cloud Platform](https://www.grab.careers/en/jobs/744000157388040/software-engineer-cloud-platform/) - 
+- **Hackerearth** - [AI Engineer](https://www.hackerearth.com/jobs/) - 
+- **Hackerearth** - [AI Software Engineer](https://www.hackerearth.com/jobs/) - Indianapolis
+- **Juniper Networks** - [Software Engineer](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Westford-Massachusetts-United-States-of-America/Software-Engineer_1215856-2) - 2 Locations - 2026-10-22
+- **Kaspersky** - [Developer Go (OSMP)](https://careers.kaspersky.com/vacancy/25879) - 
+- **Kodak** - [Controls Systems Engineer](https://careers.kodak.com/job/Rochester-Controls-Systems-Engineer-NY-14652/1442867500/) - 
+- **Nutanix** - [Software Development Tester Co-Op](https://careers.nutanix.com/en/jobs/32931/software-development-tester-co-op/) - 
+- **Nutanix** - [Software Developer Co-Op](https://careers.nutanix.com/en/jobs/32928/software-developer-co-op/) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Common Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Restricted Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [software-code](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [software tools](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Developer Network](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software Providers](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Developer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Consumer Software Solutions](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Developer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Qualcomm Software Center](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Windows on Snapdragon | PC Developer Ecosystem | Qualcomm](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Developer Events](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Edge AI Developer Hackathon](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Developer Events Archive ](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Snapdragon Game Studios Developer Forum](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [RF Front-End](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Developer Tools](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Innominds Software iDhi - Edge AI Platform](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Innominds Software iDhi - Sensor Gateway](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Innominds Software iDHI - Telematics Control Unit](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Developer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Qualcomm** - [Developer Blog](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446718149954&sort_by=relevance) - 
+- **Trimble** - [Software Engineer (JavaScript, Node.js)](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/Portugal---Remote/Software-Engineer--JavaScript--Nodejs-_R58040) - 3 Locations - 2026-10-22
+- **Trimble** - [Software Engineer (JavaScript, Node.js)](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/Portugal---Remote/Software-Engineer--JavaScript--Nodejs-_R58040) - 3 Locations - 2026-10-22
+- **Verizon** - [Solutions Engineer](https://mycareer.verizon.com/jobs/r-1102120/solutions-engineer/) - 
+- **Viewpoint** - [Software Engineer (JavaScript, Node.js)](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/Portugal---Remote/Software-Engineer--JavaScript--Nodejs-_R58040) - 3 Locations - 2026-10-22
+- **Viewpoint** - [Software Engineer (JavaScript, Node.js)](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/Portugal---Remote/Software-Engineer--JavaScript--Nodejs-_R58040) - 3 Locations - 2026-10-22
+- **Wipro** - [SOFTWARE ENGINEER L2](https://careers.wipro.com/job/SOFTWARE-ENGINEER-L2/204341-en_US) - 
+- **Zenq** - [SC Cleared Performance Test Engineer](https://careers.quality-ai.com/job/London-SC-Cleared-Performance-Test-Engineer-EC4R-9AF/60086644/) - 
+- **Zenq** - [24126 - Network Infrastructure Engineer](https://careers.quality-ai.com/job/Petach-_-Tikva-24126-Network-Infrastructure-Engineer/60891644/) - 
+- **Zenq** - [Full Stack Developer](https://careers.quality-ai.com/job/Santa-Clara-Full-Stack-Developer-CA-95054/60907244/) - 
+- **Zenq** - [Full Stack Developer](https://careers.quality-ai.com/job/Vancouver-Full-Stack-Developer-BC-BC-V6H3W4/60904744/) - 
+- **Zenq** - [IoT Test Engineer](https://careers.quality-ai.com/job/Vancouver-IoT-Test-Engineer-BC-BC-V6H3W4/60902244/) - 
