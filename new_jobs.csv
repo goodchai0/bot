@@ -1,55 +1,38 @@
 company,title,location,posted,source,url
-Visa,"Software Engineer (1-2 years' experience, Python / Go, ML Engineering)","IN - Bengaluru, India",2026-10-30,workday,https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer--1-2-years--experience--Python---Go--ML-Engineering-_REF088406W
-NCR Corporation,Software Engineer II,"CHENNAI, IND",2026-10-30,workday,https://ncr.wd1.myworkdayjobs.com/ext_apac/job/CHENNAI-IND/Full-Stack-Software-Engineer_R0158527
-NCR Corporation,Software Engineer II,"CHENNAI, IND",2026-10-30,workday,https://ncr.wd1.myworkdayjobs.com/ext_apac/job/CHENNAI-IND/Full-Stack-Software-Engineer_R0158527
-Accenture,Custom Software Engineer,,2026-10-30,workday,https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5342965-S1967804
-Accenture,Custom Software Engineer,,2026-10-30,workday,https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kolkata/Custom-Software-Engineer_ATCI-5342878-S1949179-1
-Dentsu,"Software Engineer, Platforms & Cloud",2 Locations,2026-10-30,workday,https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Sydney/Software-Engineer--Platforms---Cloud_R1132688
-Dentsu,"Software Engineer, Platforms & Cloud",2 Locations,2026-10-30,workday,https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Sydney/Software-Engineer--Platforms---Cloud_R1132688
-Duck Creek Technologies,Associate Software Engineer,"Bengaluru, India",2026-10-30,workday,https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers/job/Bengaluru-India/Associate-Software-Engineer_REQID55233-1
-Duck Creek Technologies,Associate Software Engineer,"Bengaluru, India",2026-10-30,workday,https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers/job/Bengaluru-India/Associate-Software-Engineer_REQID55234-1
-PhonePe,Software Engineer - React Native,"Bengaluru, in",2026-10-30,smartrecruiters,https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005260
-Eurofins,.Net Fullstack Developer,"Bengaluru, in",2026-10-29,smartrecruiters,https://jobs.smartrecruiters.com/Eurofins/744000158514819
-Truist,Software Engineer--Java and AI Enablement,2 Locations,2026-10-29,workday,https://truist.wd1.myworkdayjobs.com/Careers/job/Raleigh-NC/Software-Engineer--Java-and-AI-Enablement_R0121289
-Visa,Software Engineer,2 Locations,2026-10-29,workday,https://visa.wd5.myworkdayjobs.com/Visa/job/GB---London-United-Kingdom/Software-Engineer_REF089813W
-Truist,Software Engineer--Java and AI Enablement,2 Locations,2026-10-29,workday,https://truist.wd1.myworkdayjobs.com/Careers/job/Raleigh-NC/Software-Engineer--Java-and-AI-Enablement_R0121289
-Nvidia,"Software Engineer, Performance Instrumentation",2 Locations,2026-10-29,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Performance-Instrumentation_JR2028980-1
-Nvidia,"Software Engineer, Data Systems",2 Locations,2026-10-29,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Data-Systems_JR2028978
-Nvidia,"Software Engineer, ML Performance",2 Locations,2026-10-29,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--ML-Performance_JR2028979
-Juniper Networks,Full Stack Software Developer Specialist (Product Security),"Bengaluru, Karnātaka, India",2026-10-29,workday,https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Full-Stack-Software-Developer-Specialist--Product-Security-_1217331-2
-Hitachi,IT/OT Software Engineer,2 Locations,2026-10-29,workday,https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vaesteras-Vastmanland-County-Sweden/IT-OT-Software-Engineer_R0149742
-Juniper Networks,Systems/Software Engineer I,"Bengaluru, Karnātaka, India",2026-10-29,workday,https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Lab-Engineer-I_1216116-2
-Hitachi,IT/OT Software Engineer,2 Locations,2026-10-29,workday,https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vaesteras-Vastmanland-County-Sweden/IT-OT-Software-Engineer_R0149742
-Barclays,Software engineer,"Pune, Gera Commerzone SEZ",2026-10-29,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Software-engineer_JR-0000129714
-Barclays,Software engineer,"Pune, Gera Commerzone SEZ",2026-10-29,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Software-engineer_JR-0000129714
-Cognizant,Developer Platform Engineer,,,crawler,https://careers.cognizant.com/global-en/jobs/00070661512/developer-platform-engineer/
-Cognizant,Developer,,,crawler,https://careers.cognizant.com/global-en/jobs/00071108061/developer/
-Cognizant,Power Automate Desktop Developer,,,crawler,https://careers.cognizant.com/global-en/jobs/00070578651/power-automate-desktop-developer/
-Kaspersky,Developer C# (KES),,,crawler,https://careers.kaspersky.com/vacancy/26029
-Lenovo,"Share Software Engineer, Middleware SW with LinkedIn",,,crawler,https://jobs.lenovo.com/_linkedinApiv2?portalUrl=https%3A%2F%2Fjobs.lenovo.com%2F&action=INIT_SHARE&shareUrl=https%3A%2F%2Fjobs.lenovo.com%2Fen_US%2Fcareers%2FJobDetail%2FSoftware-Engineer-Middleware-SW%2F82973
-LogiNext,Delivery Management Software,,,crawler-json,https://loginext.hire.trakstar.com/?q=software+engineer&limit=25
-LogiNext,delivery management software,,,crawler-json,https://loginext.hire.trakstar.com/?q=software+engineer&limit=25
-Nutanix,Software Engineer 2 - Kubernetes Backend and Platform Engineering,,,crawler,https://careers.nutanix.com/en/jobs/32959/software-engineer-2-kubernetes-backend-and-platform-engineering/
-Qualcomm,Engineer,"Hyderabad, Telangāna, India Software Engineering",,crawler,https://careers.qualcomm.com/careers/job/446720983115
-Qualcomm,SVE content integration & SKU functional validation engineer,"Bangalore, India ASICS Engineering",,crawler,https://careers.qualcomm.com/careers/job/446721839923
-Qualitest,CoE - Digital Engineering - Backend Developer,,,crawler,https://careers.quality-ai.com/job/Pune-CoE-Digital-Engineering-Backend-Developer-MH-411045/59419544/
-Qualitest,Playwright Automation Engineer,,,crawler,https://careers.quality-ai.com/job/Santa-Clara-Playwright-Automation-Engineer-CA-95054/60295644/
-Qualitest,Databricks App Developer,,,crawler,https://careers.quality-ai.com/job/Bangalore-Databricks-App-Developer-560045/60286944/
-Qualitest,AI Research Engineer,,,crawler,https://careers.quality-ai.com/job/Santa-Clara-AI-Research-Engineer-CA-95054/61097644/
-QuEST Global,Microsoft365/ITサポートエンジニア / IT資産管理/ Microsoft 365 / IT Support Engineer / IT Asset Management,,,crawler,https://careers.quest-global.com/global/en/job/P-124205/Microsoft365-IT%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2-IT%E8%B3%87%E7%94%A3%E7%AE%A1%E7%90%86-Microsoft-365-IT-Support-Engineer-IT-Asset-Management
-Shopify,Java Search Infrastructure Engineer,Remote - Americas,,crawler,https://www.shopify.com/careers/java-search-infrastructure-engineer_766cb969-1073-4f53-963d-92d0beccde9e
-Shopify,"Software Engineers, Frontend",Remote - Americas,,crawler,https://www.shopify.com/careers/software-engineers-frontend_819eb2d1-1bf6-4f0d-91dd-419aea8bd9d5
-Srijan,Full Stack Developer - Python & React,,,crawler,https://materialgrowth.com/careers/job-openings-apac#op-710008-full-stack-developer-python--react
-Srijan,Full Stack Developer - Python & React,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://materialgrowth.com/careers/job-openings-apac
-Srijan,DevOps Engineer AWS,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://materialgrowth.com/careers/job-openings-apac
-Srijan,DevOps Engineer,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://materialgrowth.com/careers/job-openings-apac
-Srijan,Full Stack Developer - Python & React,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://materialgrowth.com/careers/job-openings-apac
-Srijan,DevOps Engineer AWS,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://materialgrowth.com/careers/job-openings-apac
-Srijan,DevOps Engineer,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://materialgrowth.com/careers/job-openings-apac
-United Health Group,Software Engineer,"2385648 | Eden Prairie, Minnesota | Remote",,crawler,https://careers.unitedhealthgroup.com/job/eden-prairie/software-engineer/34088/99754650800
-United Health Group,Software Engineer,"2381778 | Eden Prairie, Minnesota | Remote",,crawler,https://careers.unitedhealthgroup.com/job/eden-prairie/software-engineer/34088/100399421456
-Verizon,Engineer I-Systems Engineering,,,crawler,https://mycareer.verizon.com/jobs/r-1103177/engineer-i-systems-engineering/
-Zenq,CoE - Digital Engineering - Backend Developer,,,crawler,https://careers.quality-ai.com/job/Pune-CoE-Digital-Engineering-Backend-Developer-MH-411045/59419544/
-Zenq,Playwright Automation Engineer,,,crawler,https://careers.quality-ai.com/job/Santa-Clara-Playwright-Automation-Engineer-CA-95054/60295644/
-Zenq,Databricks App Developer,,,crawler,https://careers.quality-ai.com/job/Bangalore-Databricks-App-Developer-560045/60286944/
-Zenq,AI Research Engineer,,,crawler,https://careers.quality-ai.com/job/Santa-Clara-AI-Research-Engineer-CA-95054/61097644/
+Truist,Mainframe Software Engineer,2 Locations,2026-10-30,workday,https://truist.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA/Mainframe-Software-Engineer_R0121392
+Truist,Mainframe Software Engineer,2 Locations,2026-10-30,workday,https://truist.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA/Mainframe-Software-Engineer_R0121388
+Truist,Mainframe Software Engineer,2 Locations,2026-10-30,workday,https://truist.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA/Mainframe-Software-Engineer_R0121392
+Truist,Mainframe Software Engineer,2 Locations,2026-10-30,workday,https://truist.wd1.myworkdayjobs.com/Careers/job/Atlanta-GA/Mainframe-Software-Engineer_R0121388
+Nvidia,Graphics System Software Engineer,2 Locations,2026-10-30,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Graphics-System-Software-Engineer_JR2026351
+Nvidia,"Software Engineer, OpenShell","US, Remote",2026-10-30,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Software-Engineer--OpenShell_JR2020825
+Juniper Networks,Software Engineer - Packet forwarding team,"Bengaluru, Karnātaka, India",2026-10-30,workday,https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Software-Engineer-V--Packet-forwarding-team_1206610-3
+Boeing,Associate Software Engineer,2 Locations,2026-10-30,workday,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Albuquerque-NM/Associate-Software-Engineer_JR2026528420-1
+Duck Creek Technologies,Associate Software Engineer,"Bengaluru, India",2026-10-30,workday,https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers/job/Bengaluru-India/Associate-Software-Engineer_REQID55236-1
+Duck Creek Technologies,Associate Software Engineer,"Bengaluru, India",2026-10-30,workday,https://duckcreek.wd1.myworkdayjobs.com/duckcreekcareers/job/Bengaluru-India/Associate-Software-Engineer_REQID55235-1
+Boeing,Associate Software Engineer,2 Locations,2026-10-30,workday,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Albuquerque-NM/Associate-Software-Engineer_JR2026528420-1
+Barclays,AI Software Engineer,2 Locations,2026-10-30,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Manchester-4-Piccadilly-Place/Software-Engineer_JR-0000108417
+Accenture,C++ Software Engineer,,2026-10-28,workday,https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/C---Software-Engineer_14884321
+Accenture,"Angular UI Custom Software Engineer - ONSITE - (Pleasant Prairie, WI) - 6501062",,2026-10-20,workday,https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/Angular-UI-Custom-Software-Engineer---ONSITE----Pleasant-Prairie--WI----6501062_14752214
+Apple,"Software Engineer, Safari Extensions",,,crawler,https://jobs.apple.com/en-us/details/200676418-3543/software-engineer-safari-extensions?team=SFTWR
+Apple,"Wireless Bluetooth Software Engineer, Wireless Technologies & Ecosystems",,,crawler,https://jobs.apple.com/en-us/details/200692525-3543/wireless-bluetooth-software-engineer-wireless-technologies-ecosystems?team=SFTWR
+Apple,"Software Engineer - Traffic, Envoy",,,crawler,https://jobs.apple.com/en-us/details/200692658-3337/software-engineer-traffic-envoy?team=SFTWR
+Apple,Software Developer in Test - Core I/O,,,crawler,https://jobs.apple.com/en-us/details/200692119-0836/software-developer-in-test-core-i-o?team=SFTWR
+Apple,"Software Engineer, Employee Experience & Productivity",,,crawler,https://jobs.apple.com/en-us/details/200678553-0670/software-engineer-employee-experience-productivity?team=SFTWR
+Apple,"Software Engineer, Information Systems & Technology",,,crawler,https://jobs.apple.com/en-us/details/200685188-0157/software-engineer-information-systems-technology?team=SFTWR
+Cognizant,Java Azure Developer (Supply Chain Applications),,,crawler,https://careers.cognizant.com/global-en/jobs/00070659981/java-azure-developer-supply-chain-applications/
+Ericsson,Master 5G System Developer,"Bangalore,Karnataka,India Product Development",,crawler,https://jobs.ericsson.com/careers/job/563121777180140
+EY,Government and Infrastructure - AI and Data - AI Automation Engineer,,,crawler,https://careers.ey.com/ey/job/McLean-Government-and-Infrastructure-AI-and-Data-AI-Automation-Engineer-VA-22102/1444061333/
+EY,Government and Infrastructure - Cybersecurity - DevSecOps Engineer,,,crawler,https://careers.ey.com/ey/job/McLean-Government-and-Infrastructure-Cybersecurity-DevSecOps-Engineer-VA-22102/1444058233/
+Hewlett-Packard,Technical Support Engineer,"Bengaluru, Karnataka, India Services",,crawler,https://apply.hp.com/careers/job/43882589
+Grab,"Software Engineer, Perception (Robotics)",,,crawler,https://www.grab.careers/en/jobs/744000158659289/software-engineer-perception-robotics/
+Grab,"Software Engineer, Perception (Robotics)",,,crawler,https://www.grab.careers/en/jobs/744000158659279/software-engineer-perception-robotics/
+Kodak,Controls Systems Engineer,,,crawler,https://careers.kodak.com/job/Rochester-Controls-Systems-Engineer-NY-14652/1436270500/
+PayU,"Production Support Engineer (Python, Sql)",,,crawler,https://careers.payu.in/PayU/job/Mumbai-Production-Support-Engineer-%28Python%2C-Sql%29/3873980/
+PayPal,Software Engineer - Backend (Java),"Bangalore, Karnataka, India Software Engineering",,crawler,https://paypal.eightfold.ai/careers/job/274922789363?domain=paypal.com
+PayPal,Software Engineer - Backend (Java),"[""Bangalore, Karnataka, India""]",,crawler-json,https://paypal.eightfold.ai/careers?domain=paypal.com&query=software+engineer&start=0&location=Phoenix%2C+Arizona%2C+US&pid=274922508777&sort_by=relevance&filter_distance=80&filter_include_remote=1&filter_include_relocation=0
+QuEST Global,Controls Engineer - Training,,,crawler,https://careers.quest-global.com/global/en/job/P-124200/Controls-Engineer-Training
+Verizon,Distinguished Engineer- Product Engineering,,,crawler,https://mycareer.verizon.com/jobs/r-1103108/distinguished-engineer-product-engineering/
+Verizon,AI Platform Engineer,,,crawler,https://mycareer.verizon.com/jobs/r-1101077/ai-platform-engineer/
+Wipro,SOFTWARE ENGINEER L4,,,crawler,https://careers.wipro.com/job/SOFTWARE-ENGINEER-L4/208893-en_US
+Zenq,23057 - Debug Engineer - Python,,,crawler,https://careers.quality-ai.com/job/Petach-_-Tikva-23057-Debug-Engineer-Python/57661344/
+Zenq,Power BI Engineer,,,crawler,https://careers.quality-ai.com/job/Santa-Clara-Power-BI-Engineer-CA-95054/61135544/
