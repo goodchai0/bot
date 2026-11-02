@@ -1,22 +1,38 @@
 company,title,location,posted,source,url
-Cognizant,C and Unix Developer,,,crawler,https://careers.cognizant.com/global-en/jobs/00070968031/c-and-unix-developer/
-Cognizant,Cloud Application Developer,,,crawler,https://careers.cognizant.com/global-en/jobs/00071218811/cloud-application-developer/
-Colgate-Palmolive,Maintenance Engineer,,,crawler,https://jobs.colgate.com/job/Maintenance-Engineer/176750-en_US
-EY,PKI Engineer,,,crawler,https://careers.ey.com/ey/job/Hoboken-PKI-Engineer-NJ-07030/1412889333/
-SymphonyAI,Technical Consultant/Developer,,,crawler,https://jobs.symphonyai.com/jobs/2895?lang=en-us
-Trello,Software Engineer,,,crawler,https://www.atlassian.com/company/careers/details/26758
-Trello,Backend Software Engineer,,,crawler,https://www.atlassian.com/company/careers/details/27794
-Trello,Backend Software Engineer,,,crawler,https://www.atlassian.com/company/careers/details/25538
-Trello,Backend Software Engineer,,,crawler,https://www.atlassian.com/company/careers/details/27823
-Trello,Frontend Software Engineer,,,crawler,https://www.atlassian.com/company/careers/details/26674
-Trello,Backend Software Engineer,,,crawler,https://www.atlassian.com/company/careers/details/25539
-Trello,Full Stack Software Engineer,,,crawler,https://www.atlassian.com/company/careers/details/25561
-Trello,"Backend Software Engineer, II",,,crawler,https://www.atlassian.com/company/careers/details/25540
-Trello,Full Stack Software Engineer,,,crawler,https://www.atlassian.com/company/careers/details/25566
-Trello,Backend Software Engineer - Identity,,,crawler,https://www.atlassian.com/company/careers/details/27819
-Trello,Backend Software Engineer - Focus Funds and AI,,,crawler,https://www.atlassian.com/company/careers/details/27824
-Trello,Software Engineer – Full Stack (Loom Billing & Integrations),,,crawler,https://www.atlassian.com/company/careers/details/27431
-Trello,"Software Engineer, 2027 Graduate Canada",,,crawler,https://www.atlassian.com/company/careers/details/26070
-Trello,"Software Engineer, 2027 Graduate U.S.",,,crawler,https://www.atlassian.com/company/careers/details/25813
-Zenq,22808 - Silicon Validation Engineer,,,crawler,https://careers.quality-ai.com/job/Petach-_-Tikva-22808-Silicon-Validation-Engineer/56749044/
-Zenq,Gen AI Python Developer,,,crawler,https://careers.quality-ai.com/job/Bangalore-Gen-AI-Python-Developer-560045/59478044/
+Postman,Software Engineer,"Bangalore, India",2026-11-02,workday,https://postman.wd108.myworkdayjobs.com/careers/job/Bangalore-India/Software-Engineer_JR1000065
+Postman,Software Engineer,"Bangalore, India",2026-11-02,workday,https://postman.wd108.myworkdayjobs.com/careers/job/Bangalore-India/Software-Engineer_JR1000065
+CitiGroup,Java Full Stack Developer,Pune Maharashtra India,2026-11-02,workday,https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Java-Full-Stack-Developer_261004654
+CitiGroup,Java Full Stack Software Engineer - Vice President,Pune Maharashtra India,2026-11-02,workday,https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Java-Full-Stack-Software-Engineer---Vice-President_261005413-1
+Barclays,Full Stack Java designer/developer,"Pune, Gera Commerzone SEZ",2026-11-02,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Java-designer-developer_JR-0000089232
+Barclays,Software Engineer,"Pune, Gera Commerzone SEZ",2026-11-02,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000105971
+CitiGroup,Java Full Stack Software Engineer - Vice President,Pune Maharashtra India,2026-11-02,workday,https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Java-Full-Stack-Software-Engineer---Vice-President_261005415
+CitiGroup,Java Full Stack Software Engineer - Vice President,Pune Maharashtra India,2026-11-02,workday,https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Java-Full-Stack-Software-Engineer---Vice-President_261005413-1
+Crowdstrike,"Software Engineer II, Cloud - Dublin (Hybrid)",Ireland - Remote,2026-11-02,workday,https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Ireland---Remote/Software-Engineer-II--Cloud---Dublin--Hybrid-_R30730
+Crowdstrike,Front End Engineer II (Remote),"USA - Remote, CA",2026-11-02,workday,https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote-CA/Front-End-Engineer-II--Remote-_R30597
+Barclays,Software Engineer - Mainframe,"Pune, Gera Commerzone SEZ",2026-11-02,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer---Mainframe_JR-0000125396
+Barclays,Full Stack Engineer,"Pune, Gera Commerzone SEZ",2026-11-02,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000122783
+Barclays,Full Stack Java designer/developer,"Pune, Gera Commerzone SEZ",2026-11-02,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Java-designer-developer_JR-0000089232
+Barclays,Software Engineer,"Pune, Gera Commerzone SEZ",2026-11-02,workday,https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000105971
+Cognizant,Data Engineer – Snowflake / Apache Iceberg / Python,,,crawler,https://careers.cognizant.com/global-en/jobs/47908/data-engineer-snowflake-apache-iceberg-python/
+Cognizant,Google SecOps Platform Engineer,,,crawler,https://careers.cognizant.com/global-en/jobs/00071154371/google-secops-platform-engineer/
+Ericsson,Software Security Master,"Noida,Uttar Pradesh,India + 2 more Product Development",,crawler,https://jobs.ericsson.com/careers/job/563121777434422
+Ericsson,Software Security Master,"[""Noida,Uttar Pradesh,India"", ""Bangalore,Karnataka,India"", ""Gurgaon,Haryana,India""]",,crawler-json,https://jobs.ericsson.com/careers?query=software+engineer&start=0&pid=563121777359068&sort_by=relevance
+FreeCharge,Site Reliability Engineer - Site Reliability Engineering,,,crawler,https://freecharge.ripplehire.com/candidate/?token=IoV5vvUSMKLwmaa1Suou&source=CAREERSITE#detail/job/779357
+FreeCharge,Site Reliability Engineer - Site Reliability Engineering,Gurugram,,crawler-json,https://freecharge.ripplehire.com/candidate/?token=IoV5vvUSMKLwmaa1Suou&source=CAREERSITE#list/search=software%20engineer
+FreeCharge,Site Reliability Engineer - Site Reliability Engineering,Gurugram,,crawler-json,https://freecharge.ripplehire.com/candidate/?token=IoV5vvUSMKLwmaa1Suou&source=CAREERSITE#list/search=software%20engineer
+PayPal,Software Engineer - Backend (Java),"[""Bangalore, Karnataka, India""]",,crawler-json,https://paypal.eightfold.ai/careers?domain=paypal.com&query=software+engineer&start=0&location=San+Jose%2C+California%2C+US&pid=274919637289&sort_by=relevance&filter_distance=80&filter_include_remote=1&filter_include_relocation=0
+Rippling,Software Engineer II - Benefits,"Engineering Bangalore, India",,crawler,https://ats.rippling.com/rippling/jobs/348cb132-86ec-4e93-9010-6a9114bf1eb2
+Rippling,Software Engineer II - Benefits,"[{""country"": ""India"", ""countryCode"": ""IN"", ""flag"": {""title"": ""India"", ""description"": ""India flag ico",,crawler-json,https://ats.rippling.com/rippling/jobs/348cb132-86ec-4e93-9010-6a9114bf1eb2
+Srijan,Full Stack Developer - Python & React,,,crawler,https://www.materialgrowth.com/careers/job-openings-apac#op-710008-full-stack-developer-python--react
+Srijan,Full Stack Developer - Python & React,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://www.materialgrowth.com/careers/job-openings-apac
+Srijan,DevOps Engineer AWS,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://www.materialgrowth.com/careers/job-openings-apac
+Srijan,DevOps Engineer,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://www.materialgrowth.com/careers/job-openings-apac
+Srijan,Full Stack Developer - Python & React,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://www.materialgrowth.com/careers/job-openings-apac
+Srijan,DevOps Engineer AWS,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://www.materialgrowth.com/careers/job-openings-apac
+Srijan,DevOps Engineer,"{""city"": ""Gurugram"", ""state"": ""Haryana"", ""country"": ""India""}",,crawler-json,https://www.materialgrowth.com/careers/job-openings-apac
+United Health Group,Software Engineer - Cloud Platform - Remote,"2396936 | Eden Prairie, Minnesota | Remote",,crawler,https://careers.unitedhealthgroup.com/job/eden-prairie/software-engineer-cloud-platform-remote/34088/102645771056
+Zenq,23952 - Junior V&V Engineer,,,crawler,https://careers.quality-ai.com/job/Petach-_-Tikva-23952-Junior-V&V-Engineer/60329244/
+Zenq,Automation Engineer,,,crawler,https://careers.quality-ai.com/job/Bangalore-Automation-Engineer-560045/61196144/
+Zenq,Automation Engineer,,,crawler,https://careers.quality-ai.com/job/Bangalore-Automation-Engineer-560045/61195844/
+Zenq,24233 - Automation Test Developer,,,crawler,https://careers.quality-ai.com/job/Petach-_-Tikva-24233-Automation-Test-Developer/61204544/
+Zenq,24236 - Automation Test Developer,,,crawler,https://careers.quality-ai.com/job/Petach-_-Tikva-24236-Automation-Test-Developer/61205344/
