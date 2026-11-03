@@ -2304,7 +2304,8 @@
   "ats": null
  },
  "Zebra Technologies": {
-  "ats": null
+  "ats": "workday",
+  "slug": "zebra|wd501|Zebra_careers"
  },
  "Yum! Brands": {
   "ats": null
