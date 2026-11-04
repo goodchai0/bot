@@ -431,7 +431,6 @@ Wealthy	https://wealthy.in/careers
 Vehant Technologies	https://www.vehant.com/careers/
 Vestige Marketing	https://www.myvestige.com/current-openings.aspx
 Vymo	https://www.getvymo.com/careers/
-Zebra Technologies	https://www.zebra.com/us/en/about-zebra/careers.html
 Yum! Brands	https://www.yum.com/wps/portal/yumbrands/Yumbrands/company/work-with-us
 Wadhwani AI	https://wadhwaniai.org/careers/
 Zoomcar	https://www.zoomcar.com/careers

@@ -1,196 +1,120 @@
-# 180 new jobs - 03 Nov 2026
+# 104 new jobs - 04 Nov 2026
 
-## Bengaluru (11)
+## Bengaluru (7)
 
-- **Barclays** - [Mobile AVP Software Engineer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Mobile-AVP-Software-Engineer_JR-0000124238) - Bengaluru, Maruthi Onyx - TESCO TSA - 2026-11-03
-- **Commvault** - [Software Engineer – Automation & ServiceNow](https://job-boards.greenhouse.io/commvault/jobs/5275524008) - Bangalore, India; Hyderbad, India - 2026-11-02
-- **Expedia** - [Software Development Engineer II](https://expedia.wd108.myworkdayjobs.com/search/job/India---Bangalore/Software-Development-Engineer-II_R-108740) - India - Bangalore - 2026-11-02
-- **Juniper Networks** - [Software Engineer](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Software-Engineer_1210035) - Bengaluru, Karnātaka, India - 2026-11-02
-- **Juniper Networks** - [Software Engineer](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Software-Engineer_1210035) - Bengaluru, Karnātaka, India - 2026-11-02
-- **PhonePe** - [Software Engineer : iOS ](https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005415) - Bengaluru, in - 2026-11-03
-- **Qualcomm** - [XR Software Engineer (All Levels - Multiple Positions)](https://careers.qualcomm.com/careers/job/446721052756) - Bangalore, India Software Engineering
-- **Qualcomm** - [XR Software Engineer (All Levels - Multiple Positions)](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - ["Bangalore, India"]
-- **Rippling** - [Software Engineer II - HRIS](https://ats.rippling.com/rippling/jobs/8c578151-10e7-4024-aeaf-10b0119d56ce) - Engineering Bangalore, India
-- **Rippling** - [Software Engineer-1](https://ats.rippling.com/rippling/jobs/277b7caf-3092-44a7-9e8c-45769e5a3ea5) - Engineering Bangalore, India
-- **Volvo** - [Experienced ESW Application Engineer	Technology Engineering	Trucks Technology & Industrial](https://jobs.volvogroup.com/job/Bangalore-Experienced-ESW-Application-Engineer-562122/1375478255/?feedId=361555) - Bangalore, IN, 562122 Professional	November 3, 2026
+- **Boeing** - [Associate Software Engineer - Analytics](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1) - IND - Bangalore, India - 2026-11-03
+- **Boeing** - [Associate Software Engineer - Analytics](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Associate-Software-Engineer---Analytics_JR2026507843-1) - IND - Bangalore, India - 2026-11-03
+- **Hewlett-Packard** - [AI Solutions Engineer](https://apply.hp.com/careers/job/43294488) - Bengaluru, Karnataka, India Software
+- **Hewlett-Packard** - [AI Solutions Engineer](https://apply.hp.com/careers?query=software+engineer&start=0&pid=44602392&sort_by=relevance) - ["Bengaluru, Karnataka, India"]
+- **Juniper Networks** - [Software Development Engineer II - AI and Optimization](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Software-Development-Engineer-II---AI-and-Optimization_1217337-2) - Bengaluru, Karnātaka, India - 2026-11-04
+- **Juniper Networks** - [Software Development Engineer II](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/Software-Development-Engineer-II_1217338-3) - Bengaluru, Karnātaka, India - 2026-11-04
+- **Qualcomm** - [ASIC Validation Engineer](https://careers.qualcomm.com/careers/job/446721928034) - Bangalore, India ASICS Engineering
 
 ## Pune (2)
 
-- **Barclays** - [Mainframe Software Developer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Mainframe-Software-Developer_JR-0000108583) - Pune, Gera Commerzone SEZ - 2026-11-03
-- **Barclays** - [Mainframe Software Developer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Mainframe-Software-Developer_JR-0000108583) - Pune, Gera Commerzone SEZ - 2026-11-03
+- **Barclays** - [Java Kafka Developer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Java-Kafka-Developer_JR-0000126876) - Pune, Gera Commerzone SEZ - 2026-11-04
+- **Barclays** - [Java Kafka Developer](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Java-Kafka-Developer_JR-0000126876) - Pune, Gera Commerzone SEZ - 2026-11-04
 
-## Chennai (8)
+## Chennai (2)
 
-- **Boeing** - [Associate Software Developer - Java Full Stack](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Chennai-India/Associate-Software-Developer---Java-Full-Stack_JR2026526047-1) - IND - Chennai, India - 2026-11-03
-- **Boeing** - [Associate Software Developer - Java Full Stack](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Chennai-India/Associate-Software-Developer---Java-Full-Stack_JR2026526048-2) - IND - Chennai, India - 2026-11-03
-- **Boeing** - [Associate Software Developer - Java Full Stack](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Chennai-India/Associate-Software-Developer---Java-Full-Stack_JR2026526047-1) - IND - Chennai, India - 2026-11-03
-- **Boeing** - [Associate Software Developer - Java Full Stack](https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Chennai-India/Associate-Software-Developer---Java-Full-Stack_JR2026526048-2) - IND - Chennai, India - 2026-11-03
-- **NCR Corporation** - [Software Engineer (II)](https://ncr.wd1.myworkdayjobs.com/ext_apac/job/CHENNAI-IND/Software-Engineer--II-_R0159016) - CHENNAI, IND - 2026-11-03
-- **NCR Corporation** - [Software Engineer (II)](https://ncr.wd1.myworkdayjobs.com/ext_apac/job/CHENNAI-IND/Software-Engineer--II-_R0159015-1) - CHENNAI, IND - 2026-11-03
-- **NCR Corporation** - [Software Engineer (II)](https://ncr.wd1.myworkdayjobs.com/ext_apac/job/CHENNAI-IND/Software-Engineer--II-_R0159015-1) - CHENNAI, IND - 2026-11-03
-- **NCR Corporation** - [Software Engineer (II)](https://ncr.wd1.myworkdayjobs.com/ext_apac/job/CHENNAI-IND/Software-Engineer--II-_R0159016) - CHENNAI, IND - 2026-11-03
+- **NCR Corporation** - [Software Engineer - .NET Developer](https://ncr.wd1.myworkdayjobs.com/ext_apac/job/CHENNAI-IND/Software-Engineer---NET-Developer_R0159029) - CHENNAI, IND - 2026-11-04
+- **NCR Corporation** - [Software Engineer - .NET Developer](https://ncr.wd1.myworkdayjobs.com/ext_apac/job/CHENNAI-IND/Software-Engineer---NET-Developer_R0159029) - CHENNAI, IND - 2026-11-04
 
 ## Remote (3)
 
-- **Hitachi** - [Frontend Web Developer](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Remote---India/Frontend-Web-Developer_R0146882) - Remote - India - 2026-11-03
-- **Hitachi** - [Frontend Web Developer](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Remote---India/Frontend-Web-Developer_R0146882) - Remote - India - 2026-11-03
-- **United Health Group** - [Software Engineer](https://careers.unitedhealthgroup.com/job/eden-prairie/software-engineer/34088/102787386720) - 2390176 | Eden Prairie, Minnesota | Remote
+- **Hitachi** - [Backend Web Developer](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Remote---India/Backend-Web-Developer_R0146881) - Remote - India - 2026-11-04
+- **Hitachi** - [Backend Web Developer](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Remote---India/Backend-Web-Developer_R0146881) - Remote - India - 2026-11-04
+- **Segment** - [Software Engineer (L3) Email](https://jobs.twilio.com/careers/job/1099554230881) - Engineering Remote - US
 
-## Other / unspecified (156)
+## Other / unspecified (90)
 
-- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Saint-Herblain-Liberty-A/AI-Native-Engineer_R00346086-1) -  - 2026-11-03
-- **Accenture** - [Junior Software Developer – Low-Code & Integrations](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bratislava/Junior-Software-Engineer---Pega-Career-Path_R00299753) -  - 2026-11-02
-- **Accenture** - [Software Engineer - Scotland](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Glasgow/Software-Engineer---Scotland_R00325439) -  - 2026-11-02
-- **Accenture** - [Custom Software Engineer - 6522227](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Charlotte-1120-S-Tryon-St-Corp/Custom-Software-Engineer---6522227_14791950) -  - 2026-10-29
-- **Accenture** - [AI Native Software Engineer – Data & AI](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/XMLNAME--Junior--AI-Native-Software-Engineer---all-genders-_R00359893-1) -  - 2026-10-29
-- **Apple** - [Frontend Engineer (AI Experiences), Retail and Marcom Engineering](https://jobs.apple.com/en-us/details/200692940-0157/frontend-engineer-ai-experiences-retail-and-marcom-engineering?team=SFTWR) - 
-- **Apple** - [Systems Software Engineer, Platform Architecture](https://jobs.apple.com/en-us/details/200687597-1242/systems-software-engineer-platform-architecture?team=HRDWR) - 
-- **Apple** - [Systems Software Engineer, Platform Architecture](https://jobs.apple.com/en-us/details/200687597-0836/systems-software-engineer-platform-architecture?team=HRDWR) - 
-- **Apple** - [Software Engineer - Location & Spatial Awareness, Sensing & Connectivity](https://jobs.apple.com/en-us/details/200686212-0836/software-engineer-location-spatial-awareness-sensing-connectivity?team=SFTWR) - 
-- **Apple** - [Software Engineer - iOS Engineer - SpringBoard Multitasking - System Experience](https://jobs.apple.com/en-us/details/200692906-0836/software-engineer-ios-engineer-springboard-multitasking-system-experience?team=SFTWR) - 
-- **Apple** - [Cellular Power Optimization Software Engineer, Wireless Technologies & Ecosystems](https://jobs.apple.com/en-us/details/200692907-3543/cellular-power-optimization-software-engineer-wireless-technologies-ecosystems?team=SFTWR) - 
-- **Apple** - [Cellular Power Optimization Software Engineer, Wireless Technologies & Ecosystems](https://jobs.apple.com/en-us/details/200692894-3543/cellular-power-optimization-software-engineer-wireless-technologies-ecosystems?team=SFTWR) - 
-- **Apple** - [Software Engineer, watchOS Apps & Experiences](https://jobs.apple.com/en-us/details/200692103-0836/software-engineer-watchos-apps-experiences?team=SFTWR) - 
-- **Cognizant** - [MLOPS Engineer](https://careers.cognizant.com/global-en/jobs/00069277471/mlops-engineer/) - 
-- **Cognizant** - [Gen AI Engineer](https://careers.cognizant.com/global-en/jobs/00069169271/gen-ai-engineer/) - 
-- **Cognizant** - [AWS Data Engineer](https://careers.cognizant.com/global-en/jobs/00068483511/aws-data-engineer/) - 
-- **Cognizant** - [Service Now Developer](https://careers.cognizant.com/global-en/jobs/00070868112/service-now-developer/) - 
-- **Crowdstrike** - [Software Engineer II -SoM, Sensor Quality MatriX (Hybrid)](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Redmond-WA/Software-Engineer-II--SoM--Sensor-Quality-MatriX--Hybrid-_R30742) - 2 Locations - 2026-11-03
-- **Crowdstrike** - [Software Engineer II -SoM, Sensor Quality MatriX (Hybrid)](https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Redmond-WA/Software-Engineer-II--SoM--Sensor-Quality-MatriX--Hybrid-_R30742) - 2 Locations - 2026-11-03
-- **EY** - [SDC WAMT Back End Engineer---Analyst---Dallas, Raleigh, San Antonio](https://careers.ey.com/ey/job/Dallas-SDC-WAMT-Back-End-Engineer-Analyst-Dallas%2C-Raleigh%2C-San-Antonio-TX-75270/1444502733/) - 
-- **EY** - [Government and Infrastructure - AI and Data - Data Engineer - Top Secret Clearance](https://careers.ey.com/ey/job/McLean-Government-and-Infrastructure-AI-and-Data-Data-Engineer-Top-Secret-Clearance-VA-22102/1444519633/) - 
-- **Intel** - [EDA Tools Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/EDA-Tools-Software-Engineer_JR0288779-1) - 2 Locations - 2026-11-02
-- **Intel** - [EDA Tools Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/EDA-Tools-Software-Engineer_JR0288779-1) - 2 Locations - 2026-11-02
-- **Nutanix** - [Systems Reliability Engineer II](https://careers.nutanix.com/en/jobs/32699/systems-reliability-engineer-ii/) - 
-- **Nutanix** - [Systems Reliability Engineer II (BLR)](https://careers.nutanix.com/en/jobs/32872/systems-reliability-engineer-ii-blr/) - 
-- **Nutanix** - [Forward Deployed Engineer - Ph.D. Early Career - AI Inference Systems Research](https://careers.nutanix.com/en/jobs/32828/forward-deployed-engineer-phd-early-career-ai-inference-systems-research/) - 
-- **Nutanix** - [Presales Systems Engineer, Ankara](https://careers.nutanix.com/en/jobs/32523/presales-systems-engineer-ankara/) - 
-- **Nutanix** - [Systems Engineer](https://careers.nutanix.com/en/jobs/32738/systems-engineer/) - 
-- **Nutanix** - [Systems Reliability Engineer II](https://careers.nutanix.com/en/jobs/32423/systems-reliability-engineer-ii/) - 
-- **Nutanix** - [Systems Reliability Engineer II](https://careers.nutanix.com/en/jobs/32842/systems-reliability-engineer-ii/) - 
-- **Nutanix** - [Technical Support Engineer (SRE)](https://careers.nutanix.com/en/jobs/31210/technical-support-engineer-sre/) - 
-- **Nutanix** - [Cloud Automation & Governance Engineer](https://careers.nutanix.com/en/jobs/32716/cloud-automation-governance-engineer/) - 
-- **Nutanix** - [Systems Reliability Engineer II](https://careers.nutanix.com/en/jobs/32841/systems-reliability-engineer-ii/) - 
-- **Nutanix** - [Junior Technical Support Engineer](https://careers.nutanix.com/en/jobs/32250/junior-technical-support-engineer/) - 
-- **Nutanix** - [Systems Reliability Engineer II (Pune)](https://careers.nutanix.com/en/jobs/32873/systems-reliability-engineer-ii-pune/) - 
-- **Nutanix** - [Systems Reliability Engineer II- Technical Support, Virtualization, Linux, Trouble Shooting, Networking](https://careers.nutanix.com/en/jobs/32875/systems-reliability-engineer-ii-technical-support-virtualization-linux-trouble-shooting-networking/) - 
-- **Nutanix** - [Systems Reliability Engineer - Enterprise Tech Support (Virtualization & Networking)](https://careers.nutanix.com/en/jobs/31492/systems-reliability-engineer-enterprise-tech-support-virtualization-networking/) - 
-- **Nutanix** - [MTS 2 (Golang Development | Linux, gRPC & Distributed Systems+ Infra/System side)](https://careers.nutanix.com/en/jobs/32795/mts-2-golang-development-linux-grpc-distributed-systemsplus-infrasystem-side/) - 
-- **Nutanix** - [Systems Reliability Engineer-Enterprise Tech Support (Virtualization & Networking)](https://careers.nutanix.com/en/jobs/31385/systems-reliability-engineer-enterprise-tech-support-virtualization-networking/) - 
-- **NXP Semiconductors** - [Embedded Crypto Software Developer (m/f/d)](https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Senior-Embedded-Crypto-Software-Developer--m-f-d-_R-10063691) - 4 Locations - 2026-11-03
-- **NXP Semiconductors** - [Embedded Crypto Software Developer (m/f/d)](https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Senior-Embedded-Crypto-Software-Developer--m-f-d-_R-10063691) - 4 Locations - 2026-11-03
-- **OpenText** - [DevOps Engineer Cloud/SaaS](https://careers.opentext.com/us/en/job/53219/DevOps-Engineer-Cloud-SaaS) - 
-- **OpenText** - [Software Developer](https://careers.opentext.com/us/en/job/54130/Software-Developer) - 
-- **OpenText** - [Software Developer](https://careers.opentext.com/us/en/job/54131/Software-Developer) - 
-- **OpenText** - [Software Developer (Microsoft 365 & Azure Integrations) 1](https://careers.opentext.com/us/en/job/54093/Software-Developer-Microsoft-365-Azure-Integrations-1) - 
-- **Optum** - [Ritu’s spolight: The career journey of a leading engineer at Optum](https://www.unitedhealthgroup.com/search.html#q=software%20engineer&first=60&sort=relevancy) - 
-- **PayU** - [Data Platform Engineer](https://careers.payu.in/PayU/job/Bengaluru-Data-Platform-Engineer/3752980/) - 
-- **Qualcomm** - [Developer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Developer Blog](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Common Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Restricted Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [software-code](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [software tools](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Developer Network](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software Providers](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Developer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Consumer Software Solutions](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Developer](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Qualcomm Software Center](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Windows on Snapdragon | PC Developer Ecosystem | Qualcomm](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Developer Events](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Edge AI Developer Hackathon](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Developer Events Archive ](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Snapdragon Game Studios Developer Forum](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [RF Front-End](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Developer Tools](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Innominds Software iDhi - Edge AI Platform](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Innominds Software iDhi - Sensor Gateway](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Innominds Software iDHI - Telematics Control Unit](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualcomm** - [Software](https://careers.qualcomm.com/careers?query=software+engineer&start=0&pid=446721035937&sort_by=relevance) - 
-- **Qualitest** - [Performance Engineer](https://careers.quality-ai.com/job/Bangalore-Performance-Engineer-560045/61224144/) - 
-- **Qualitest** - [24235 - Automation Test Developer](https://careers.quality-ai.com/job/Petach-_-Tikva-24235-Automation-Test-Developer/61236144/) - 
-- **Rippling** - [Software Engineer  II - HRIS](https://ats.rippling.com/rippling/jobs/8c578151-10e7-4024-aeaf-10b0119d56ce) - [{"country": "India", "countryCode": "IN", "flag": {"title": "India", "description": "India flag ico
-- **Rippling** - [Software Engineer-1](https://ats.rippling.com/rippling/jobs/277b7caf-3092-44a7-9e8c-45769e5a3ea5) - [{"country": "India", "countryCode": "IN", "flag": {"title": "India", "description": "India flag ico
-- **Verizon** - [Forward Deployed Engineer](https://mycareer.verizon.com/jobs/r-1102402/forward-deployed-engineer/) - 
-- **Wipro** - [Software Engineer](https://careers.wipro.com/job/Software-Engineer/213488-en_US) - 
-- **Zebra Technologies** - [2027 Summer Internship (US) - Software Engineer](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626) - 
-- **Zebra Technologies** - [Advanced Data Platform Engineer](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Mississauga-Canada/Advanced-Data-Platform-Engineer_JR103851) - 
-- **Zebra Technologies** - [2027 Summer Internship (US) - Software/AI Engineer (Handheld Mobile Computers)](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632) - 
-- **Zebra Technologies** - [2027 Summer Internship (US) - Software Engineer](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626?q=software%20engineer) - 
-- **Zebra Technologies** - [Advanced Data Platform Engineer](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Mississauga-Canada/Advanced-Data-Platform-Engineer_JR103851?q=software%20engineer) - 
-- **Zebra Technologies** - [2027 Summer Internship (US) - Software/AI Engineer (Handheld Mobile Computers)](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632?q=software%20engineer) - 
-- **Zebra Technologies** - [Software Engineer II](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Montreal-Canada/Software-Engineer-II_JR103762?q=software%20engineer) - 
-- **Zebra Technologies** - [Software Engineer, Professional I](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Holtsville-New-York/Software-Engineer--Professional-I_JR103835?q=software%20engineer) - 
-- **Zebra Technologies** - [Computer Vision Software Developer, Professional II- Développeur ou Développeuse de Logiciels en Vision par Ordinateur II](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Montreal-Canada/Computer-Vision-Software-Developer--Professional-II--Dveloppeur-ou-Dveloppeuse-de-Logiciels-en-Vision-par-Ordinateur-II_JR103160?q=software%20engineer) - 
-- **Zebra Technologies** - [Applications Engineer II](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Seoul-South-Korea/Applications-Engineer-II_JR103502?q=software%20engineer) - 
-- **Zebra Technologies** - [Advanced RF/Antenna Engineer](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Holtsville-New-York/Advanced-RF-Antenna-Engineer_JR103567?q=software%20engineer) - 
-- **Zebra Technologies** - [SW Engineer / AI Enterprise Systems Analyst](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Lincolnshire-Illinois/Sw-SW-Engineer---AI-Enterprise-Systems-Analyst_JR102865?q=software%20engineer) - 
-- **Zebra Technologies** - [Cloud Engineer II](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/Cloud-Engineer-II_JR103566?q=software%20engineer) - 
-- **Zebra Technologies** - [Android Framework/Core OS Software Engineer II](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Holtsville-New-York/Software-Engineer-II--Android---WWAN---AI-_JR102901?q=software%20engineer) - 
-- **Zebra Technologies** - [Test Engineer](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Mexico-Offsite/Test-Engineer-Advanced_JR101716?q=software%20engineer) - 
-- **Zebra Technologies** - [Software Engineer Professional II](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/Software-Engineer-Professional-II_JR103582?q=software%20engineer) - 
-- **Zebra Technologies** - [Research Engineer II](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Morris-Plains-New-Jersey/Research-Engineer-II_JR103350?q=software%20engineer) - 
-- **Zebra Technologies** - [DevOps Engineer II](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Brno-Czech-Republic/DevOps-Engineer-II_JR103043-1?q=software%20engineer) - 
-- **Zebra Technologies** - [ML Ops Engineer](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/ML-Ops-Engineer_JR102780?q=software%20engineer) - 
-- **Zebra Technologies** - [ML Ops Engineer](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/ML-Ops-Engineer_JR102778?q=software%20engineer) - 
-- **Zebra Technologies** - [Software Design Assurance Engineer Advanced](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Bengaluru-India/Software-Design-Assurance-Engineer-Advanced_JR102109?q=software%20engineer) - 
-- **Zebra Technologies** - [AI Software Engineer](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/London-United-Kingdom/AI-Software-Engineer_JR103024?q=software%20engineer) - 
-- **Zebra Technologies** - [Platform SW/FW Engineer, Advanced](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Gliwice-Poland/Platform-SW-FW-Engineer--Advanced_JR102890?q=software%20engineer) - 
-- **Zebra Technologies** - [2026(6 months) Internship(Sri Lanka) -Software Engineering](https://zebra.wd501.myworkdayjobs.com/en-US/Zebra_careers/job/Colombo-Sri-Lanka/XMLNAME-2026-6-months--Internship-Sri-Lanka---Software-Engineering_JR102701?q=software%20engineer) - 
-- **Zebra Technologies** - [2027 Summer Internship (US) - Software Engineer](https://zebra.wd501.myworkdayjobs.com/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626) - 
-- **Zebra Technologies** - [Advanced Data Platform Engineer](https://zebra.wd501.myworkdayjobs.com/job/Mississauga-Canada/Advanced-Data-Platform-Engineer_JR103851) - 
-- **Zebra Technologies** - [2027 Summer Internship (US) - Software/AI Engineer (Handheld Mobile Computers)](https://zebra.wd501.myworkdayjobs.com/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632) - 
-- **Zebra Technologies** - [2027 Summer Internship (US) - Software Engineer](https://zebra.wd501.myworkdayjobs.com/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103626) - 
-- **Zebra Technologies** - [Advanced Data Platform Engineer](https://zebra.wd501.myworkdayjobs.com/job/Mississauga-Canada/Advanced-Data-Platform-Engineer_JR103851) - 
-- **Zebra Technologies** - [2027 Summer Internship (US) - Software/AI Engineer (Handheld Mobile Computers)](https://zebra.wd501.myworkdayjobs.com/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-AI-Engineer--Handheld-Mobile-Computers-_JR103632) - 
-- **Zebra Technologies** - [Software Engineer II](https://zebra.wd501.myworkdayjobs.com/job/Montreal-Canada/Software-Engineer-II_JR103762) - 
-- **Zebra Technologies** - [Software Engineer, Professional I](https://zebra.wd501.myworkdayjobs.com/job/Holtsville-New-York/Software-Engineer--Professional-I_JR103835) - 
-- **Zebra Technologies** - [Computer Vision Software Developer, Professional II- Développeur ou Développeuse de Logiciels en Vision par Ordinateur II](https://zebra.wd501.myworkdayjobs.com/job/Montreal-Canada/Computer-Vision-Software-Developer--Professional-II--Dveloppeur-ou-Dveloppeuse-de-Logiciels-en-Vision-par-Ordinateur-II_JR103160) - 
-- **Zebra Technologies** - [Applications Engineer II](https://zebra.wd501.myworkdayjobs.com/job/Seoul-South-Korea/Applications-Engineer-II_JR103502) - 
-- **Zebra Technologies** - [Advanced RF/Antenna Engineer](https://zebra.wd501.myworkdayjobs.com/job/Holtsville-New-York/Advanced-RF-Antenna-Engineer_JR103567) - 
-- **Zebra Technologies** - [SW Engineer / AI Enterprise Systems Analyst](https://zebra.wd501.myworkdayjobs.com/job/Lincolnshire-Illinois/Sw-SW-Engineer---AI-Enterprise-Systems-Analyst_JR102865) - 
-- **Zebra Technologies** - [Cloud Engineer II](https://zebra.wd501.myworkdayjobs.com/job/Bengaluru-India/Cloud-Engineer-II_JR103566) - 
-- **Zebra Technologies** - [Android Framework/Core OS Software Engineer II](https://zebra.wd501.myworkdayjobs.com/job/Holtsville-New-York/Software-Engineer-II--Android---WWAN---AI-_JR102901) - 
-- **Zebra Technologies** - [Test Engineer](https://zebra.wd501.myworkdayjobs.com/job/Mexico-Offsite/Test-Engineer-Advanced_JR101716) - 
-- **Zebra Technologies** - [Software Engineer Professional II](https://zebra.wd501.myworkdayjobs.com/job/Bengaluru-India/Software-Engineer-Professional-II_JR103582) - 
-- **Zebra Technologies** - [Research Engineer II](https://zebra.wd501.myworkdayjobs.com/job/Morris-Plains-New-Jersey/Research-Engineer-II_JR103350) - 
-- **Zebra Technologies** - [DevOps Engineer II](https://zebra.wd501.myworkdayjobs.com/job/Brno-Czech-Republic/DevOps-Engineer-II_JR103043-1) - 
-- **Zebra Technologies** - [ML Ops Engineer](https://zebra.wd501.myworkdayjobs.com/job/Bengaluru-India/ML-Ops-Engineer_JR102780) - 
-- **Zebra Technologies** - [ML Ops Engineer](https://zebra.wd501.myworkdayjobs.com/job/Bengaluru-India/ML-Ops-Engineer_JR102778) - 
-- **Zebra Technologies** - [Software Design Assurance Engineer Advanced](https://zebra.wd501.myworkdayjobs.com/job/Bengaluru-India/Software-Design-Assurance-Engineer-Advanced_JR102109) - 
-- **Zebra Technologies** - [AI Software Engineer](https://zebra.wd501.myworkdayjobs.com/job/London-United-Kingdom/AI-Software-Engineer_JR103024) - 
-- **Zebra Technologies** - [Platform SW/FW Engineer, Advanced](https://zebra.wd501.myworkdayjobs.com/job/Gliwice-Poland/Platform-SW-FW-Engineer--Advanced_JR102890) - 
-- **Zebra Technologies** - [2026(6 months) Internship(Sri Lanka) -Software Engineering](https://zebra.wd501.myworkdayjobs.com/job/Colombo-Sri-Lanka/XMLNAME-2026-6-months--Internship-Sri-Lanka---Software-Engineering_JR102701) - 
-- **Zenq** - [Performance Engineer](https://careers.quality-ai.com/job/Bangalore-Performance-Engineer-560045/61224144/) - 
-- **Zenq** - [24235 - Automation Test Developer](https://careers.quality-ai.com/job/Petach-_-Tikva-24235-Automation-Test-Developer/61236144/) - 
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Application-Developer_ATCI-5084013-S1904486-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Hyderabad/Application-Developer_ATCI-5303096-S1993775-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5088525-S1953016) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5088482-S1953018-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5088480-S1953017-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Application-Developer_ATCI-5100375-S1886948-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Indore/Application-Developer_ATCI-5088478-S1882915-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Application-Developer_ATCI-5100371-S1886944-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Indore/Application-Developer_ATCI-5088477-S1882919-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Coimbatore/Application-Developer_ATCI-5088445-S1882921) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kolkata/Application-Developer_ATCI-5088441-S1882925-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Hyderabad/Industry-Subject-Matter-Advisor_ATCI-5386243-S2004861-1) -  - 2026-11-04
+- **Accenture** - [Java Backend Developers](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Madrid-Castellana-85/Java-Backend-Developers_R00356681) -  - 2026-11-04
+- **Accenture** - [Full Stack Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Hyderabad/Industry-Subject-Matter-Advisor_ATCI-5306249-S1937715-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Nagpur/Industry-Subject-Matter-Advisor_ATCI-5224532-S1917590-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Gurugram/Custom-Software-Engineer_ATCI-5822265-S2073693) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5707487-S2062879-1) -  - 2026-11-04
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Packaged-SaaS-Application-Engineer_ATCI-5423886-S1971245-1) -  - 2026-11-03
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5329292-S1948342) -  - 2026-11-03
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5329291-S1948352-1) -  - 2026-11-03
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5329287-S1948346-1) -  - 2026-11-03
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5329286-S1948347-1) -  - 2026-11-03
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5329283-S1948349-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5285123-S1963236-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Application-Support-Engineer_ATCI-5425095-S1971300-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Application-Support-Engineer_ATCI-5425094-S1971272-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Application-Support-Engineer_ATCI-5425091-S1971295-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chennai/Application-Support-Engineer_ATCI-5423927-S1971251-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chennai/Application-Support-Engineer_ATCI-5423923-S1971280) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Application-Support-Engineer_ATCI-5423921-S1971206) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kolkata/Application-Developer_ATCI-5012980-S1925748-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Hyderabad/Packaged-SaaS-Application-Engineer_ATCI-5423816-S1971182-1) -  - 2026-11-03
+- **Accenture** - [AI Native Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5329288-S1948345-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chennai/Application-Developer_ATCI-5086649-S1882759-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Hyderabad/Application-Developer_ATCI-5007273-S1871990-1) -  - 2026-11-03
+- **Accenture** - [Java Developer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Java-Developer_14806264) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/Application-Developer_ATCI-4728289-S1851000-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5496415-S2030274-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5496438-S2030272-1) -  - 2026-11-03
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Gurugram/Custom-Software-Engineer_ATCI-5716004-S2064335-1) -  - 2026-11-02
+- **Accenture** - [Fullstack (Next.js) Developer (CEE)](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw-Sienna-39/Fullstack--Nextjs--Developer--CEE-_R00359994) -  - 2026-10-30
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5730048-S2069249-1) -  - 2026-10-26
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5377486-S1955478-1) -  - 2026-10-23
+- **Accenture** - [Custom Software Engineer](https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5672677-S2057549-1) -  - 2026-10-22
+- **Apple** - [Bluetooth Software Engineer, Wireless Technologies & Ecosystems](https://jobs.apple.com/en-us/details/200680546-3543/bluetooth-software-engineer-wireless-technologies-ecosystems?team=SFTWR) - 
+- **Apple** - [Software Engineer in Natural Language Processing (NLP) and Machine Learning (ML)](https://jobs.apple.com/en-us/details/200693310-3337/software-engineer-in-natural-language-processing-nlp-and-machine-learning-ml?team=MLAI) - 
+- **Apple** - [Software Engineer, Content Management Systems - Retail & Marcom Engineering](https://jobs.apple.com/en-us/details/200690757-0157/software-engineer-content-management-systems-retail-marcom-engineering?team=CORSV) - 
+- **Apple** - [AI Software Engineer, App Intelligence](https://jobs.apple.com/en-us/details/200693199-0836/ai-software-engineer-app-intelligence?team=SFTWR) - 
+- **Apple** - [Software Engineer, WebKit Accessibility](https://jobs.apple.com/en-us/details/200689295-0836/software-engineer-webkit-accessibility?team=SFTWR) - 
+- **Apple** - [Java Server Engineer - ASE Products](https://jobs.apple.com/en-us/details/200687380-0836/java-server-engineer-ase-products?team=SFTWR) - 
+- **Apple** - [Software Engineer - VE](https://jobs.apple.com/en-us/details/200693002-0836/software-engineer-ve?team=HRDWR) - 
+- **Apple** - [Software Engineer (Marcom Interactive Apps), Retail and Marcom Engineering](https://jobs.apple.com/en-us/details/200692539-3956/software-engineer-marcom-interactive-apps-retail-and-marcom-engineering?team=SFTWR) - 
+- **Apple** - [Applied Research Software Engineer](https://jobs.apple.com/en-us/details/200691979-3749/applied-research-software-engineer?team=MLAI) - 
+- **Apple** - [Software Engineer - Visual Intelligence](https://jobs.apple.com/en-us/details/200693087-3337/software-engineer-visual-intelligence?team=SFTWR) - 
+- **Cognizant** - [Frontend Engineer](https://careers.cognizant.com/global-en/jobs/00071245121/frontend-engineer/) - 
+- **Cognizant** - [AI/ML Engineer](https://careers.cognizant.com/global-en/jobs/00071244741/aiml-engineer/) - 
+- **Cognizant** - [.NET Backend Developer](https://careers.cognizant.com/global-en/jobs/00071245151/net-backend-developer/) - 
+- **Cognizant** - [GCP Engineer](https://careers.cognizant.com/global-en/jobs/00070601831/gcp-engineer/) - 
+- **Cognizant** - [.NET API Developer](https://careers.cognizant.com/global-en/jobs/00070975681/net-api-developer/) - 
+- **EY** - [Government and Infrastructure - Digital Engineering - Cloud Modernization Engineer](https://careers.ey.com/ey/job/McLean-Government-and-Infrastructure-Digital-Engineering-Cloud-Modernization-Engineer-VA-22102/1444902833/) - 
+- **EY** - [STS Endpoint Security Engineer](https://careers.ey.com/ey/job/Hoboken-STS-Endpoint-Security-Engineer-NJ-07030/1444844333/) - 
+- **Grab** - [Identity Management Engineer](https://www.grab.careers/en/jobs/744000159593429/identity-management-engineer/) - 
+- **Grab** - [Identity Management Engineer](https://www.grab.careers/en/jobs/744000159593308/identity-management-engineer/) - 
+- **Hitachi** - [Inżynier ds. Rozwoju Oprogramowania (Software Engineer) (f/m/x)](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Warszawa-Masovian-Poland/Inynier-ds-Rozwoju-Oprogramowania--Software-Engineer---f-m-x-_R0150471) - 4 Locations - 2026-11-03
+- **Hitachi** - [Software Developer - 3D CAD Engineering Tools](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Madrid-Spain/Software-Developer---3D-CAD-Engineering-Tools_R0142722) - 2 Locations - 2026-11-03
+- **Hitachi** - [Inżynier ds. Rozwoju Oprogramowania (Software Engineer) (f/m/x)](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Warszawa-Masovian-Poland/Inynier-ds-Rozwoju-Oprogramowania--Software-Engineer---f-m-x-_R0150471) - 4 Locations - 2026-11-03
+- **Intel** - [EDA Tool Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/EDA-Tool-Software-Engineer_JR0288776) - 4 Locations - 2026-11-03
+- **Intel** - [EDA Tool Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/EDA-Tool-Software-Engineer_JR0288777) - 4 Locations - 2026-11-03
+- **Intel** - [EDA Tool Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/EDA-Tool-Software-Engineer_JR0288776) - 4 Locations - 2026-11-03
+- **Intel** - [EDA Tool Software Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/EDA-Tool-Software-Engineer_JR0288777) - 4 Locations - 2026-11-03
+- **Intuitive** - [Software Engineer](https://careers.intuitive.com/en/jobs/744000159276636/JOB218179/software-engineer/) - 
+- **Intuitive** - [Software Engineer, IoT](https://careers.intuitive.com/en/jobs/744000159501239/JOB213503/software-engineer-iot/) - 
+- **Intuitive** - [Software Engineer – Emulation and Automated Test](https://careers.intuitive.com/en/jobs/744000159173776/JOB221154/software-engineer-emulation-and-automated-test/) - 
+- **Intuitive** - [Collaboration Support Engineer](https://careers.intuitive.com/en/jobs/744000148355089/JOB216967/collaboration-support-engineer/) - 
+- **Juniper Networks** - [Cloud Software Engineer (San Jose, California)](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/San-Jose-California-United-States-of-America/Cloud-Software-Engineer--San-Jose--California-_1215655-2) - 6 Locations - 2026-10-30
+- **Kaspersky** - [DevOps Engineer (CDT)](https://careers.kaspersky.com/vacancy/25968) - 
+- **Kaspersky** - [Solution Implementation Engineer (KUMA)](https://careers.kaspersky.com/vacancy/26016) - 
+- **Narayana Group** - [QA Engineer 1](https://jobs.narayanahealth.org/NH-India/job/QA-Engineer-1/61277044/) - 
+- **Nutanix** - [Systems Reliability Engineer](https://careers.nutanix.com/en/jobs/33013/systems-reliability-engineer/) - 
+- **PayU** - [Software Engineer](https://careers.payu.in/PayU/job/Gurgaon-Software-Engineer/3504980/) - 
+- **Qualitest** - [Software Testing Engineer](https://careers.quality-ai.com/job/Bangalore-Software-Testing-Engineer-560045/61261644/) - 
+- **SymphonyAI** - [Site Reliability Engineer](https://jobs.symphonyai.com/jobs/3204?lang=en-us) - 
+- **Truist** - [.Net Software Engineer](https://truist.wd1.myworkdayjobs.com/Careers/job/Richmond-VA/XMLNAME-Net-Software-Engineer_R0118984) - 3 Locations - 2026-11-03
+- **Truist** - [Software Engineer](https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/IT-Project-Manager-I_R0121452) - 2 Locations - 2026-11-03
+- **Truist** - [.Net Software Engineer](https://truist.wd1.myworkdayjobs.com/Careers/job/Richmond-VA/XMLNAME-Net-Software-Engineer_R0118984) - 3 Locations - 2026-11-03
+- **Truist** - [Software Engineer](https://truist.wd1.myworkdayjobs.com/Careers/job/Charlotte-NC/IT-Project-Manager-I_R0121452) - 2 Locations - 2026-11-03
+- **Verizon** - [HVAC Engineer](https://mycareer.verizon.com/jobs/r-1103301/hvac-engineer/) - 
+- **Wipro** - [SOFTWARE ENGINEER L4](https://careers.wipro.com/job/SOFTWARE-ENGINEER-L4/208888-en_US) - 
+- **Wipro** - [SOFTWARE ENGINEER L3](https://careers.wipro.com/job/SOFTWARE-ENGINEER-L3/213804-en_US) - 
+- **Zenq** - [Software Testing Engineer](https://careers.quality-ai.com/job/Bangalore-Software-Testing-Engineer-560045/61261644/) - 
