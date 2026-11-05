@@ -352,7 +352,8 @@
   "guessed": true
  },
  "Chainalysis": {
-  "ats": null
+  "ats": "ashby",
+  "slug": "chainalysis-careers"
  },
  "Chime": {
   "ats": "greenhouse",
