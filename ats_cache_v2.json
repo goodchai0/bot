@@ -2206,7 +2206,8 @@
   "ats": null
  },
  "Wealthbox": {
-  "ats": null
+  "ats": "ashby",
+  "slug": "wealthbox"
  },
  "Wadhwani Foundation": {
   "ats": "greenhouse",

@@ -62,7 +62,6 @@ CasaOne	https://www.casaone.com/careers
 Canva	https://www.canva.com/careers/
 CarWale	https://www.carwale.com/careers/
 Byteridge	https://www.byteridge.com/careers
-Chainalysis	https://www.chainalysis.com/careers
 Chargebee	https://www.chargebee.com/careers/
 CashFree	https://www.cashfree.com/careers
 Chronus	https://chronus.com/careers
