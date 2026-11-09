@@ -57,7 +57,7 @@ jobs:
         continue-on-error: true
         run: python crawler.py
 
-      - name: Email results (grouped by location)
+      - name: Results from JOB Boards
         run: python jobs_boards.py
         
       - name: Email results (grouped by location)
