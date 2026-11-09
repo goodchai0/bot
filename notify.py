@@ -5,32 +5,51 @@ notify.py - turns new_jobs.csv into a location-grouped email (and optional Teleg
 Usage:
     python3 notify.py                          # email everything, grouped by city
     python3 notify.py --cities Bengaluru,Remote  # only these locations
-    python3 notify.py --dry-run                # print summary only: no email, no archive
+    python3 notify.py --dry-run                # print CSV only: no email, no archive
+    python3 notify.py --preview                # write preview.html + jobs.html to open in a browser
+    python3 notify.py --keep-all               # do not merge duplicate jobs
 
 Settings come from a .env file in the same folder (see .env.example), or environment variables:
     EMAIL_USER, EMAIL_APP_PASSWORD, EMAIL_TO   (Gmail: use an App Password, not your login password)
     SMTP_HOST (default smtp.gmail.com)
     TG_TOKEN, TG_CHAT                          (optional Telegram)
+    FEATURED_COMPANIES                         (optional, comma list added to the built-in star list)
     Other SMTP providers (Brevo etc.): SMTP_HOST, SMTP_USER (login), EMAIL_FROM (verified sender), SMTP_PORT
-The jobs are sent as CSV text (company,title,location,posted,source,url) in the email /
-Telegram message body - no attachments.
-Also writes per-city CSVs into history/<date>/ so you can open just one city in Excel.
+
+What you get:
+  * Email: a compact, company-grouped digest. It is auto-trimmed to stay under Gmail's ~102 KB
+    clipping limit (Gmail hides everything after that - the old "empty section" bug).
+  * Attachment jobs.html: open it on your phone/laptop for search + city/company/star filters.
+  * Plain-text part and Telegram: CSV text. Per-city CSVs + jobs.html saved in history/<date>/.
 """
-import argparse, csv, html, os, re, shutil, smtplib, sys, time
-from collections import defaultdict
+import argparse, csv, html, json, os, re, shutil, smtplib, sys, time, unicodedata
+from collections import Counter, defaultdict
 from datetime import date
 from email.message import EmailMessage
 
 BUCKETS = [
-    ("Bengaluru", r"bengaluru|bangalore"),
-    ("Hyderabad", r"hyderabad|secunderabad"),
+    ("Bengaluru", r"bengaluru|bangalore|\bKA\b|karnataka"),
+    ("Hyderabad", r"hyderabad|secunderabad|\bTS\b|telangana"),
     ("Pune", r"\bpune\b"),
     ("Mumbai", r"mumbai|thane"),
+    ("Maharashtra", r"\bMH\b|maharashtra"),
     ("Delhi NCR", r"delhi|gurgaon|gurugram|noida|ghaziabad|faridabad"),
     ("Chennai", r"chennai"),
+    ("Kolkata", r"kolkata|calcutta"),
     ("Remote", r"remote|work from home|wfh|anywhere"),
 ]
 OTHER = "Other / unspecified"
+
+# Companies you'd be excited about: shown with a star and in the "Top picks" strip.
+# Add more without editing code: FEATURED_COMPANIES="Stripe,Databricks" in .env
+DEFAULT_FEATURED = [
+    "Microsoft", "Google", "Amazon", "Adobe", "Atlassian", "Uber", "Rippling", "Razorpay",
+    "Flipkart", "Swiggy", "Zomato", "PhonePe", "Paytm", "Walmart", "Goldman Sachs", "JPMorgan",
+    "Morgan Stanley", "American Express", "Barclays", "Citi", "HSBC", "Cisco", "Oracle",
+    "Salesforce", "Intuit", "Texas Instruments", "Cohesity", "Mercari", "Motorola Solutions",
+    "Elementor", "Maersk", "Cargill", "Johnson Controls", "Societe Generale", "BNY", "Sage",
+    "Kulfi", "1% Club", "project44", "Zinier",
+]
 
 
 def bucket(loc):
@@ -38,6 +57,82 @@ def bucket(loc):
         if re.search(pat, loc or "", re.I):
             return name
     return OTHER
+
+
+# ---------------------------------------------------------------- de-duplication
+# Same job = same (normalised company, normalised title, city bucket). This merges:
+#   * the same posting seen on several sources (linkedin + indeed-direct + naukri ...)
+#   * many near-identical requisitions (e.g. 13 x "Accenture - Custom Software Engineer")
+#     into ONE row with an "N openings" badge and the experience range found in naukri URLs.
+_COMPANY_NOISE = re.compile(
+    r"\b(global solutions? cent(?:re|er)|technology services|technologies|technology|"
+    r"pvt|private|ltd|limited|inc|llc|llp|corp|corporation|india|in|the)\b")
+_CITY_WORDS = re.compile(
+    r"\b(bengaluru|bangalore|hyderabad|secunderabad|pune|mumbai|thane|delhi|ncr|gurgaon|"
+    r"gurugram|noida|ghaziabad|faridabad|chennai|kolkata|jaipur|kochi|remote|pan|india|"
+    r"immediate)\b")
+_EXP_RE = re.compile(r"(\d+)-to-(\d+)-years")
+
+
+def _fold(s):
+    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+
+
+def _norm_company(c):
+    s = re.sub(r"[^a-z0-9 ]+", " ", _fold(c))
+    return " ".join(_COMPANY_NOISE.sub(" ", s).split())
+
+
+def _norm_title(t, company_norm):
+    s = re.sub(r"\([^)]*\)", " ", _fold(t))          # drop "(2-9 y)" style notes
+    s = re.sub(r"[^a-z0-9+# ]+", " ", s)
+    if company_norm:
+        s = s.replace(company_norm, " ")               # "Java Developer -Infosys"
+    s = _CITY_WORDS.sub(" ", s)                        # "- Hyderabad", "- PAN India"
+    return " ".join(s.split())
+
+
+def _src_rank(src):
+    """Lower = better apply link: employer-site feeds first, then LinkedIn, Naukri, Indeed."""
+    s = (src or "").lower()
+    if s.endswith("-direct"):
+        return 0
+    return {"linkedin": 1, "naukri": 2, "indeed": 3}.get(s, 2)
+
+
+def dedupe(rows):
+    groups = {}
+    for r in rows:
+        co = _norm_company(r.get("company"))
+        title = _norm_title(r.get("title"), co) or (r.get("url") or "")
+        city = r.get("city") or bucket(r.get("location"))
+        groups.setdefault((co, title, city), []).append(r)
+    out = []
+    for rs in groups.values():
+        newest_first = sorted(rs, key=lambda r: r.get("posted") or "", reverse=True)
+        best = dict(min(newest_first, key=lambda r: _src_rank(r.get("source"))))
+        srcs = sorted({r.get("source") or "" for r in rs} - {""}, key=_src_rank)
+        per_source = Counter(r.get("source") for r in rs)   # each source lists a req once
+        ranges = [(int(a), int(b)) for r in rs for a, b in _EXP_RE.findall(r.get("url") or "")]
+        best["source"] = ", ".join(srcs)
+        best["posted"] = newest_first[0].get("posted", "")
+        best["openings"] = str(max(per_source.values()))
+        best["exp"] = (f"{min(a for a, _ in ranges)}-{max(b for _, b in ranges)} yrs"
+                       if ranges else "")
+        out.append(best)
+    return out
+
+
+_FEATURED_RE = None
+
+
+def is_featured(company):
+    global _FEATURED_RE
+    if _FEATURED_RE is None:
+        extra = [x.strip() for x in os.environ.get("FEATURED_COMPANIES", "").split(",") if x.strip()]
+        pats = [re.escape(n) for n in (_norm_company(x) for x in DEFAULT_FEATURED + extra) if n]
+        _FEATURED_RE = re.compile(r"\b(" + "|".join(pats) + r")\b")
+    return bool(_FEATURED_RE.search(_norm_company(company)))
 
 
 def load_env(path=".env"):
@@ -49,28 +144,321 @@ def load_env(path=".env"):
                 os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 
-def build_html(groups, total):
-    parts = [f"<h2>{total} new jobs</h2>"]
-    for city, rows in groups:
-        parts.append(f"<h3>{html.escape(city)} ({len(rows)})</h3>"
-                     "<table cellpadding='5' style='border-collapse:collapse;font:14px Arial'>")
-        for r in rows:
-            parts.append(
-                "<tr style='border-bottom:1px solid #ddd'>"
-                f"<td><b>{html.escape(r['company'])}</b></td>"
-                f"<td><a href='{html.escape(r['url'])}'>{html.escape(r['title'])}</a></td>"
-                f"<td>{html.escape(r['location'])}</td>"
-                f"<td>{html.escape(r.get('posted', ''))}</td>"
-                f"<td style='color:#777'>{html.escape(r.get('source', ''))}</td></tr>")
-        parts.append("</table>")
-    return "".join(parts)
+# ---------------------------------------------------------------- small helpers
+def _safe_url(u):
+    u = (u or "").strip()
+    return u if re.match(r"https?://", u, re.I) else "#"
 
 
-CSV_FIELDS = ["company", "title", "location", "posted", "source", "url"]
+def _esc(s):
+    return html.escape(s or "", quote=True)
+
+
+def _slug(s):
+    return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
+
+
+_STATE_CODES = {"ka", "ts", "mh", "tn", "dl"}
+
+
+def _short_loc(loc, city=""):
+    """'Bengaluru, Karnataka, India' -> '' (same as its section); 'Bengaluru, Hyderabad, India' stays."""
+    s = re.sub(r",?\s*India\s*$", "", loc or "", flags=re.I)
+    s = re.sub(r"\bKarnataka\b,?", "", s, flags=re.I).strip(" ,")
+    if not s or s.lower() in _STATE_CODES or s.lower() == (city or "").lower():
+        return ""
+    return s if len(s) <= 40 else s[:37] + "..."
+
+
+def _group_companies(rows):
+    d = {}
+    for r in rows:
+        d.setdefault(_norm_company(r.get("company")), []).append(r)
+    return [(rs[0].get("company"), rs) for rs in d.values()]
+
+
+_AVATAR = ["#4f46e5", "#0891b2", "#059669", "#d97706", "#dc2626", "#7c3aed", "#db2777", "#475569"]
+
+
+def _avatar(name):
+    ch = (re.sub(r"[^A-Za-z0-9]", "", name or "") or "?")[0].upper()
+    col = _AVATAR[sum(map(ord, name or "")) % len(_AVATAR)]
+    return ('<b style="background:%s;color:#fff;border-radius:5px;padding:2px 7px;'
+            'font-size:12px;margin-right:8px">%s</b>' % (col, _esc(ch)))
+
+
+# ---------------------------------------------------------------- email (compact digest)
+def _render_email(groups, total, raw_total, max_roles):
+    today = f"{date.today():%A, %d %b %Y}"
+    all_rows = [r for _, rs in groups for r in rs]
+    n_comp = len({_norm_company(r.get("company")) for r in all_rows})
+    dup = ""
+    if raw_total and raw_total > total:
+        dup = f" &middot; {raw_total - total} duplicates merged"
+
+    nav = "".join(
+        '<a href="#c-%s" style="display:inline-block;margin:0 6px 6px 0;padding:5px 11px;'
+        'background:#eef2ff;color:#3730a3;border-radius:999px;font-size:12px;font-weight:600;'
+        'text-decoration:none;white-space:nowrap">%s &middot; %d</a>' % (_slug(c), _esc(c), len(rs))
+        for c, rs in groups)
+
+    feat, names = Counter(), {}
+    for r in all_rows:
+        if r.get("featured"):
+            k = _norm_company(r.get("company"))
+            feat[k] += 1
+            names.setdefault(k, r.get("company"))
+    picks = ""
+    if feat:
+        chips = []
+        for k, n in feat.most_common():
+            cnt = f" &middot; {n}" if n > 1 else ""
+            chips.append('<span style="display:inline-block;margin:0 6px 6px 0;padding:5px 10px;'
+                         'background:#fef3c7;color:#92400e;border-radius:999px;font-size:12px;'
+                         'font-weight:700;white-space:nowrap">&#11088; %s%s</span>' % (_esc(names[k]), cnt))
+        picks = ('<div style="margin-top:14px;font-size:12px;font-weight:700;color:#92400e;'
+                 'text-transform:uppercase;letter-spacing:.6px">Top picks hiring now</div>'
+                 '<div style="margin-top:6px">%s</div>' % "".join(chips))
+
+    body, hidden = [], 0
+    for city, rs in groups:
+        slug = _slug(city)
+        comps = _group_companies(rs)
+        body.append(
+            '<tr><td id="c-%s" style="padding:22px 0 8px;border-bottom:2px solid #4f46e5">'
+            '<a name="c-%s"></a><span style="font-size:18px;font-weight:700;color:#111827">%s</span>'
+            '<span style="font-size:12px;color:#6b7280">&nbsp; %d job%s &middot; %d compan%s</span>'
+            '&nbsp; <a href="#top" style="font-size:12px;color:#6366f1;text-decoration:none">&uarr; top</a>'
+            '</td></tr>' % (slug, slug, _esc(city), len(rs), "s" if len(rs) > 1 else "",
+                         len(comps), "ies" if len(comps) > 1 else "y"))
+        for name, crs in comps:
+            star = " &#11088;" if crs[0].get("featured") else ""
+            cnt = (' <span style="font-size:11px;color:#6b7280;font-weight:600">&middot; %d roles</span>'
+                   % len(crs)) if len(crs) > 1 else ""
+            shown = crs if max_roles is None else crs[:max_roles]
+            hidden += len(crs) - len(shown)
+            head = _esc(name)
+            if max_roles == 0:
+                head = '<a href="%s" style="color:#111827;text-decoration:none">%s</a>' % (
+                    _esc(_safe_url(crs[0].get("url"))), head)
+            lines = []
+            for r in shown:
+                meta = []
+                loc = _short_loc(r.get("location"), city)
+                if loc:
+                    meta.append(_esc(loc))
+                if r.get("exp"):
+                    meta.append("&#128188; " + _esc(r["exp"]))
+                n = int(r.get("openings") or 1)
+                if n > 1:
+                    meta.append(f"{n} openings")
+                sub = ('<br><span style="font-size:12px;color:#6b7280">%s</span>'
+                       % " &middot; ".join(meta)) if meta else ""
+                lines.append(
+                    '<div style="padding:6px 0 0 32px">'
+                    '<a href="%s" style="color:#1d4ed8;text-decoration:none;font-weight:600">%s</a>%s</div>'
+                    % (_esc(_safe_url(r.get("url"))), _esc(r.get("title")), sub))
+            more = ""
+            if max_roles and len(crs) > len(shown):
+                more = ('<div style="padding:4px 0 0 32px;font-size:12px;color:#9ca3af">'
+                        '+%d more roles &middot; see attached jobs.html</div>' % (len(crs) - len(shown)))
+            body.append('<tr><td style="padding:11px 0;border-bottom:1px solid #eef0f3;font-size:14px;line-height:1.35">%s'
+                        '<b style="font-size:15px;color:#111827">%s</b>%s%s%s%s</td></tr>'
+                        % (_avatar(name), head, star, cnt, "".join(lines), more))
+
+    if hidden:
+        foot = (f"Trimmed to keep this email under Gmail's size limit. Open the attached "
+                f"<b>jobs.html</b> for all {total} roles with search and filters.")
+    else:
+        foot = "Open the attached <b>jobs.html</b> to search and filter by city, company or star."
+
+    font = "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+    return (
+        "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'>"
+        "<meta name='viewport' content='width=device-width,initial-scale=1'>"
+        "<meta name='color-scheme' content='light only'>"
+        f"<title>{total} new jobs</title></head>"
+        f"<body style=\"margin:0;padding:0;background:#f3f4f6;font-family:{font}\">"
+        f"<div style='display:none;max-height:0;overflow:hidden;opacity:0'>"
+        f"{total} jobs at {n_comp} companies across {len(groups)} locations</div>"
+        "<table role='presentation' width='100%' cellpadding='0' cellspacing='0' "
+        "style='background:#f3f4f6'><tr><td align='center' style='padding:12px 8px'>"
+        "<table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='max-width:640px'>"
+        "<tr><td id='top' style='background-color:#1e3a8a;border-radius:12px 12px 0 0;padding:22px 20px'>"
+        "<a name='top'></a>"
+        f"<div style='font-size:24px;font-weight:700;color:#ffffff'>{total} new jobs</div>"
+        f"<div style='font-size:13px;color:#c7d2fe;margin-top:4px'>{n_comp} companies &middot; "
+        f"{len(groups)} locations</div>"
+        f"<div style='font-size:12px;color:#a5b4fc;margin-top:2px'>{_esc(today)}{dup}</div>"
+        "</td></tr>"
+        "<tr><td style='background:#ffffff;padding:16px 20px 6px'>"
+        "<div style='font-size:12px;font-weight:700;color:#3730a3;text-transform:uppercase;"
+        "letter-spacing:.6px;margin-bottom:6px'>Jump to</div>"
+        f"{nav}{picks}</td></tr>"
+        "<tr><td style='background:#ffffff;padding:0 20px 16px;border-radius:0 0 12px 12px'>"
+        "<table role='presentation' width='100%' cellpadding='0' cellspacing='0'>"
+        + "".join(body) +
+        "</table></td></tr>"
+        f"<tr><td align='center' style='padding:14px 8px;font-size:12px;color:#6b7280'>{foot}</td></tr>"
+        "</table></td></tr></table></body></html>"
+    ), hidden
+
+
+def build_html(groups, total, raw_total=None, limit=95_000):
+    """Render the email; if it would be too big for Gmail (clips at ~102 KB), show fewer roles
+    per company until it fits (nothing is lost: jobs.html has everything)."""
+    out = ""
+    for max_roles in (None, 5, 3, 2, 1, 0):
+        out, _ = _render_email(groups, total, raw_total, max_roles)
+        if len(out.encode("utf-8")) <= limit:
+            break
+    return out
+
+
+# ---------------------------------------------------------------- interactive page (attachment)
+_PAGE = r"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__</title>
+<style>
+:root{--bg:#f3f4f6;--card:#fff;--tx:#111827;--mu:#6b7280;--bd:#e5e7eb;--ac:#4f46e5;--ln:#1d4ed8;--chip:#eef2ff;--chipx:#3730a3;--star:#fef3c7;--starx:#92400e}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#181b21;--tx:#f3f4f6;--mu:#9ca3af;--bd:#2a2f38;--ac:#818cf8;--ln:#93c5fd;--chip:#232a4d;--chipx:#c7d2fe;--star:#3b2f12;--starx:#fcd34d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding-top:env(safe-area-inset-top,0)}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--bd);padding:12px 12px 8px}
+.wrap{max-width:720px;margin:0 auto}
+h1{font-size:19px;margin:0}.sub{color:var(--mu);font-size:12px;margin:2px 0 10px}
+.row{display:flex;gap:8px;align-items:center}
+input[type=search]{flex:1;min-width:0;padding:10px 12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:16px}
+.strip{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.strip::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid transparent;background:var(--chip);color:var(--chipx);border-radius:999px;padding:6px 12px;font:600 13px inherit;font-family:inherit;cursor:pointer;white-space:nowrap}
+.chip b{opacity:.7;font-weight:600}
+.chip.star{background:var(--star);color:var(--starx)}
+.chip.on{background:var(--ac);color:#fff}
+.chip.on b{opacity:.9}
+.lbl{font-size:11px;font-weight:700;color:var(--mu);text-transform:uppercase;letter-spacing:.6px;margin-top:8px}
+.tog{flex:none}
+main{max-width:720px;margin:0 auto;padding:4px 12px 40px}
+h2{font-size:18px;margin:22px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--ac)}
+h2 span{font-size:12px;color:var(--mu);font-weight:500;margin-left:6px}
+.co{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px 14px;margin:0 0 10px}
+.ch{display:flex;align-items:center;gap:8px;font-size:15px}
+.ch i{width:24px;height:24px;border-radius:7px;color:#fff;font:700 12px/24px sans-serif;text-align:center;font-style:normal;flex:none}
+.mu{color:var(--mu);font-size:12px;font-weight:600}
+.role{padding:8px 0 0 32px}
+.role a{color:var(--ln);font-weight:600;text-decoration:none}
+.meta{font-size:12px;color:var(--mu);margin-top:2px}
+.pill{background:var(--star);color:var(--starx);border-radius:999px;padding:1px 7px;font-weight:600}
+.empty{text-align:center;color:var(--mu);padding:40px 0}
+#count{font-size:12px;color:var(--mu);margin-top:6px}
+button.link{background:none;border:0;color:var(--ac);font:600 12px inherit;font-family:inherit;cursor:pointer;padding:0 0 0 8px}
+</style></head><body>
+<header><div class="wrap">
+<h1>__TITLE__</h1><div class="sub">__META__</div>
+<div class="row"><input id="q" type="search" placeholder="Search company, role or location" autocomplete="off">
+<button class="chip tog star" id="feat">&#11088; Top picks</button></div>
+<div class="lbl">Location</div><div class="strip" id="cities"></div>
+<div class="lbl">Companies</div><div class="strip" id="cos"></div>
+<div id="count"></div>
+</div></header>
+<main id="list"></main>
+<script>
+const J=__DATA__,CITIES=__CITIES__;
+const st={q:"",city:"",co:"",feat:false};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safe=u=>/^https?:\/\//i.test(u)?u:"#";
+const PAL=["#4f46e5","#0891b2","#059669","#d97706","#dc2626","#7c3aed","#db2777","#475569"];
+const color=s=>{let h=0;for(const ch of s)h+=ch.charCodeAt(0);return PAL[h%PAL.length]};
+function match(j,skipCo){
+  if(st.city&&j.city!==st.city)return false;
+  if(st.feat&&!j.f)return false;
+  if(!skipCo&&st.co&&j.ck!==st.co)return false;
+  if(st.q){const h=(j.c+" "+j.t+" "+j.l).toLowerCase();return st.q.split(/\s+/).every(w=>h.includes(w))}
+  return true;
+}
+function chips(){
+  $("#cities").innerHTML=[["",J.length]].concat(CITIES).map(a=>`<button class="chip${st.city===a[0]?" on":""}" data-city="${esc(a[0])}">${a[0]?esc(a[0]):"All"} <b>${a[1]}</b></button>`).join("");
+  const m=new Map();
+  J.filter(j=>match(j,true)).forEach(j=>{const o=m.get(j.ck)||{n:j.c,k:j.ck,c:0,f:j.f};o.c++;m.set(j.ck,o)});
+  const top=[...m.values()].sort((a,b)=>(b.f-a.f)||(b.c-a.c)||a.n.localeCompare(b.n));
+  $("#cos").innerHTML=top.map(o=>`<button class="chip${o.f?" star":""}${st.co===o.k?" on":""}" data-co="${esc(o.k)}">${o.f?"&#11088; ":""}${esc(o.n)} <b>${o.c}</b></button>`).join("");
+  $("#feat").classList.toggle("on",st.feat);
+}
+function list(){
+  const rows=J.filter(j=>match(j,false));
+  const filt=st.q||st.city||st.co||st.feat;
+  $("#count").innerHTML=rows.length+" of "+J.length+" jobs"+(filt?' <button class="link" id="clear">Clear filters</button>':"");
+  if(!rows.length){$("#list").innerHTML='<p class="empty">No jobs match. Try clearing a filter.</p>';return}
+  const byCity=new Map();
+  rows.forEach(j=>{if(!byCity.has(j.city))byCity.set(j.city,new Map());const m=byCity.get(j.city);if(!m.has(j.ck))m.set(j.ck,[]);m.get(j.ck).push(j)});
+  let h="";
+  byCity.forEach((cos,city)=>{
+    let n=0;cos.forEach(a=>n+=a.length);
+    h+=`<h2>${esc(city)}<span>${n} job${n>1?"s":""} &middot; ${cos.size} compan${cos.size>1?"ies":"y"}</span></h2>`;
+    cos.forEach(a=>{
+      const f=a[0];
+      h+=`<section class="co"><div class="ch"><i style="background:${color(f.c)}">${esc((f.c.match(/[A-Za-z0-9]/)||["?"])[0].toUpperCase())}</i><b>${esc(f.c)}</b>${f.f?" &#11088;":""}${a.length>1?`<span class="mu">&middot; ${a.length} roles</span>`:""}</div>`;
+      a.forEach(j=>{
+        const meta=[];
+        if(j.l)meta.push("&#128205; "+esc(j.l));
+        if(j.e)meta.push("&#128188; "+esc(j.e));
+        if(j.p)meta.push("&#128337; "+esc(j.p));
+        if(j.n>1)meta.push('<span class="pill">'+j.n+' openings</span>');
+        if(j.s)meta.push("via "+esc(j.s));
+        h+=`<div class="role"><a href="${esc(safe(j.u))}" target="_blank" rel="noopener">${esc(j.t)}</a><div class="meta">${meta.join(" &middot; ")}</div></div>`;
+      });
+      h+="</section>";
+    });
+  });
+  $("#list").innerHTML=h;
+}
+function render(){chips();list()}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;
+  if(b.dataset.city!==undefined){st.city=b.dataset.city;st.co=""}
+  else if(b.dataset.co!==undefined){st.co=st.co===b.dataset.co?"":b.dataset.co}
+  else if(b.id==="feat"){st.feat=!st.feat}
+  else if(b.id==="clear"){st.q="";st.city="";st.co="";st.feat=false;$("#q").value=""}
+  else return;
+  render();window.scrollTo({top:0});
+});
+$("#q").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();render()});
+render();
+</script></body></html>
+"""
+
+
+def build_page(groups, total, raw_total=None):
+    data = []
+    for city, rs in groups:
+        for r in rs:
+            data.append({
+                "c": r.get("company", ""), "ck": _norm_company(r.get("company")),
+                "t": r.get("title", ""), "l": _short_loc(r.get("location"), city), "city": city,
+                "p": r.get("posted", ""), "s": r.get("source", ""), "u": _safe_url(r.get("url")),
+                "n": int(r.get("openings") or 1), "e": r.get("exp", ""),
+                "f": bool(r.get("featured")),
+            })
+    n_comp = len({d["ck"] for d in data})
+    meta = f"{n_comp} companies - {len(groups)} locations - {date.today():%d %b %Y}"
+    if raw_total and raw_total > total:
+        meta += f" - {raw_total - total} duplicates merged"
+    payload = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
+    cities = [[c, len(rs)] for c, rs in groups]
+    return (_PAGE.replace("__TITLE__", html.escape(f"{total} new jobs"))
+            .replace("__META__", html.escape(meta))
+            .replace("__DATA__", payload(data))
+            .replace("__CITIES__", payload(cities)))
+
+
+# ---------------------------------------------------------------- csv / markdown / sending
+CSV_FIELDS = ["company", "title", "location", "posted", "source", "url", "openings", "exp"]
 
 
 def build_text(groups, total):
-    """All jobs as CSV text: company,title,location,posted,source,url (grouped by city order)."""
+    """All jobs as CSV text: company,title,location,posted,source,url,openings,exp."""
     import io
     buf = io.StringIO()
     w = csv.writer(buf, lineterminator="\n")
@@ -91,12 +479,14 @@ def build_markdown(groups, total):
         out.append(f"## {city} ({len(rows)})\n")
         for r in rows:
             posted = f" - {r['posted']}" if r.get("posted") else ""
-            out.append(f"- **{r['company']}** - [{r['title']}]({r['url']}) - {r['location']}{posted}")
+            n = int(r.get("openings") or 1)
+            more = f" (x{n} openings)" if n > 1 else ""
+            out.append(f"- **{r['company']}** - [{r['title']}]({r['url']}){more} - {r['location']}{posted}")
         out.append("")
     return "\n".join(out)
 
 
-def send_email(subject, text, html_body=None):
+def send_email(subject, text, html_body=None, attachment=None):
     env = os.environ.get
     from_addr = (env("EMAIL_FROM") or env("EMAIL_USER") or "").strip()
     login_user = (env("SMTP_USER") or env("EMAIL_USER") or "").strip()
@@ -110,10 +500,15 @@ def send_email(subject, text, html_body=None):
         print("EMAIL_TO has no valid addresses.")
         return False
     msg = EmailMessage()
-    msg["Subject"], msg["From"], msg["To"] = subject, from_addr, ", ".join(recipients)
+    # Everyone in EMAIL_TO is BCC'd: the visible "To" is just the sender, and the real recipients
+    # are passed only to the SMTP envelope (to_addrs below), so nobody sees anyone else's address.
+    msg["Subject"], msg["From"], msg["To"] = subject, from_addr, from_addr
     msg.set_content(text)
     if html_body:
         msg.add_alternative(html_body, subtype="html")
+    if attachment:
+        fname, data = attachment
+        msg.add_attachment(data, maintype="text", subtype="html", filename=fname)
 
     host = env("SMTP_HOST") or "smtp.gmail.com"
     port = (env("SMTP_PORT") or "").strip()
@@ -195,6 +590,9 @@ def main():
     ap.add_argument("--csv", default="new_jobs.csv")
     ap.add_argument("--cities", help="comma-separated, e.g. Bengaluru,Remote")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--keep-all", action="store_true", help="do not merge duplicate jobs")
+    ap.add_argument("--preview", action="store_true",
+                    help="write preview.html and jobs.html to open in a browser; sends nothing")
     a = ap.parse_args()
     load_env()
 
@@ -210,15 +608,30 @@ def main():
     if not rows:
         print("0 new jobs for the selected locations - nothing to send.")
         return
+    raw_total = len(rows)
+    if not a.keep_all:
+        rows = dedupe(rows)
+        print(f"Dedupe: {raw_total} listings -> {len(rows)} unique jobs")
+    for r in rows:
+        r["featured"] = is_featured(r.get("company"))
 
     by_city = defaultdict(list)
     for r in rows:
         by_city[r["city"]].append(r)
     order = [n for n, _ in BUCKETS] + [OTHER]
-    groups = [(c, sorted(by_city[c], key=lambda r: r["company"].lower())) for c in order if c in by_city]
+    groups = [(c, sorted(by_city[c], key=lambda r: (not r["featured"], r["company"].lower(),
+                                                    r["title"].lower())))
+              for c in order if c in by_city]
     total = len(rows)
 
     text = build_text(groups, total)
+    if a.preview:
+        with open("preview.html", "w", encoding="utf-8") as f:
+            f.write(build_html(groups, total, raw_total))
+        with open("jobs.html", "w", encoding="utf-8") as f:
+            f.write(build_page(groups, total, raw_total))
+        print("Wrote preview.html (the email) and jobs.html (the filterable page) - open in a browser.")
+        return
     if a.dry_run:
         print(text)
         return
@@ -228,11 +641,13 @@ def main():
 
     outdir = os.path.join("history", date.today().isoformat())
     os.makedirs(outdir, exist_ok=True)
-    fields = ["company", "title", "location", "posted", "source", "url"]
+    page = build_page(groups, total, raw_total)
+    with open(os.path.join(outdir, "jobs.html"), "w", encoding="utf-8") as f:
+        f.write(page)
     for city, rs in groups:
         fn = os.path.join(outdir, re.sub(r"[^A-Za-z0-9]+", "_", city) + ".csv")
         with open(fn, "w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+            w = csv.DictWriter(f, fieldnames=CSV_FIELDS, extrasaction="ignore")
             w.writeheader()
             w.writerows(rs)
     shutil.copy(a.csv, os.path.join("history", f"new_jobs_{date.today().isoformat()}.csv"))
@@ -240,7 +655,9 @@ def main():
     email_ok = True
     try:
         counts = ", ".join(f"{c} {len(r)}" for c, r in groups)
-        email_ok = send_email(f"{total} new jobs - {date.today():%d %b} ({counts})", text)
+        email_ok = send_email(f"{total} new jobs - {date.today():%d %b} ({counts})",
+                              text, build_html(groups, total, raw_total),
+                              (f"jobs-{date.today():%d-%b}.html", page.encode("utf-8")))
     except Exception as e:
         email_ok = False
         print("Email failed:", type(e).__name__, e)
@@ -257,7 +674,7 @@ def main():
     delivered = (email_configured and email_ok) or (tg_configured and tg_ok) \
         or not (email_configured or tg_configured)
     email_ok = delivered
-    print(f"Per-city CSVs saved in {outdir}/")
+    print(f"Per-city CSVs and jobs.html saved in {outdir}/")
     if not email_ok:
         sys.exit("DELIVERY FAILED on every configured channel - exiting with error so this run's "
                  "state is not saved and these jobs are re-sent next time.")
