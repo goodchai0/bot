@@ -14,18 +14,25 @@ Settings come from a .env file in the same folder (see .env.example), or environ
     SMTP_HOST (default smtp.gmail.com)
     TG_TOKEN, TG_CHAT                          (optional Telegram)
     FEATURED_COMPANIES                         (optional, comma list added to the built-in star list)
+    JOBS_URL                                   (optional, public URL of the hosted jobs page, e.g.
+                                                https://<user>.github.io/<repo>/ ; makes the email
+                                                "Jump to" chips open the filterable page)
     Other SMTP providers (Brevo etc.): SMTP_HOST, SMTP_USER (login), EMAIL_FROM (verified sender), SMTP_PORT
 
 What you get:
   * Email: a compact, company-grouped digest. It is auto-trimmed to stay under Gmail's ~102 KB
     clipping limit (Gmail hides everything after that - the old "empty section" bug).
+    Every job shows where it was found (LinkedIn, Naukri, Indeed, Career site).
   * Attachment jobs.html: open it on your phone/laptop for search + city/company/star filters.
+    (Filters need JavaScript: save the file and open it in Chrome/Safari, not an email preview.)
+  * docs/index.html: same page, ready to host with GitHub Pages (see JOBS_URL).
   * Plain-text part and Telegram: CSV text. Per-city CSVs + jobs.html saved in history/<date>/.
 """
 import argparse, csv, html, json, os, re, shutil, smtplib, sys, time, unicodedata
 from collections import Counter, defaultdict
 from datetime import date
 from email.message import EmailMessage
+from urllib.parse import quote
 
 BUCKETS = [
     ("Bengaluru", r"bengaluru|bangalore|\bKA\b|karnataka"),
@@ -170,6 +177,29 @@ def _short_loc(loc, city=""):
     return s if len(s) <= 40 else s[:37] + "..."
 
 
+# Human-friendly source names. "<anything>-direct" feeds are employer career sites.
+_SRC_NAMES = {"linkedin": "LinkedIn", "naukri": "Naukri", "indeed": "Indeed"}
+
+
+def _src_label(s):
+    s = (s or "").strip()
+    if s.lower().endswith("-direct"):
+        return "Career site"
+    return _SRC_NAMES.get(s.lower(), s.title())
+
+
+def _src_labels(srcs):
+    """'linkedin-direct, linkedin, naukri' -> 'Career site, LinkedIn, Naukri' (first = apply link)."""
+    seen = []
+    for s in (srcs or "").split(","):
+        if not s.strip():
+            continue
+        lab = _src_label(s)
+        if lab not in seen:
+            seen.append(lab)
+    return ", ".join(seen)
+
+
 def _group_companies(rows):
     d = {}
     for r in rows:
@@ -196,10 +226,18 @@ def _render_email(groups, total, raw_total, max_roles):
     if raw_total and raw_total > total:
         dup = f" &middot; {raw_total - total} duplicates merged"
 
+    # Gmail strips id/name anchors, so in-email "#c-..." links go nowhere. When JOBS_URL is set,
+    # the chips open the hosted, filterable page already filtered to that city instead.
+    jobs_url = (os.environ.get("JOBS_URL") or "").strip()
+
+    def _nav_href(c):
+        return f"{jobs_url}#city={quote(c, safe='')}" if jobs_url else "#c-" + _slug(c)
+
     nav = "".join(
-        '<a href="#c-%s" style="display:inline-block;margin:0 6px 6px 0;padding:5px 11px;'
+        '<a href="%s" style="display:inline-block;margin:0 6px 6px 0;padding:5px 11px;'
         'background-color:#12233f;color:#79c0ff;border-radius:999px;font-size:12px;font-weight:600;'
-        'text-decoration:none;white-space:nowrap">%s &middot; %d</a>' % (_slug(c), _esc(c), len(rs))
+        'text-decoration:none;white-space:nowrap">%s &middot; %d</a>'
+        % (_esc(_nav_href(c)), _esc(c), len(rs))
         for c, rs in groups)
 
     feat, names = Counter(), {}
@@ -252,6 +290,9 @@ def _render_email(groups, total, raw_total, max_roles):
                 n = int(r.get("openings") or 1)
                 if n > 1:
                     meta.append(f"{n} openings")
+                srcl = _src_labels(r.get("source"))
+                if srcl:
+                    meta.append("via " + _esc(srcl))
                 sub = ('<br><span style="font-size:12px;color:#8b949e">%s</span>'
                        % " &middot; ".join(meta)) if meta else ""
                 lines.append(
@@ -273,6 +314,8 @@ def _render_email(groups, total, raw_total, max_roles):
                 f"<b>jobs.html</b> for all {total} roles with search and filters.")
     else:
         foot = "Open the attached <b>jobs.html</b> to search and filter by city, company or star."
+    if jobs_url:
+        foot += f' <a href="{_esc(jobs_url)}" style="color:#58a6ff">Open filterable page</a>'
 
     font = "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
     return (
@@ -365,6 +408,7 @@ button.link{background:none;border:0;color:var(--ac);font:600 12px inherit;font-
 <div id="count"></div>
 </div></header>
 <main id="list"></main>
+<noscript><p class="empty">Filters need JavaScript. Save this file and open it in Chrome or Safari.</p></noscript>
 <script>
 const J=__DATA__,CITIES=__CITIES__;
 const st={q:"",city:"",co:"",feat:false};
@@ -427,6 +471,11 @@ document.addEventListener("click",e=>{
   render();window.scrollTo({top:0});
 });
 $("#q").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();render()});
+/* deep links from the email: page.html#city=Pune&feat=1&q=java */
+try{const p=new URLSearchParams(location.hash.slice(1));
+if(p.get("city"))st.city=p.get("city");
+if(p.get("feat"))st.feat=true;
+if(p.get("q")){st.q=p.get("q").toLowerCase();$("#q").value=p.get("q")}}catch(e){}
 render();
 </script></body></html>
 """
@@ -439,7 +488,8 @@ def build_page(groups, total, raw_total=None):
             data.append({
                 "c": r.get("company", ""), "ck": _norm_company(r.get("company")),
                 "t": r.get("title", ""), "l": _short_loc(r.get("location"), city), "city": city,
-                "p": r.get("posted", ""), "s": r.get("source", ""), "u": _safe_url(r.get("url")),
+                "p": r.get("posted", ""), "s": _src_labels(r.get("source")),
+                "u": _safe_url(r.get("url")),
                 "n": int(r.get("openings") or 1), "e": r.get("exp", ""),
                 "f": bool(r.get("featured")),
             })
@@ -483,7 +533,9 @@ def build_markdown(groups, total):
             posted = f" - {r['posted']}" if r.get("posted") else ""
             n = int(r.get("openings") or 1)
             more = f" (x{n} openings)" if n > 1 else ""
-            out.append(f"- **{r['company']}** - [{r['title']}]({r['url']}){more} - {r['location']}{posted}")
+            srcl = _src_labels(r.get("source"))
+            via = f" - via {srcl}" if srcl else ""
+            out.append(f"- **{r['company']}** - [{r['title']}]({r['url']}){more} - {r['location']}{posted}{via}")
         out.append("")
     return "\n".join(out)
 
@@ -645,6 +697,10 @@ def main():
     os.makedirs(outdir, exist_ok=True)
     page = build_page(groups, total, raw_total)
     with open(os.path.join(outdir, "jobs.html"), "w", encoding="utf-8") as f:
+        f.write(page)
+    # Hosted copy for GitHub Pages (Settings -> Pages -> branch main, folder /docs).
+    os.makedirs("docs", exist_ok=True)
+    with open(os.path.join("docs", "index.html"), "w", encoding="utf-8") as f:
         f.write(page)
     for city, rs in groups:
         fn = os.path.join(outdir, re.sub(r"[^A-Za-z0-9]+", "_", city) + ".csv")
