@@ -1,5 +1,5 @@
 # Save as .github/workflows/daily-jobs.yml in a PRIVATE repo.
-# Repo needs: job_scraper_v2.py, crawler.py, notify.py (jobs_boards.py can sit there too; it is NOT run here)
+# Repo needs: job_scraper_v2.py, crawler.py, jobs_boards.py, notify.py
 # Secrets: EMAIL_USER, EMAIL_APP_PASSWORD, EMAIL_TO  and/or  TG_TOKEN, TG_CHAT (Telegram)
 # Other mail providers (Brevo etc.): also SMTP_HOST, SMTP_USER, EMAIL_FROM
 name: daily-job-email
@@ -28,12 +28,14 @@ jobs:
       TG_CHAT: ${{ secrets.TG_CHAT }}
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install
         run: |
-          pip install requests playwright
+          pip install requests playwright python-jobspy
           playwright install --with-deps chromium
 
       - name: Start clean
@@ -58,12 +60,16 @@ jobs:
         run: python crawler.py
 
       - name: Results from JOB Boards
+        continue-on-error: true
+        timeout-minutes: 40
         run: python jobs_boards.py
-        
+
       - name: Email results (grouped by location)
+        if: always()
         run: python notify.py
 
       - name: Save state so only NEW jobs appear next time
+        if: always()
         run: |
           git config user.name "job-bot"
           git config user.email "job-bot@users.noreply.github.com"
