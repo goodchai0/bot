@@ -177,7 +177,7 @@ def _group_companies(rows):
     return [(rs[0].get("company"), rs) for rs in d.values()]
 
 
-_AVATAR = ["#4f46e5", "#0891b2", "#059669", "#d97706", "#dc2626", "#7c3aed", "#db2777", "#475569"]
+_AVATAR = ["#5b63c9", "#3f8fa3", "#4a9a7c", "#b9853a", "#b85c5c", "#8a6fc4", "#b8618f", "#69758a"]
 
 
 def _avatar(name):
@@ -198,7 +198,7 @@ def _render_email(groups, total, raw_total, max_roles):
 
     nav = "".join(
         '<a href="#c-%s" style="display:inline-block;margin:0 6px 6px 0;padding:5px 11px;'
-        'background:#eef2ff;color:#3730a3;border-radius:999px;font-size:12px;font-weight:600;'
+        'background-color:#12233f;color:#79c0ff;border-radius:999px;font-size:12px;font-weight:600;'
         'text-decoration:none;white-space:nowrap">%s &middot; %d</a>' % (_slug(c), _esc(c), len(rs))
         for c, rs in groups)
 
@@ -214,9 +214,9 @@ def _render_email(groups, total, raw_total, max_roles):
         for k, n in feat.most_common():
             cnt = f" &middot; {n}" if n > 1 else ""
             chips.append('<span style="display:inline-block;margin:0 6px 6px 0;padding:5px 10px;'
-                         'background:#fef3c7;color:#92400e;border-radius:999px;font-size:12px;'
+                         'background-color:#3d2e00;color:#e3b341;border-radius:999px;font-size:12px;'
                          'font-weight:700;white-space:nowrap">&#11088; %s%s</span>' % (_esc(names[k]), cnt))
-        picks = ('<div style="margin-top:14px;font-size:12px;font-weight:700;color:#92400e;'
+        picks = ('<div style="margin-top:14px;font-size:12px;font-weight:700;color:#e3b341;'
                  'text-transform:uppercase;letter-spacing:.6px">Top picks hiring now</div>'
                  '<div style="margin-top:6px">%s</div>' % "".join(chips))
 
@@ -225,21 +225,21 @@ def _render_email(groups, total, raw_total, max_roles):
         slug = _slug(city)
         comps = _group_companies(rs)
         body.append(
-            '<tr><td id="c-%s" style="padding:22px 0 8px;border-bottom:2px solid #4f46e5">'
-            '<a name="c-%s"></a><span style="font-size:18px;font-weight:700;color:#111827">%s</span>'
-            '<span style="font-size:12px;color:#6b7280">&nbsp; %d job%s &middot; %d compan%s</span>'
-            '&nbsp; <a href="#top" style="font-size:12px;color:#6366f1;text-decoration:none">&uarr; top</a>'
+            '<tr><td id="c-%s" style="padding:22px 0 8px;border-bottom:2px solid #388bfd">'
+            '<a name="c-%s"></a><span style="font-size:18px;font-weight:700;color:#e6edf3">%s</span>'
+            '<span style="font-size:12px;color:#8b949e">&nbsp; %d job%s &middot; %d compan%s</span>'
+            '&nbsp; <a href="#top" style="font-size:12px;color:#58a6ff;text-decoration:none">&uarr; top</a>'
             '</td></tr>' % (slug, slug, _esc(city), len(rs), "s" if len(rs) > 1 else "",
                          len(comps), "ies" if len(comps) > 1 else "y"))
         for name, crs in comps:
             star = " &#11088;" if crs[0].get("featured") else ""
-            cnt = (' <span style="font-size:11px;color:#6b7280;font-weight:600">&middot; %d roles</span>'
+            cnt = (' <span style="font-size:11px;color:#8b949e;font-weight:600">&middot; %d roles</span>'
                    % len(crs)) if len(crs) > 1 else ""
             shown = crs if max_roles is None else crs[:max_roles]
             hidden += len(crs) - len(shown)
             head = _esc(name)
             if max_roles == 0:
-                head = '<a href="%s" style="color:#111827;text-decoration:none">%s</a>' % (
+                head = '<a href="%s" style="color:#e6edf3;text-decoration:none">%s</a>' % (
                     _esc(_safe_url(crs[0].get("url"))), head)
             lines = []
             for r in shown:
@@ -252,18 +252,20 @@ def _render_email(groups, total, raw_total, max_roles):
                 n = int(r.get("openings") or 1)
                 if n > 1:
                     meta.append(f"{n} openings")
-                sub = ('<br><span style="font-size:12px;color:#6b7280">%s</span>'
+                sub = ('<br><span style="font-size:12px;color:#8b949e">%s</span>'
                        % " &middot; ".join(meta)) if meta else ""
                 lines.append(
                     '<div style="padding:6px 0 0 32px">'
-                    '<a href="%s" style="color:#1d4ed8;text-decoration:none;font-weight:600">%s</a>%s</div>'
+                    '<a href="%s" style="color:#58a6ff;text-decoration:none;font-weight:600">%s</a>%s</div>'
                     % (_esc(_safe_url(r.get("url"))), _esc(r.get("title")), sub))
             more = ""
             if max_roles and len(crs) > len(shown):
-                more = ('<div style="padding:4px 0 0 32px;font-size:12px;color:#9ca3af">'
+                more = ('<div style="padding:4px 0 0 32px;font-size:12px;color:#8b949e">'
                         '+%d more roles &middot; see attached jobs.html</div>' % (len(crs) - len(shown)))
-            body.append('<tr><td style="padding:11px 0;border-bottom:1px solid #eef0f3;font-size:14px;line-height:1.35">%s'
-                        '<b style="font-size:15px;color:#111827">%s</b>%s%s%s%s</td></tr>'
+            body.append('<tr><td style="padding:0 0 10px;font-size:14px;line-height:1.45">'
+                        '<div style="background-color:#161b22;border-radius:12px;'
+                        'padding:13px 14px">%s'
+                        '<b style="font-size:15px;color:#e6edf3">%s</b>%s%s%s%s</div></td></tr>'
                         % (_avatar(name), head, star, cnt, "".join(lines), more))
 
     if hidden:
@@ -276,35 +278,35 @@ def _render_email(groups, total, raw_total, max_roles):
     return (
         "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'>"
         "<meta name='viewport' content='width=device-width,initial-scale=1'>"
-        "<meta name='color-scheme' content='light only'>"
+        "<meta name='color-scheme' content='dark'><meta name='supported-color-schemes' content='dark'>"
         f"<title>{total} new jobs</title></head>"
-        f"<body style=\"margin:0;padding:0;background:#f3f4f6;font-family:{font}\">"
+        f"<body bgcolor=\"#0d1117\" style=\"margin:0;padding:0;background-color:#0d1117;font-family:{font}\">"
         f"<div style='display:none;max-height:0;overflow:hidden;opacity:0'>"
         f"{total} jobs at {n_comp} companies across {len(groups)} locations</div>"
         "<table role='presentation' width='100%' cellpadding='0' cellspacing='0' "
-        "style='background:#f3f4f6'><tr><td align='center' style='padding:12px 8px'>"
+        "bgcolor='#0d1117' style='background-color:#0d1117'><tr><td align='center' style='padding:12px 8px'>"
         "<table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='max-width:640px'>"
-        "<tr><td id='top' style='background-color:#1e3a8a;border-radius:12px 12px 0 0;padding:22px 20px'>"
+        "<tr><td id='top' bgcolor='#161b22' style='background-color:#161b22;border-bottom:1px solid #30363d;border-radius:12px 12px 0 0;padding:22px 20px'>"
         "<a name='top'></a>"
-        f"<div style='font-size:24px;font-weight:700;color:#ffffff'>{total} new jobs</div>"
-        f"<div style='font-size:13px;color:#c7d2fe;margin-top:4px'>{n_comp} companies &middot; "
+        f"<div style='font-size:24px;font-weight:700;color:#f0f6fc'>{total} new jobs</div>"
+        f"<div style='font-size:13px;color:#8b949e;margin-top:4px'>{n_comp} companies &middot; "
         f"{len(groups)} locations</div>"
-        f"<div style='font-size:12px;color:#a5b4fc;margin-top:2px'>{_esc(today)}{dup}</div>"
+        f"<div style='font-size:12px;color:#6e7681;margin-top:2px'>{_esc(today)}{dup}</div>"
         "</td></tr>"
-        "<tr><td style='background:#ffffff;padding:16px 20px 6px'>"
-        "<div style='font-size:12px;font-weight:700;color:#3730a3;text-transform:uppercase;"
+        "<tr><td bgcolor='#0d1117' style='background-color:#0d1117;padding:16px 20px 6px'>"
+        "<div style='font-size:12px;font-weight:700;color:#79c0ff;text-transform:uppercase;"
         "letter-spacing:.6px;margin-bottom:6px'>Jump to</div>"
         f"{nav}{picks}</td></tr>"
-        "<tr><td style='background:#ffffff;padding:0 20px 16px;border-radius:0 0 12px 12px'>"
+        "<tr><td bgcolor='#0d1117' style='background-color:#0d1117;padding:0 20px 16px;border-radius:0 0 12px 12px'>"
         "<table role='presentation' width='100%' cellpadding='0' cellspacing='0'>"
         + "".join(body) +
         "</table></td></tr>"
-        f"<tr><td align='center' style='padding:14px 8px;font-size:12px;color:#6b7280'>{foot}</td></tr>"
+        f"<tr><td align='center' style='padding:14px 8px;font-size:12px;color:#8b949e'>{foot}</td></tr>"
         "</table></td></tr></table></body></html>"
     ), hidden
 
 
-def build_html(groups, total, raw_total=None, limit=95_000):
+def build_html(groups, total, raw_total=None, limit=97_000):
     """Render the email; if it would be too big for Gmail (clips at ~102 KB), show fewer roles
     per company until it fits (nothing is lost: jobs.html has everything)."""
     out = ""
@@ -322,7 +324,7 @@ _PAGE = r"""<!DOCTYPE html>
 <title>__TITLE__</title>
 <style>
 :root{--bg:#f3f4f6;--card:#fff;--tx:#111827;--mu:#6b7280;--bd:#e5e7eb;--ac:#4f46e5;--ln:#1d4ed8;--chip:#eef2ff;--chipx:#3730a3;--star:#fef3c7;--starx:#92400e}
-@media(prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#181b21;--tx:#f3f4f6;--mu:#9ca3af;--bd:#2a2f38;--ac:#818cf8;--ln:#93c5fd;--chip:#232a4d;--chipx:#c7d2fe;--star:#3b2f12;--starx:#fcd34d}}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--tx:#e6edf3;--mu:#8b949e;--bd:#30363d;--ac:#388bfd;--ln:#58a6ff;--chip:#12233f;--chipx:#79c0ff;--star:#3d2e00;--starx:#e3b341}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding-top:env(safe-area-inset-top,0)}
 header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--bd);padding:12px 12px 8px}
