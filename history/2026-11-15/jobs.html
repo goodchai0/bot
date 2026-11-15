@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>58 new jobs</title>
+<style>
+:root{--bg:#f3f4f6;--card:#fff;--tx:#111827;--mu:#6b7280;--bd:#e5e7eb;--ac:#4f46e5;--ln:#1d4ed8;--chip:#eef2ff;--chipx:#3730a3;--star:#fef3c7;--starx:#92400e}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--card:#161b22;--tx:#e6edf3;--mu:#8b949e;--bd:#30363d;--ac:#388bfd;--ln:#58a6ff;--chip:#12233f;--chipx:#79c0ff;--star:#3d2e00;--starx:#e3b341}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding-top:env(safe-area-inset-top,0)}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--bd);padding:12px 12px 8px}
+.wrap{max-width:720px;margin:0 auto}
+h1{font-size:19px;margin:0}.sub{color:var(--mu);font-size:12px;margin:2px 0 10px}
+.row{display:flex;gap:8px;align-items:center}
+input[type=search]{flex:1;min-width:0;padding:10px 12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:16px}
+.strip{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.strip::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid transparent;background:var(--chip);color:var(--chipx);border-radius:999px;padding:6px 12px;font:600 13px inherit;font-family:inherit;cursor:pointer;white-space:nowrap}
+.chip b{opacity:.7;font-weight:600}
+.chip.star{background:var(--star);color:var(--starx)}
+.chip.on{background:var(--ac);color:#fff}
+.chip.on b{opacity:.9}
+.lbl{font-size:11px;font-weight:700;color:var(--mu);text-transform:uppercase;letter-spacing:.6px;margin-top:8px}
+.tog{flex:none}
+main{max-width:720px;margin:0 auto;padding:4px 12px 40px}
+h2{font-size:18px;margin:22px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--ac)}
+h2 span{font-size:12px;color:var(--mu);font-weight:500;margin-left:6px}
+.co{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px 14px;margin:0 0 10px}
+.ch{display:flex;align-items:center;gap:8px;font-size:15px}
+.ch i{width:24px;height:24px;border-radius:7px;color:#fff;font:700 12px/24px sans-serif;text-align:center;font-style:normal;flex:none}
+.mu{color:var(--mu);font-size:12px;font-weight:600}
+.role{padding:8px 0 0 32px}
+.role a{color:var(--ln);font-weight:600;text-decoration:none}
+.meta{font-size:12px;color:var(--mu);margin-top:2px}
+.pill{background:var(--star);color:var(--starx);border-radius:999px;padding:1px 7px;font-weight:600}
+.empty{text-align:center;color:var(--mu);padding:40px 0}
+#count{font-size:12px;color:var(--mu);margin-top:6px}
+button.link{background:none;border:0;color:var(--ac);font:600 12px inherit;font-family:inherit;cursor:pointer;padding:0 0 0 8px}
+</style></head><body>
+<header><div class="wrap">
+<h1>58 new jobs</h1><div class="sub">48 companies - 7 locations - 15 Nov 2026 - 1 duplicates merged</div>
+<div class="row"><input id="q" type="search" placeholder="Search company, role or location" autocomplete="off">
+<button class="chip tog star" id="feat">&#11088; Top picks</button></div>
+<div class="lbl">Location</div><div class="strip" id="cities"></div>
+<div class="lbl">Companies</div><div class="strip" id="cos"></div>
+<div id="count"></div>
+</div></header>
+<main id="list"></main>
+<noscript><p class="empty">Filters need JavaScript. Save this file and open it in Chrome or Safari.</p></noscript>
+<script>
+const J=[{"c": "Amazon", "ck": "amazon", "t": "Software Development Engineer II, EU INTech Delivery Speed Tech", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4483132168", "n": 1, "e": "", "f": true}, {"c": "Amazon Music", "ck": "amazon music", "t": "Software Development Engineer II, Amazon Music Automotive Team", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4455900992", "n": 1, "e": "", "f": true}, {"c": "Amazon Web Services (AWS)", "ck": "amazon web services aws", "t": "Software Development Engineer II, Infrastructure Supply Chain Automation, Infrastructure Supply Chain Automation", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4474741268", "n": 1, "e": "", "f": true}, {"c": "Accenture in India", "ck": "accenture", "t": "Custom Software Engineer", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4490747455", "n": 1, "e": "", "f": false}, {"c": "Birlasoft", "ck": "birlasoft", "t": "Java API Developer", "l": "Greater Bengaluru Area", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4464523177", "n": 1, "e": "", "f": false}, {"c": "Boeing", "ck": "boeing", "t": "Associate Software Application Developer – Java Full Stack", "l": "IND - Bangalore", "city": "Bengaluru", "p": "2026-11-15", "s": "Workday", "u": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Associate-Software-Application-Developer---Java-Full-Stack_JR2026528301-1", "n": 1, "e": "", "f": false}, {"c": "Boeing", "ck": "boeing", "t": "Experienced Software Application Developer – Java Full Stack", "l": "IND - Bangalore", "city": "Bengaluru", "p": "2026-11-15", "s": "Workday", "u": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Experienced-Software-Application-Developer---Java-Full-Stack_JR2026528429-1", "n": 1, "e": "", "f": false}, {"c": "Boeing", "ck": "boeing", "t": "Experienced Software Application QA/Tester - Java Full Stack", "l": "IND - Bangalore", "city": "Bengaluru", "p": "2026-11-15", "s": "Workday", "u": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IND---Bangalore-India/Experienced-Software-Application-QA-Tester---Java-Full-Stack_JR2026528432-1", "n": 1, "e": "", "f": false}, {"c": "Bridgestone Americas", "ck": "bridgestone americas", "t": "Java Backend Engineer", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4463044174", "n": 1, "e": "", "f": false}, {"c": "Byteflow Innovations Private Limited", "ck": "byteflow innovations", "t": "Java Full Stack Developer", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=85e4915db3e8e30f", "n": 1, "e": "", "f": false}, {"c": "Ditto Insurance", "ck": "ditto insurance", "t": "Backend Developer (Python and Django)", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4489891446", "n": 1, "e": "", "f": false}, {"c": "Ditto Insurance", "ck": "ditto insurance", "t": "Frontend Developer", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4489890442", "n": 1, "e": "", "f": false}, {"c": "eBay", "ck": "ebay", "t": "MTS 1, Software Engineer - Backend", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4463905937", "n": 1, "e": "", "f": false}, {"c": "EBay", "ck": "ebay", "t": "MTS 2,  Platform Reliability Engineer", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "Workday", "u": "https://ebay.wd5.myworkdayjobs.com/apply/job/Bengaluru-India/MTS-2---Platform-Reliability-Engineer_R0075918", "n": 2, "e": "", "f": false}, {"c": "Echno Technologies Pvt Ltd", "ck": "echno", "t": "Python Developer (Fresher)", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4490743182", "n": 1, "e": "", "f": false}, {"c": "EduRun Group", "ck": "edurun group", "t": "Java Spring Boot Developer - Microservices, Angular, Rest API", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4489542753", "n": 1, "e": "", "f": false}, {"c": "Flexiple", "ck": "flexiple", "t": "SDE I - Frontend (React + React Native)", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4491203292", "n": 1, "e": "", "f": false}, {"c": "Flexiple", "ck": "flexiple", "t": "SDE I - Golang", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4491086502", "n": 1, "e": "", "f": false}, {"c": "Flexiple", "ck": "flexiple", "t": "SDE I - Java", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4491093762", "n": 1, "e": "", "f": false}, {"c": "Flexiple", "ck": "flexiple", "t": "SDE II - Frontend (React + React Native)", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4491207032", "n": 1, "e": "", "f": false}, {"c": "Global Consultings", "ck": "global consultings", "t": "React Native Full Stack Developer [Deloitte]", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=a0773835c7787f5b", "n": 1, "e": "", "f": false}, {"c": "H&M", "ck": "h m", "t": "Software Engineer", "l": "", "city": "Bengaluru", "p": "2026-11-15", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4491228279", "n": 1, "e": "", "f": false}, {"c": "Hewlett-Packard", "ck": "hewlett packard", "t": "Data Scientist - AI Developer", "l": "[\"Bengaluru,  India\"]", "city": "Bengaluru", "p": "", "s": "Crawler-Json", "u": "https://apply.hp.com/careers?query=software+engineer&start=0&pid=44694398&sort_by=relevance", "n": 1, "e": "", "f": false}, {"c": "HuntingCube", "ck": "huntingcube", "t": "Software Engineer - Fullstack", "l": "Bengaluru East", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4491081943", "n": 1, "e": "", "f": false}, {"c": "Infosys", "ck": "infosys", "t": "Python Developer", "l": "Bengaluru East", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4481931957", "n": 1, "e": "", "f": false}, {"c": "Intuitive", "ck": "intuitive", "t": "IT Engineering Apps Software Developer", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4447073185", "n": 1, "e": "", "f": false}, {"c": "JioStar", "ck": "jiostar", "t": "Software Development Engineer II", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4490734279", "n": 1, "e": "", "f": false}, {"c": "Licious", "ck": "licious", "t": "SDE 2 (Java, Backend)", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4489558307", "n": 1, "e": "", "f": false}, {"c": "Luxoft", "ck": "luxoft", "t": "Python Developer", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4490578885", "n": 1, "e": "", "f": false}, {"c": "Nxtwave Disruptive Technologies(Hiring for a Client)", "ck": "nxtwave disruptive hiring for a client", "t": "React Native Engineer", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "Naukri", "u": "https://www.naukri.com/job-listings-react-native-engineer-nxtwave-disruptive-technologies-hiring-for-a-client-bengaluru-4-to-6-years-141126015241", "n": 1, "e": "4-6 yrs", "f": false}, {"c": "Qualcomm", "ck": "qualcomm", "t": "Automotive Display Software Engineer", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4481696343", "n": 1, "e": "", "f": false}, {"c": "Qualcomm", "ck": "qualcomm", "t": "CPU RTL Design Engineer", "l": "Bangalore, India CPU Engineering", "city": "Bengaluru", "p": "", "s": "Crawler", "u": "https://careers.qualcomm.com/careers/job/446722089739", "n": 1, "e": "", "f": false}, {"c": "Renesas", "ck": "renesas", "t": "Software Engineer", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "Career site", "u": "https://jobs.smartrecruiters.com/RenesasElectronics/744000161219560", "n": 1, "e": "", "f": false}, {"c": "Scoutit", "ck": "scoutit", "t": "Java Developer", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4489869897", "n": 1, "e": "", "f": false}, {"c": "Scoutit", "ck": "scoutit", "t": "Software Engineer", "l": "", "city": "Bengaluru", "p": "2026-11-14", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4489886041", "n": 1, "e": "", "f": false}, {"c": "SocialMagic Private Limited", "ck": "socialmagic", "t": "Software Developer", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=5cfed225b9c0f305", "n": 1, "e": "", "f": false}, {"c": "The Alter Office", "ck": "alter office", "t": "SDE II", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4490735612", "n": 1, "e": "", "f": false}, {"c": "Thomson Reuters", "ck": "thomson reuters", "t": "Software Engineer", "l": "", "city": "Bengaluru", "p": "2026-11-13", "s": "Career site", "u": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/India-Bengaluru-Karnataka/Software-Engineer_JREQ204702", "n": 1, "e": "", "f": false}, {"c": "Zemoso Technologies", "ck": "zemoso", "t": "Python Full Stack Developer", "l": "", "city": "Bengaluru", "p": "2026-11-15", "s": "LinkedIn", "u": "https://www.linkedin.com/jobs/view/4489369107", "n": 1, "e": "", "f": false}, {"c": "BriskWin IT (BWIT)", "ck": "briskwin it bwit", "t": "Full Stack .Net Developer", "l": "", "city": "Hyderabad", "p": "2026-11-15", "s": "Naukri", "u": "https://www.naukri.com/job-listings-full-stack-net-developer-briskwin-it-bwit-hyderabad-5-to-10-years-151126002534", "n": 1, "e": "5-10 yrs", "f": false}, {"c": "NYLUN GLOBAL PRIVATE LIMITED", "ck": "nylun global", "t": "Full-Stack Python Developer (FastAPI + React + Automation) – GST SaaS Platform", "l": "", "city": "Hyderabad", "p": "2026-11-14", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=29cbd297a35786bf", "n": 1, "e": "", "f": false}, {"c": "Seacross Recruitment Services", "ck": "seacross recruitment services", "t": "Front End Developer", "l": "Hyderabad, Delhi / NCR, Mumbai (All A...", "city": "Hyderabad", "p": "2026-11-15", "s": "Naukri", "u": "https://www.naukri.com/job-listings-front-end-developer-seacross-recruitment-services-hyderabad-delhi-ncr-mumbai-all-areas-10-to-20-years-151126003062", "n": 1, "e": "10-20 yrs", "f": false}, {"c": "Groupsoft", "ck": "groupsoft", "t": "Full Stack Developer (Angular and NodeJs)", "l": "", "city": "Maharashtra", "p": "2026-11-14", "s": "Career site", "u": "https://groupsoftus.zohorecruit.in/jobs/Careers/109366000006637139/Full-Stack-Developer-Angular-and-NodeJs-?source=CareerSite", "n": 1, "e": "", "f": false}, {"c": "Induansh Private Limited", "ck": "induansh", "t": "Full Stack Developer – Golang + React.js + GCP", "l": "", "city": "Maharashtra", "p": "2026-11-14", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=2f17f28d312a6fe1", "n": 1, "e": "", "f": false}, {"c": "Saytrix Technology", "ck": "saytrix", "t": "Python Backend Developer", "l": "", "city": "Maharashtra", "p": "2026-11-14", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=e919c11e737ce88a", "n": 1, "e": "", "f": false}, {"c": "TechB Softwares", "ck": "techb softwares", "t": "Python/Django Developer", "l": "", "city": "Maharashtra", "p": "2026-11-14", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=23b0b133b25fe011", "n": 1, "e": "", "f": false}, {"c": "Technology Next", "ck": "next", "t": "Full Stack Developer (Golang +React.js+GCP)", "l": "", "city": "Maharashtra", "p": "2026-11-14", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=c9bf7832615c1238", "n": 1, "e": "", "f": false}, {"c": "BG Systems", "ck": "bg systems", "t": "Frontend Developer", "l": "Noida", "city": "Delhi NCR", "p": "2026-11-13", "s": "Career site", "u": "https://www.bgsystem.com/career.html", "n": 1, "e": "", "f": false}, {"c": "Qualcomm", "ck": "qualcomm", "t": "WLAN Test - Engineer", "l": "Chennai, Tamil Nādu, India Systems Te...", "city": "Chennai", "p": "", "s": "Crawler", "u": "https://careers.qualcomm.com/careers/job/446722089570", "n": 1, "e": "", "f": false}, {"c": "Mully Technology", "ck": "mully", "t": "Full Stack Java Developer", "l": "", "city": "Remote", "p": "2026-11-15", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=b29aa13f5ba5e47a", "n": 1, "e": "", "f": false}, {"c": "Threshold Agency", "ck": "threshold agency", "t": "Software Developer (Paid Media Automation)", "l": "", "city": "Remote", "p": "2026-11-14", "s": "Indeed", "u": "https://in.indeed.com/viewjob?jk=1b335b3a74f628e1", "n": 1, "e": "", "f": false}, {"c": "United Health Group", "ck": "united health group", "t": "Associate AI/ML Engineer", "l": "2397769 | Eden Prairie, Minnesota | R...", "city": "Remote", "p": "", "s": "Crawler", "u": "https://careers.unitedhealthgroup.com/job/eden-prairie/associate-ai-ml-engineer/34088/103257639616", "n": 1, "e": "", "f": false}, {"c": "Cognizant", "ck": "cognizant", "t": "Oracle APEX Developer & Platform Support Specialist - 00071224111", "l": "", "city": "Other / unspecified", "p": "", "s": "Crawler", "u": "https://careers.cognizant.com/global-en/jobs/00071224111/oracle-apex-developer-platform-support-specialist-00071224111/", "n": 1, "e": "", "f": false}, {"c": "HCLTech", "ck": "hcltech", "t": "Java Developer- Vijayawada", "l": "Vijayawada", "city": "Other / unspecified", "p": "2026-11-14", "s": "Naukri", "u": "https://www.naukri.com/job-listings-java-developer-vijayawada-hcltech-vijayawada-3-to-8-years-141126015967", "n": 1, "e": "3-8 yrs", "f": false}, {"c": "Markplace E-services", "ck": "markplace e services", "t": "React Js Frontend Developer", "l": "", "city": "Other / unspecified", "p": "2026-11-14", "s": "Naukri", "u": "https://www.naukri.com/job-listings-react-js-frontend-developer-markplace-e-services-bengaluru-8-to-13-years-141126014565", "n": 1, "e": "8-13 yrs", "f": false}, {"c": "Nutrien", "ck": "nutrien", "t": "Mine Engineer/Geologist", "l": "", "city": "Other / unspecified", "p": "", "s": "Crawler", "u": "https://jobs.nutrien.com/North-America/job/Mine-EngineerGeologist/34372-en_US", "n": 1, "e": "", "f": false}, {"c": "QuEST Global", "ck": "quest global", "t": "Robotics Hand Software Development_Band 1D", "l": "", "city": "Other / unspecified", "p": "", "s": "Crawler", "u": "https://careers.quest-global.com/global/en/job/P-124628/Robotics-Hand-Software-Development-Band-1D", "n": 1, "e": "", "f": false}, {"c": "Sparrow Softech", "ck": "sparrow softech", "t": "Java Developer", "l": "Ranchi", "city": "Other / unspecified", "p": "2026-11-13", "s": "Career site", "u": "https://sparrowsoftech.com/sspl/application.php?id=3", "n": 1, "e": "", "f": false}],CITIES=[["Bengaluru", 39], ["Hyderabad", 3], ["Maharashtra", 5], ["Delhi NCR", 1], ["Chennai", 1], ["Remote", 3], ["Other / unspecified", 6]];
+const st={q:"",city:"",co:"",feat:false};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safe=u=>/^https?:\/\//i.test(u)?u:"#";
+const PAL=["#4f46e5","#0891b2","#059669","#d97706","#dc2626","#7c3aed","#db2777","#475569"];
+const color=s=>{let h=0;for(const ch of s)h+=ch.charCodeAt(0);return PAL[h%PAL.length]};
+function match(j,skipCo){
+  if(st.city&&j.city!==st.city)return false;
+  if(st.feat&&!j.f)return false;
+  if(!skipCo&&st.co&&j.ck!==st.co)return false;
+  if(st.q){const h=(j.c+" "+j.t+" "+j.l).toLowerCase();return st.q.split(/\s+/).every(w=>h.includes(w))}
+  return true;
+}
+function chips(){
+  $("#cities").innerHTML=[["",J.length]].concat(CITIES).map(a=>`<button class="chip${st.city===a[0]?" on":""}" data-city="${esc(a[0])}">${a[0]?esc(a[0]):"All"} <b>${a[1]}</b></button>`).join("");
+  const m=new Map();
+  J.filter(j=>match(j,true)).forEach(j=>{const o=m.get(j.ck)||{n:j.c,k:j.ck,c:0,f:j.f};o.c++;m.set(j.ck,o)});
+  const top=[...m.values()].sort((a,b)=>(b.f-a.f)||(b.c-a.c)||a.n.localeCompare(b.n));
+  $("#cos").innerHTML=top.map(o=>`<button class="chip${o.f?" star":""}${st.co===o.k?" on":""}" data-co="${esc(o.k)}">${o.f?"&#11088; ":""}${esc(o.n)} <b>${o.c}</b></button>`).join("");
+  $("#feat").classList.toggle("on",st.feat);
+}
+function list(){
+  const rows=J.filter(j=>match(j,false));
+  const filt=st.q||st.city||st.co||st.feat;
+  $("#count").innerHTML=rows.length+" of "+J.length+" jobs"+(filt?' <button class="link" id="clear">Clear filters</button>':"");
+  if(!rows.length){$("#list").innerHTML='<p class="empty">No jobs match. Try clearing a filter.</p>';return}
+  const byCity=new Map();
+  rows.forEach(j=>{if(!byCity.has(j.city))byCity.set(j.city,new Map());const m=byCity.get(j.city);if(!m.has(j.ck))m.set(j.ck,[]);m.get(j.ck).push(j)});
+  let h="";
+  byCity.forEach((cos,city)=>{
+    let n=0;cos.forEach(a=>n+=a.length);
+    h+=`<h2>${esc(city)}<span>${n} job${n>1?"s":""} &middot; ${cos.size} compan${cos.size>1?"ies":"y"}</span></h2>`;
+    cos.forEach(a=>{
+      const f=a[0];
+      h+=`<section class="co"><div class="ch"><i style="background:${color(f.c)}">${esc((f.c.match(/[A-Za-z0-9]/)||["?"])[0].toUpperCase())}</i><b>${esc(f.c)}</b>${f.f?" &#11088;":""}${a.length>1?`<span class="mu">&middot; ${a.length} roles</span>`:""}</div>`;
+      a.forEach(j=>{
+        const meta=[];
+        if(j.l)meta.push("&#128205; "+esc(j.l));
+        if(j.e)meta.push("&#128188; "+esc(j.e));
+        if(j.p)meta.push("&#128337; "+esc(j.p));
+        if(j.n>1)meta.push('<span class="pill">'+j.n+' openings</span>');
+        if(j.s)meta.push("via "+esc(j.s));
+        h+=`<div class="role"><a href="${esc(safe(j.u))}" target="_blank" rel="noopener">${esc(j.t)}</a><div class="meta">${meta.join(" &middot; ")}</div></div>`;
+      });
+      h+="</section>";
+    });
+  });
+  $("#list").innerHTML=h;
+}
+function render(){chips();list()}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;
+  if(b.dataset.city!==undefined){st.city=b.dataset.city;st.co=""}
+  else if(b.dataset.co!==undefined){st.co=st.co===b.dataset.co?"":b.dataset.co}
+  else if(b.id==="feat"){st.feat=!st.feat}
+  else if(b.id==="clear"){st.q="";st.city="";st.co="";st.feat=false;$("#q").value=""}
+  else return;
+  render();window.scrollTo({top:0});
+});
+$("#q").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();render()});
+/* deep links from the email: page.html#city=Pune&feat=1&q=java */
+try{const p=new URLSearchParams(location.hash.slice(1));
+if(p.get("city"))st.city=p.get("city");
+if(p.get("feat"))st.feat=true;
+if(p.get("q")){st.q=p.get("q").toLowerCase();$("#q").value=p.get("q")}}catch(e){}
+render();
+</script></body></html>
