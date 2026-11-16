@@ -1760,7 +1760,8 @@
   "ats": null
  },
  "Skillz": {
-  "ats": null
+  "ats": "greenhouse",
+  "slug": "skillzinc"
  },
  "SmartServ": {
   "ats": null
@@ -1952,7 +1953,8 @@
   "ats": null
  },
  "TextNow": {
-  "ats": null
+  "ats": "greenhouse",
+  "slug": "textnowinc"
  },
  "Tally": {
   "ats": null
@@ -2346,7 +2348,8 @@
   "ats": null
  },
  "Zup": {
-  "ats": null
+  "ats": "greenhouse",
+  "slug": "zupinnovation"
  },
  "Xactly Corporation": {
   "ats": null
