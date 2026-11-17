@@ -308,7 +308,6 @@ Simpl	https://getsimpl.com/careers/
 Schlumberger	https://www.slb.com/careers
 Shopify	https://www.shopify.in/careers
 Skillate	https://skillate.com/careers/
-Skillz	https://www.skillz.com/careers
 SmartServ	https://www.smartserv.io/careers
 ServiceNow	https://www.servicenow.com/careers.html
 Skedulo	https://www.skedulo.com/careers/
@@ -349,7 +348,6 @@ Tavant	https://www.tavant.com/careers
 Talview	https://www.talview.com/careers
 Systools Software	https://www.systoolsgroup.com/careers/
 Syz	https://www.syzgroup.com/careers
-TextNow	https://www.textnow.com/careers
 Tally	https://tallysolutions.com/careers/
 Tata Play	https://www.tataplay.com/dth/careers
 Tecnotree	https://www.tecnotree.com/careers/
@@ -436,7 +434,6 @@ Zimyo	https://www.zimyo.com/about/career/
 ZingHR	https://www.zinghr.com/job-openings/
 Westpac Group	https://www.westpac.com.au/about-westpac/careers/?fid=GL:GF:GF1:wbc:www:about:careers
 Zomato	https://www.zomato.com/careers
-Zup	https://www.zup.com.br/carreiras
 Xactly Corporation	https://www.xactlycorp.com/company/careers/
 ZestMoney	https://www.zestmoney.in/career
 Zetwerk	https://zetwerk.com/careers/
