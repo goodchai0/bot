@@ -1,152 +1,153 @@
-# 124 new jobs - 17 Nov 2026
+# 128 new jobs - 18 Nov 2026
 
-## Bengaluru (69)
+## Bengaluru (64)
 
-- **Amazon.com** - [SDE II, Amazon Business India](https://www.amazon.jobs/jobs/10605713/sde-ii-amazon-business-india?cmpid=DA_INAD200785B) - KA, India - 2026-11-16 - via Career site
-- **American Express** - [Software Engineer II](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/26016217) - KA, India - 2026-11-17 - via Career site, LinkedIn
-- **Cisco** - [Software Engineer](https://careers.cisco.com/global/en/job/2031707) (x4 openings) - KA, India - 2026-11-17 - via Career site
-- **Microsoft** - [Software Engineer II](https://apply.careers.microsoft.com/careers/job/1970393557073045?utm_source=indeed&domain=microsoft.com) - KA, India - 2026-11-16 - via Career site
-- **Motorola Solutions** - [Software Engineer](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Software-Engineer_R69470) - KA, India - 2026-11-16 - via Career site
-- **Accenture** - [Custom Software Engineer](https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5435919-S1977118_en&title=Custom+Software+Engineer&SRC=RECNau) (x13 openings) - Bengaluru, India - 2026-11-16 - via Career site
-- **ACI Worldwide** - [Software Engineer](https://www.linkedin.com/jobs/view/4428724410) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **Akamai** - [Software Engineer](https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4421) - Bengaluru, New Delhi, India - 2026-11-17 - via Career site
-- **Antal International** - [React Developer](https://www.linkedin.com/jobs/view/4490990298) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
-- **Antique Network Solutions Pvt.Ltd** - [Front-End Developer](https://in.indeed.com/viewjob?jk=c21895f1072a119b) - KA, India - 2026-11-17 - via Indeed
-- **Apexon** - [Java Full Stack Developer_4Years To 9 Years_Bangalore](https://www.naukri.com/job-listings-java-full-stack-developer-4years-to-9-years-bangalore-apexon-bengaluru-4-to-9-years-171126019593) - Bengaluru, India - 2026-11-17 - via Naukri
-- **AppsForBharat** - [Frontend Engineer (React & Next.js)](https://careers.kula.ai/appsforbharat/69188-frontend-engineer-react-next-js?jobs=true) - KA, India - 2026-11-17 - via Career site, LinkedIn
-- **Artech** - [Python Full stack developer](https://www.linkedin.com/jobs/view/4490607110) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **Boeing** - [Associate Software Application Developer - Java Full Stack](https://ad.doubleclick.net/ddm/clk/620302311;427737057;v?https://jobs.boeing.com/job/bengaluru/associate-software-application-developer-java-full-stack/185/103328338496) - Bengaluru, India - 2026-11-17 - via Career site
-- **Boeing** - [Experienced Software Application Developer - Java Full Stack](https://ad.doubleclick.net/ddm/clk/620302311;427737057;v?https://jobs.boeing.com/job/bengaluru/experienced-software-application-developer-java-full-stack/185/103328338752) - Bengaluru, India - 2026-11-17 - via Career site
-- **Bounteous** - [Java Developer](https://www.naukri.com/job-listings-java-developer-bounteous-bengaluru-5-to-9-years-171126011790) - Bengaluru, India - 2026-11-17 - via Naukri
-- **Bounteous** - [Java Developer- BI-IHBHA](https://www.naukri.com/job-listings-java-developer-bi-ihbha-bounteous-mumbai-bengaluru-5-to-10-years-171126014303) - Bengaluru, Mumbai, India - 2026-11-17 - via Naukri
-- **Bounteous** - [Python + React +AWS - Full Stack Developer - BI-HFFCG](https://www.naukri.com/job-listings-python-react-aws-full-stack-developer-bi-hffcg-bounteous-gurugram-chennai-bengaluru-5-to-10-years-171126019982) - Bengaluru, Gurugram, Chennai, India - 2026-11-17 - via Naukri
-- **Caterpillar** - [IT Analyst - .NET Full Stack Developer](https://careers.caterpillar.com/en/jobs/r0000403955/it-analyst-net-full-stack-developer/) - KA, India - 2026-11-16 - via Career site
-- **CGI** - [Full Stack Engineer (Python)](https://indeed.njoyn.com/corp/xweb/XWeb.asp?page=jobdetails&clid=21001&JobID=J1126-0051&BRID=1349885&sbdid=936) - KA, India - 2026-11-16 - via Career site
-- **CGI** - [Python Developer](https://www.linkedin.com/jobs/view/4490104219) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **Clifyx Technology** - [Java Backend Developer](https://www1.jobdiva.com/portal/?a=bajdnw4w0yraloh1qse3s25s4wl54b0546be8ws8392toifs4y6rer0c7aoojvcn&jobid=15060047&country=IN#/jobs/32253264) - Bengaluru, India - 2026-11-17 - via Career site
-- **Cloudxtreme** - [Java Developer With React](https://www.naukri.com/job-listings-java-developer-with-react-cloudxtreme-hyderabad-chennai-bengaluru-10-to-17-years-171126016169) - Bengaluru, Hyderabad, Chennai, India - 2026-11-17 - via Naukri
-- **Cognizant** - [Java  Developer -Bangalore](https://www.naukri.com/job-listings-java-developer-bangalore-cognizant-bengaluru-3-to-5-years-150926026374) - Bengaluru, India - 2026-11-17 - via Naukri
-- **Commvault** - [Software Engineer (Python)- Product Development & Automation](https://job-boards.greenhouse.io/commvault/jobs/5459809008) - Bangalore, India; Hyderbad, India - 2026-11-16 - via Greenhouse
-- **Creeno Solutions** - [Java + Kotlin Backend Developer (Non-Android)](https://www.naukri.com/job-listings-java-kotlin-backend-developer-non-android-creeno-solutions-bengaluru-3-to-8-years-161126024858) - Bengaluru, India - 2026-11-16 - via Naukri
-- **DeciOps** - [Software Development Engineer II (Backend)](https://www.linkedin.com/jobs/view/4490906393) - Greater Bengaluru Area - 2026-11-16 - via LinkedIn
-- **Epam Systems** - [Middle Java Full Stack Software Engineer (ReactJS)](https://www.naukri.com/job-listings-middle-java-full-stack-software-engineer-reactjs-epam-systems-hyderabad-pune-bengaluru-3-to-8-years-061126025947) - Bengaluru, Hyderabad, Pune, India - 2026-11-17 - via Naukri
-- **Epam Systems** - [Middle Software Engineer - Java Full Stack ReactJS](https://www.naukri.com/job-listings-middle-software-engineer-java-full-stack-reactjs-epam-systems-hyderabad-pune-bengaluru-3-to-8-years-061126025957) - Bengaluru, Hyderabad, Pune, India - 2026-11-17 - via Naukri
-- **Ericsson** - [Software Developer](https://jobs.ericsson.com/careers/job/563121777560297?domain=ericsson.com) - KA, India - 2026-11-16 - via Career site
-- **FCT** - [Software Engineer](https://firstam.wd1.myworkdayjobs.com/faicareers/job/IND-Karnataka-Bangalore/Software-Engineer_R059590) - KA, India - 2026-11-16 - via Career site
-- **Flexiple** - [SDE I - Frontend (React + React Native)](https://www.linkedin.com/jobs/view/4491502843) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **Flexiple** - [SDE I - Java](https://www.linkedin.com/jobs/view/4491500973) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **Flexiple** - [SDE II - Frontend (React + React Native)](https://www.linkedin.com/jobs/view/4490143140) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **Flexiple** - [SDE II - Java](https://www.linkedin.com/jobs/view/4490181482) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
-- **Genpact** - [Front End Developer- React + Next](https://app.jobvite.com/CompanyJobs/Job.aspx?j=oiw6Afwe&s=Indeed) - KA, India - 2026-11-16 - via Career site
-- **Genpact** - [Fullstack Engineer](https://app.jobvite.com/CompanyJobs/Job.aspx?j=oax6Afw7&s=Indeed) - KA, India - 2026-11-16 - via Career site
-- **Hewlett-Packard** - [Android Multi-Device Experience Engineer](https://apply.hp.com/careers/job/43294515) - Bengaluru, Karnataka, India Software - via Crawler-Json, Crawler
-- **Ifinsol Global** - [Java Full Stack Developer](https://www.naukri.com/job-listings-java-full-stack-developer-ifinsol-global-hyderabad-bengaluru-8-to-12-years-171126020229) - Bengaluru, Hyderabad, India - 2026-11-17 - via Naukri
-- **IGT Solutions** - [Java Developer](https://www.naukri.com/job-listings-java-developer-igt-solutions-bengaluru-6-to-10-years-171126020472) - Bengaluru, India - 2026-11-17 - via Naukri
-- **Infosys** - [ReactJS Fullstack Developer](https://career.infosys.com/jobdesc?jobReferenceCode=INFSYS-INDEED1-256497&sourceId=4010) - KA, India - 2026-11-17 - via Career site, LinkedIn
-- **Intel Corporation** - [Linux System Software Engineer](https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Linux-System-Software-Engineer_JR0289180) - KA, India - 2026-11-16 - via Career site
-- **Kiya.ai** - [Java Developer](https://www.naukri.com/job-listings-java-developer-kiya-ai-bengaluru-6-to-10-years-171126013929) - Bengaluru, India - 2026-11-17 - via Naukri
-- **Lowe's Home Improvement** - [Software Engineer](https://talent.lowes.com/in/en/job/JR-02681422) - KA, India - 2026-11-16 - via Career site
-- **Lowe's India** - [Software Engineer](https://www.linkedin.com/jobs/view/4490286945) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **Luxoft** - [Java Software Developer (Clickhouse Database experience requested)](https://www.linkedin.com/jobs/view/4491508105) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **MishiPay** - [Backend Payments Software Engineer - Python (Immediate Joiners Only)](https://www.linkedin.com/jobs/view/4490275478) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **Mobile Programming India Pvt Ltd** - [Full Stack Dot Net Developer](https://in.indeed.com/viewjob?jk=45b9b02e3be289fd) - KA, India - 2026-11-16 - via Indeed
-- **Moody's Corporation** - [Software Engineer](https://www.linkedin.com/jobs/view/4491529833) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **NatWest Group** - [Software Engineer](https://jobs.natwestgroup.com/jobs/18474497-software-engineer) - KA, India - 2026-11-16 - via Career site, LinkedIn
-- **NatWest Group** - [Software Engineer , AVP](https://jobs.natwestgroup.com/jobs/18475550-software-engineer-avp) - KA, India - 2026-11-16 - via Career site
-- **Naukri E Hire Campaign** - [Cognizant is hiring For Java Developer in PAN India](https://www.naukri.com/job-listings-cognizant-is-hiring-for-java-developer-in-pan-india-naukri-e-hire-campaign-noida-pune-bengaluru-3-to-6-years-161126012951) - Bengaluru, Noida, Pune, India - 2026-11-16 - via Naukri
-- **Niantic** - [Software Engineer (Backend)](https://job-boards.greenhouse.io/scopely/jobs/5347395008?gh_jid=5347395008) - IN - Bangalore, India - 2026-11-16 - via Greenhouse
-- **NIKE** - [Software Engineer II, ITC](https://careers.nike.com/software-engineer-ii-itc/job/R-97107) - KA, India - 2026-11-16 - via Career site
-- **Orcapod Consulting Services** - [Java Full Stack Developer](https://www.naukri.com/job-listings-java-full-stack-developer-orcapod-consulting-services-bengaluru-6-to-10-years-190626015553) - Bengaluru, India - 2026-11-17 - via Naukri
-- **Orcapod Consulting Services** - [Software Java Engineer](https://www.naukri.com/job-listings-software-java-engineer-orcapod-consulting-services-hyderabad-bengaluru-7-to-12-years-170626025817) - Bengaluru, Hyderabad, India - 2026-11-17 - via Naukri
-- **Parspec** - [Software Engineer - 2 (Backend)](https://www.linkedin.com/jobs/view/4489789527) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
-- **PERSOL** - [Walk-in || full stack software engineer](https://www.naukri.com/job-listings-full-stack-software-engineer-persol-bengaluru-5-to-10-years-171126020260) - Bengaluru, India - 2026-11-17 - via Naukri
-- **Point72** - [Software Engineer, Corporate Systems Technology](https://careers.point72.com/CSJobDetail?jobName=software-engineer-corporate-systems-technology&jobCode=IVS-0015552&location=Bengaluru,%20India&locale=English&retURL=/CSCareerSearch) - KA, India - 2026-11-16 - via Career site
-- **Qualcomm** - [Associate Engineer – CAD AI/ML](https://careers.qualcomm.com/careers/job/446721332822) - Bangalore, India Hardware Engineering - via Crawler
-- **Sapient (publicissapient)** - [Software Engineer: NET, Node.js & Microservices](https://www.naukri.com/job-listings-software-engineer-net-node-js-microservices-sapient-publicissapient-pune-gurugram-bengaluru-4-to-9-years-171126021752) - Pune, Gurugram, Bengaluru, India - 2026-11-17 - via Naukri
-- **Spekond** - [Full stack](https://www.naukri.com/job-listings-full-stack-spekond-bengaluru-1-to-2-years-171126021537) - Bengaluru, India - 2026-11-17 - via Naukri
-- **Stixis Technologies** - [Java Backend Developer (Microservices)](https://stixis.com/careers.html) - Bengaluru, India - 2026-11-16 - via Career site
-- **SWITS DIGITAL Private Limited** - [Python Developer](https://www.linkedin.com/jobs/view/4489747702) - Bangalore Urban, Karnataka, India - 2026-11-16 - via LinkedIn
-- **Symphoni Hr** - [Walk-in || Java Backend Developer with Azure](https://www.naukri.com/job-listings-java-backend-developer-with-azure-symphoni-hr-bengaluru-6-to-10-years-161126023816) - Bengaluru, India - 2026-11-16 - via Naukri
-- **Techbliss Digital Solution** - [Software Engineer](https://www.naukri.com/job-listings-software-engineer-techbliss-digital-solution-bengaluru-5-to-10-years-171126021215) - Bengaluru, India - 2026-11-17 - via Naukri
-- **Telstra Business Technology Centre Perth South** - [Software Engineer II - Full Stack - Java, Springboot, React](https://telstra.wd3.myworkdayjobs.com/en-US/Telstra_Careers/job/Bengaluru-Karnataka/Software-Engineer-II---Full-Stack---Java--Springboot--React_JR-10176661) - KA, India - 2026-11-16 - via Career site
-- **Tesco** - [Software Development Engineer II](https://careers.tesco.com/en_GB/careers/JobDetail/161687) (x2 openings) - KA, India - 2026-11-17 - via Career site
-- **The Glove** - [Java Full Stack Developer](https://www.naukri.com/job-listings-java-full-stack-developer-the-glove-bangalore-rural-bengaluru-6-to-10-years-171126021703) - Bangalore Rural, Bengaluru, India - 2026-11-17 - via Naukri
+- **Cisco** - [IT Software Engineer](https://www.linkedin.com/jobs/view/4491804118) - Bengaluru, Karnataka, India - 2026-11-18 - via LinkedIn
+- **Motorola Solutions** - [JAVA Developer (Java Springboot,Microservices)](https://www.linkedin.com/jobs/view/4475871063) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Oracle** - [Platform Software Engineer](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/350628) - KA, India - 2026-11-17 - via Career site
+- **Société Générale** - [Specialist Software Engineer - Java Back End](https://careers.societegenerale.com/en/job-offers/specialist-software-engineer-java-back-end-26000EVL-en) - KA, India - 2026-11-17 - via Career site
+- **Walmart Global Tech India** - [(IND) Software Engineer II](https://www.linkedin.com/jobs/view/4473667402) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Accenture** - [Custom Software Engineer](https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5885440-S2076033_en&title=Custom+Software+Engineer&SRC=RECNau) (x10 openings) - Bengaluru, India - 2026-11-18 - via Career site, LinkedIn
+- **Akamai Technologies** - [Software Engineer II](https://www.linkedin.com/jobs/view/4491574798) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Alike Thoughts** - [hiring For Python+Pytorch+C++ developer-LTM](https://www.naukri.com/job-listings-hiring-for-python-pytorch-c-developer-ltm-alike-thoughts-bengaluru-5-to-8-years-181126020194) - Bengaluru, India - 2026-11-18 - via Naukri
+- **Bosch** - [AI & Backend Software Engineer – Intellectual Property Rights(Python / FastAPI / GenAI)](https://jobs.smartrecruiters.com/BoschGroup/744000162221008-ai-backend-software-engineer-intellectual-property-rights-python-fastapi-genai-) - KA, India - 2026-11-18 - via Career site
+- **Bounteous** - [Java Developer - AI](https://www.naukri.com/job-listings-java-developer-ai-bounteous-bengaluru-7-to-9-years-171126032382) - Bengaluru, India - 2026-11-17 - via Naukri
+- **Capco** - [React.JS Developer](https://www.linkedin.com/jobs/view/4483551851) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Clarivate** - [Software Engineer](https://careers.clarivate.com/job/CLACLAGBJREQ136475EXTERNALENGB/Software-Engineer?utm_source=indeed&utm_medium=phenom-feeds) - KA, India - 2026-11-17 - via Career site
+- **Cloud Raptor** - [Php Full Stack Developer](https://www.naukri.com/job-listings-php-full-stack-developer-cloud-raptor-bengaluru-6-to-8-years-181126021579) - Bengaluru, India - 2026-11-18 - via Naukri
+- **Cloudxtreme** - [Java developer + React  -10years+](https://www.naukri.com/job-listings-java-developer-react-10years-cloudxtreme-kolkata-hyderabad-bengaluru-10-to-17-years-181126011749) - Bengaluru, Kolkata, Hyderabad, India - 2026-11-18 - via Naukri
+- **Coventine Digital Pvt Ltd** - [Full Stack Developer](https://in.indeed.com/viewjob?jk=318a38ceb3f17748) - KA, India - 2026-11-17 - via Indeed
+- **Dassault Systèmes** - [Software Engineer-Java (Bangalore)](https://www.3ds.com/careers/jobs/software-engineer-java-bangalore-550684) - KA, India - 2026-11-17 - via Career site, LinkedIn
+- **Deevio Consulting** - [Java Developer](https://www.naukri.com/job-listings-java-developer-deevio-consulting-bengaluru-4-to-9-years-181126020432) - Bengaluru(HBR Layout), India - 2026-11-18 - via Naukri
+- **Deloitte** - [Fullstack Java With React-Software Engineer I](https://www.linkedin.com/jobs/view/4490449151) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **EchoStar** - [Full Stack Engineer](https://jobs.dish.com/jobs/105084/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f) - KA, India - 2026-11-16 - via Career site
+- **Experis** - [Java Developer](https://www.naukri.com/job-listings-java-developer-experis-bengaluru-6-to-10-years-181126020053) - Bengaluru, India - 2026-11-18 - via Naukri
+- **Flexiple** - [SDE I - Frontend (React + React Native)](https://www.linkedin.com/jobs/view/4491749282) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Flexiple** - [SDE I - Golang](https://www.linkedin.com/jobs/view/4491588647) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Flexiple** - [SDE I - Java](https://www.linkedin.com/jobs/view/4491761091) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Flexiple** - [SDE II - Frontend (React + React Native)](https://www.linkedin.com/jobs/view/4491723992) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Flexiple** - [SDE II - Java](https://www.linkedin.com/jobs/view/4490823938) - Bengaluru, Karnataka, India - 2026-11-18 - via LinkedIn
+- **FuGenEd** - [Backend Software Engineer (Java/Kotlin)](https://in.indeed.com/viewjob?jk=335b7e24974cc84d) - KA, India - 2026-11-18 - via Indeed
+- **Global Consultings** - [Software Engineer](https://in.indeed.com/viewjob?jk=7ca840d3aba437fc) - KA, India - 2026-11-16 - via Indeed
+- **Happiest Minds Technologies** - [Java + React + Agentic AI developer](https://www.naukri.com/job-listings-java-react-agentic-ai-developer-happiest-minds-technologies-noida-hyderabad-bengaluru-8-to-12-years-171126023410) - Bengaluru, Noida, Hyderabad, India - 2026-11-17 - via Naukri
+- **Hewlett Packard Enterprise** - [Fullstack Developer](https://www.linkedin.com/jobs/view/4490604584) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
+- **Hotstar** - [Software Development Engineer II - FullStack GenAI](https://jiostar.wd102.myworkdayjobs.com/JioStar/job/Bengaluru--We-Work/Software-Development-Engineer-II---FullStack-GenAI_JR12582) (x2 openings) - Bengaluru- We Work - 2026-11-18 - via Workday
+- **HPE Aruba Networking** - [Software Engineer](https://www.linkedin.com/jobs/view/4490610420) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
+- **Infosys** - [Java SpringBoot Developer](https://www.linkedin.com/jobs/view/4474282316) - Bengaluru East, Karnataka, India - 2026-11-16 - via LinkedIn
+- **IQVIA** - [Software Development Engineer 2](https://www.linkedin.com/jobs/view/4490838988) - Bengaluru, Karnataka, India - 2026-11-18 - via LinkedIn
+- **LTM** - [Java Developer](https://www.naukri.com/job-listings-java-developer-ltm-bengaluru-5-to-10-years-181126012787) - Bengaluru, India - 2026-11-18 - via Naukri
+- **Medblocks Technologies Pvt Ltd** - [Full Stack Data Engineer](https://in.indeed.com/viewjob?jk=1c28ea550f291586) - KA, India - 2026-11-17 - via Indeed
+- **Medhansh Business Services Pvt. Ltd.** - [Java Angular Full Stack Developer](https://in.indeed.com/viewjob?jk=3f69dcc30ce21200) - KA, India - 2026-11-16 - via Indeed
+- **MICO** - [FullStack / Infra Engineer](https://grnh.se/7l1zt5zm8us) - KA, India - 2026-11-18 - via Career site
+- **msg global solutions** - [Front End Developer](https://www.linkedin.com/jobs/view/4483631489) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **NatWest Group** - [Full Stack Python & React Developer, AVP](https://jobs.natwestgroup.com/jobs/18474500-full-stack-python-and-react-developer-avp) - KA, India - 2026-11-17 - via Career site
+- **NeST Digital** - [Software Engineer-Full Stack Java Developer](https://careers.nestdigital.com/apply/?job=2730&source=84) - KA, India - 2026-11-17 - via Career site
+- **NetApp** - [Software Engineer (Full Stack Developer, Cloud, AI)](https://careers.netapp.com/job/bengaluru/software-engineer-full-stack-developer-cloud-ai/27600/103426369408) (x2 openings) - KA, India - 2026-11-17 - via Career site
+- **Nrich It Consulting Services** - [React Frontend Developer](https://www.nrichit.com/careers/#open-roles) - Bengaluru, India - 2026-11-16 - via Career site
+- **Nxtwave Disruptive Technologies** - [Java Developer](https://www.naukri.com/job-listings-java-developer-nxtwave-disruptive-technologies-hyderabad-chennai-bengaluru-0-to-1-years-181126015436) - Bengaluru, Hyderabad, Chennai, India - 2026-11-18 - via Naukri
+- **Optshift Ai** - [Software Engineer](https://www.naukri.com/job-listings-software-engineer-optshift-ai-bengaluru-1-to-5-years-181126016194) - Bengaluru, India - 2026-11-18 - via Naukri
+- **Saisystems Technology** - [Software Developer](https://www.naukri.com/job-listings-software-developer-saisystems-technology-bengaluru-6-to-8-years-181126018597) - Bengaluru, India - 2026-11-18 - via Naukri
+- **Sarvam** - [SDE2 - Full Stack](https://jobs.ashbyhq.com/sarvam/fa96b55d-0c77-423d-8eef-f579c8496adb?utm_source=DEOx3xoke9) - KA, India - 2026-11-17 - via Career site
+- **Satori** - [Software Engineer (Python)- Product Development & Automation](https://www.commvault.com/careers/jobs/5459809008) - Bengaluru, Hyderabad, India - 2026-11-17 - via Career site
+- **Saviynt** - [Software Engineer (Java/Python)](https://www.linkedin.com/jobs/view/4484016523) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Scoutit** - [Software Engineer](https://www.linkedin.com/jobs/view/4491149283) - Bengaluru, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Sigmoid** - [Full Stack Software Development Engineer II](https://job-boards.greenhouse.io/sigmoid/jobs/8741978002) - Bengaluru, Karnataka, India - 2026-11-17 - via Greenhouse
+- **Sigmoid** - [Software Development Engineer II](https://job-boards.greenhouse.io/sigmoid/jobs/4808098002) - Bengaluru, Karnataka, India - 2026-11-17 - via Greenhouse
+- **slice** - [SDE 1 - iOS (Flutter)](https://www.linkedin.com/jobs/view/4490637226) - Bengaluru, Karnataka, India - 2026-11-16 - via LinkedIn
+- **Smartsheet** - [Software Engineer - Full Stack](https://www.linkedin.com/jobs/view/4483610263) - Bengaluru East, Karnataka, India - 2026-11-17 - via LinkedIn
+- **Synechron** - [Fullstack Developer](https://www.naukri.com/job-listings-fullstack-developer-synechron-bengaluru-5-to-10-years-271026023634) - Bengaluru, India - 2026-11-18 - via Naukri
+- **Techbliss Digital Solution** - [Java Developer](https://www.naukri.com/job-listings-java-developer-techbliss-digital-solution-bengaluru-delhi-ncr-4-to-9-years-181126017049) - Bengaluru, Delhi / NCR, India - 2026-11-18 - via Naukri
+- **Thakral One** - [Fullstack Developer](https://www.thakralone.com/jobs/fullstack-developer-2/) - KA, India - 2026-11-17 - via Career site
+- **The Eventus Consulting Groups** - [Full Stack Developer](https://in.indeed.com/viewjob?jk=e87be612e418d0f1) - KA, India - 2026-11-17 - via Indeed
+- **Tquanta Technologies** - [Java Developer](https://www.naukri.com/job-listings-java-developer-tquanta-technologies-hyderabad-chennai-bengaluru-10-to-18-years-171126031506) - Bengaluru, Hyderabad, Chennai, India - 2026-11-17 - via Naukri
+- **Tvaksa Technologies** - [Walk-in || Java Developer](https://www.naukri.com/job-listings-java-developer-tvaksa-technologies-bengaluru-7-to-12-years-181126011942) - Bengaluru, India - 2026-11-18 - via Naukri
+- **Volvo** - [Power Platform Software Engineer	Information Technology	Volvo Group Digital Technology & Operations](https://jobs.volvogroup.com/job/Bangalore-Power-Platform-Software-Engineer-562122/1377309255/?feedId=361555) - Wroclaw, PL, 51-502 Bangalore, IN, 562122 - via Crawler
+- **Wipro** - [Java Developer-Wipro](https://www.naukri.com/job-listings-java-developer-wipro-wipro-bengaluru-8-to-13-years-281026014605) - Bengaluru, India - 2026-11-17 - via Naukri
+- **Wissen Technology** - [Java Full Stack Developer](https://www.naukri.com/job-listings-java-full-stack-developer-wissen-technology-pune-bengaluru-3-to-8-years-181126020741) - Bengaluru, Pune, India - 2026-11-18 - via Naukri
+- **Xoriant** - [Java Developer](https://www.naukri.com/job-listings-java-developer-xoriant-bangalore-rural-6-to-10-years-181126018284) - Bangalore Rural, India - 2026-11-18 - via Naukri
+- **Xoriant** - [Job Opportunity For Dot Net React Developer With Maplelabs 10+ Years](https://www.naukri.com/job-listings-opportunity-for-dot-net-react-developer-with-maplelabs-10-years-xoriant-pune-chennai-bengaluru-10-to-18-years-271026018060) - Bengaluru, Pune, Chennai, India - 2026-11-18 - via Naukri
 
-## Hyderabad (21)
+## Hyderabad (11)
 
-- **Salesforce** - [Software Engineering PMTS (Full Stack)](https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-PMTS--Full-Stack-_JR368588-1) - TS, India - 2026-11-17 - via Career site
-- **Uber** - [Software Engineer II - Machine Learning Engineer](https://tnl2.jometer.com/v2/job?jz=5wqzse0f8071e186c2092f5863de772a432aeOAAAKAAAAABQ&utm_medium=jobboard&utm_source=joveo_indeed_organic) - TS, India - 2026-11-16 - via Career site
-- **Accenture** - [Custom Software Engineer](https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5436152-S1977092_en&title=AI+Native+Software+Engineer&SRC=RECNau) (x9 openings) - Hyderabad, India - 2026-11-16 - via Career site
-- **Amgen** - [Software Engineer - Lab Automation](https://careers.amgen.com/en/job/hyderabad/software-engineer-lab-automation/87/103377498928) - TS, India - 2026-11-16 - via Career site
-- **Arrowsight Private Limited** - [Software Engineer (.NET Full Stack)](https://in.indeed.com/viewjob?jk=df3bca5b92c43ef6) - TS, India - 2026-11-17 - via Indeed
-- **Capgemini** - [Java Developer](https://www.naukri.com/job-listings-java-developer-capgemini-hyderabad-pune-chennai-5-to-10-years-171126019633) - Hyderabad, Pune, Chennai, India - 2026-11-17 - via Naukri
-- **Capgemini** - [Java Full Stack Developer](https://www.naukri.com/job-listings-java-full-stack-developer-capgemini-hyderabad-pune-chennai-5-to-10-years-171126020086) - Hyderabad, Pune, Chennai, India - 2026-11-17 - via Naukri
-- **Cognizant** - [Java Backend Developer with Gen AI Experience](https://www.naukri.com/job-listings-java-backend-developer-with-gen-ai-experience-cognizant-hyderabad-7-to-10-years-221026034574) - Hyderabad, India - 2026-11-16 - via Naukri
-- **Commvault** - [Software Engineer (Python)- Product Development & Automation](https://www.commvault.com/careers/jobs/5459809008) - TS, India - 2026-11-16 - via Career site
-- **Cornerstone OnDemand** - [Software Engineer](https://cornerstone.csod.com/ux/ats/careersite/2/home/requisition/11812?c=cornerstone) - TS, India - 2026-11-16 - via Career site
-- **Crowe Capability Center - India** - [Junior Software Engineer 1](https://crowe.wd12.myworkdayjobs.com/External_Careers/job/Hyderabad-Telangana-India/Junior-Software-Engineer-1_R-52653) - TS, India - 2026-11-17 - via Career site
-- **EPAM Systems** - [Software Engineer - Java Full Stack ReactJS](https://careers.epam.com/en/vacancy/blt26ms27isi9x39gka_en?city=Hyderabad&state=Telangana&country=India&utm_source=indeed&utm_medium=xml-job-feed&utm_campaign=ta) - TS, India - 2026-11-16 - via Career site
-- **FactSet** - [Software Engineer II](https://factset.wd108.myworkdayjobs.com/en-US/FactSetCareers/job/Hyderabad-IND/Software-Engineer-II_R32882) - TS, India - 2026-11-17 - via Career site
-- **HCLTech** - [Walk-in || HCL Tech hiring Java Backend Developer with Kafka Exp](https://www.naukri.com/job-listings-hcl-tech-hiring-java-backend-developer-with-kafka-exp-hcltech-hyderabad-chennai-10-to-20-years-171126019343) - Hyderabad, Chennai, India - 2026-11-17 - via Naukri
-- **Highradius** - [Backend Java Developer](https://www.naukri.com/job-listings-backend-java-developer-highradius-hyderabad-3-to-5-years-161126021406) - Hyderabad, India - 2026-11-16 - via Naukri
-- **Infor** - [Software Engineer, Associate (Java)](https://careers.infor.com/postings/614d3734-d24a-402b-8382-1eb21fa3fd8d?utm_medium=job_board&utm_source=indeed) - TS, India - 2026-11-17 - via Career site
-- **KUMARAN SYSTEMS** - [Java Developer](https://careers.kumaran.com/jobs/Careers/31840000021988124/Java-Developer?source=CareerSite) - TS, India - 2026-11-16 - via Career site
-- **Phenom** - [Product Development Engineer I (Fullstack)](https://careers.phenom.com/us/en/job/P-104728/Product-Development-Engineer-I-Fullstack) - TS, India - 2026-11-16 - via Career site
-- **Phenom** - [Product Development Engineer II (Fullstack)](https://careers.phenom.com/us/en/job/P-104729/Product-Development-Engineer-II-Fullstack) - TS, India - 2026-11-16 - via Career site
-- **Phenom** - [Product Development Engineer II- Fullstack](https://careers.phenom.com/us/en/job/P-104694/Product-Development-Engineer-II-Fullstack) - TS, India - 2026-11-16 - via Career site
-- **Quanteon Solutions** - [Software Engineer (React Native + AI)](https://in.indeed.com/viewjob?jk=29bd04b6da35923d) (x2 openings) - TS, India - 2026-11-17 - via Indeed
+- **ABC Fitness India Pvt Ltd** - [Software Developer II (Front-End)](https://abcfinancial.wd5.myworkdayjobs.com/ABCFinancialServices/job/Hyderabad-Office-India/Software-Developer-II--Front-End-_REQ-1592) - TS, India - 2026-11-17 - via Career site
+- **AbhiBus** - [Software Engineer - I / II(Java)](https://jobs.smartrecruiters.com/AbhiBus/744000162233780) - Hyderabad, in - 2026-11-18 - via Smartrecruiters
+- **Accenture** - [Custom Software Engineer](https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5767789-S2069247_en&title=Custom+Software+Engineer&SRC=RECNau) (x2 openings) - Hyderabad, India - 2026-11-18 - via Career site
+- **Anusha Bazaar Technologies** - [Software Developer](https://www.naukri.com/job-listings-software-developer-anusha-bazaar-technologies-hyderabad-0-to-0-years-181126018342) - Hyderabad, India - 2026-11-18 - via Naukri
+- **Apple** - [Fullstack Engineer - ETS](https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200694893-1052-en-US&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200694893-1052%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D8308cd00-e261-11f1-8524-67f2b68ef2df%26rx_job%3D200694893-1052-en-US%26rx_medium%3Dcpc%26rx_product%3Dprogrammatic-ppc%252Ccore%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20261118T060422Z%26rx_vp%3Dcpc) - TS, India - 2026-11-18 - via Career site
+- **Apple** - [Junior Fullstack Engineer - ETS](https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200694892-1052-en-US&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200694892-1052%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D8308b83f-e261-11f1-b1f8-67f2b68ef2df%26rx_job%3D200694892-1052-en-US%26rx_medium%3Dcpc%26rx_product%3Dprogrammatic-ppc%252Ccore%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20261118T060422Z%26rx_vp%3Dcpc) - TS, India - 2026-11-18 - via Career site
+- **EQUISOFT** - [Developer Full-Stack (Python)](https://equisoft.wd10.myworkdayjobs.com/fr-CA/External/job/HYBRID---Hyderabad-India/Developer-Full-Stack--Python-_ReqID100333) - TS, India - 2026-11-17 - via Career site
+- **MetLife** - [Software Engineer I](https://www.metlifecareers.com/en_US/ml/JobDetail/Software-Engineer-I/21680) - TS, India - 2026-11-17 - via Career site
+- **Nustar Technologies** - [Full Stack Engineers with AI](https://www.naukri.com/job-listings-full-stack-engineers-with-ai-nustar-technologies-hyderabad-7-to-11-years-181126021540) - Hyderabad, India - 2026-11-18 - via Naukri
+- **Tecnics Integration Technologies** - [Java Full Stack Developer](https://www.naukri.com/job-listings-java-full-stack-developer-tecnics-integration-technologies-hyderabad-4-to-6-years-181126021530) - Hyderabad, India - 2026-11-18 - via Naukri
+- **UNISON Group** - [Java Backend Developer only Hyderabad](https://apply.workable.com/j/2A56996D38) - TS, India - 2026-11-18 - via Career site
 
-## Pune (1)
+## Pune (6)
 
-- **Naukri Assist** - [Dot Net Fullstack Developer](https://www.naukri.com/job-listings-dot-net-fullstack-developer-naukri-assist-pune-5-to-8-years-171126020546) - Pune, India - 2026-11-17 - via Naukri
+- **Accenture** - [Custom Software Engineer](https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5897949-S2076024_en&title=Custom+Software+Engineer&SRC=RECNau) (x3 openings) - Pune, India - 2026-11-18 - via Career site
+- **BMW Techworks India** - [Java Full Stack Developer (Angular ,Java & AWS)](https://www.naukri.com/job-listings-java-full-stack-developer-angular-java-aws-bmw-techworks-india-pune-7-to-9-years-111126021893) - Pune, India - 2026-11-18 - via Naukri
+- **Boot Infotech** - [Frontend Developer](https://outoftheblue.company/careers#roles) - Pune, India - 2026-11-16 - via Career site
+- **Capgemini** - [Java Full stack Developer (Java + React)](https://www.naukri.com/job-listings-java-full-stack-developer-java-react-capgemini-pune-8-to-10-years-181126020857) - Pune, India - 2026-11-18 - via Naukri
+- **iLink Digital** - [Full Stack Software Engineer (Python +Angular)](https://www.naukri.com/job-listings-full-stack-software-engineer-python-angular-ilink-multitech-solutions-private-limited-pune-3-to-7-years-171126931821) - Pune, India - 2026-11-17 - via Naukri
+- **SG Analytics** - [Java Developer](https://www.naukri.com/job-listings-java-developer-sg-analytics-mumbai-pune-4-to-9-years-181126013798) - Mumbai, Pune, India - 2026-11-18 - via Naukri
 
-## Mumbai (5)
+## Maharashtra (8)
 
-- **Clifyx Technology** - [Java Backend Developer](https://www1.jobdiva.com/portal/?a=bajdnw4w0yraloh1qse3s25s4wl54b0546be8ws8392toifs4y6rer0c7aoojvcn&jobid=15060047&country=IN#/jobs/32320504) (x2 openings) - Mumbai, India - 2026-11-17 - via Career site
-- **Clifyx Technology** - [python developer](https://www1.jobdiva.com/portal/?a=bajdnw4w0yraloh1qse3s25s4wl54b0546be8ws8392toifs4y6rer0c7aoojvcn&jobid=15060047&country=IN#/jobs/32429700) - Mumbai, India - 2026-11-17 - via Career site
-- **Clover Infotech** - [Java Developer](https://www.naukri.com/job-listings-java-developer-clover-infotech-mumbai-suburban-navi-mumbai-mumbai-all-areas-4-to-9-years-171126012174) - Mumbai Suburban, Navi Mumbai, Mumbai (All Areas), India - 2026-11-17 - via Naukri
-- **Kiya.ai** - [Java Back End Developer](https://www.naukri.com/job-listings-java-back-end-developer-kiya-ai-mumbai-suburban-thane-mumbai-all-areas-5-to-8-years-231026028809) - Mumbai Suburban, Thane, Mumbai (All Areas), India - 2026-11-16 - via Naukri
-- **R S Diamonds** - [Software Engineer _ Trainee_ Immediate Joiner](https://www.naukri.com/job-listings-software-engineer-trainee-immediate-joiner-r-s-diamonds-mumbai-0-to-2-years-171126017272) - Mumbai(Prabhadevi +1), India - 2026-11-17 - via Naukri
-
-## Maharashtra (7)
-
-- **Barclays** - [AI Software Engineer](https://search.jobs.barclays/job/pune/ai-software-engineer/13015/103374232544) (x2 openings) - MH, India - 2026-11-16 - via Career site
-- **BMW TechWorks India** - [Full Stack Developer (Java | AWS | React)](https://careers-bmwtechworks.peoplestrong.com/api/cp/rest/altone/cp/job/1925556/v2?part=basic,organisational,descriprion,qualification,skills&isReqId=true) - MH, India - 2026-11-17 - via Career site
-- **Cornerstone OnDemand** - [Software Engineer](https://cornerstone.csod.com/ux/ats/careersite/2/home/requisition/11818?c=cornerstone) - MH, India - 2026-11-17 - via Career site
-- **Entrata** - [Software Engineer ( AI, Python & AWS )](https://jobs.lever.co/entrata/fce2a8b4-042d-41ce-90ba-8363e182e897?lever-source=Indeed) - MH, India - 2026-11-17 - via Career site
-- **Momentive Software** - [Software Engineer](https://communitybrands.wd1.myworkdayjobs.com/en-US/Momentive_External_Careers/job/Pune-India/Software-Engineer_R732) - MH, India - 2026-11-16 - via Career site
-- **Persistent Systems** - [AWS Full Stack Engineer](https://careers.persistent.com/jobview/programmer-dev-india-pune-2026110613302695) - MH, India - 2026-11-16 - via Career site
+- **Citi** - [Core Java Backend - Prime Brokerage Technology](https://jobs.citi.com/job/pune/core-java-backend-prime-brokerage-technology/287/103418089520) - MH, India - 2026-11-17 - via Career site
+- **Fiserv** - [Java Product Developer - Adv I](https://careers.fiserv.com/us/en/job/R-10406561) - MH, India - 2026-11-16 - via Career site
+- **Mastercard** - [Software Engineer I](https://click.appcast.io/t/8PMRcZmrnDJOHe0Vytj6iyRNNIibGwEwUZhHsNEbCPs=) - MH, India - 2026-11-17 - via Career site
+- **NielsenIQ** - [Associate Software Test Engineer (Java, Selenium)](https://jobs.smartrecruiters.com/NielsenIQ/744000162075181-associate-software-test-engineer-java-selenium-) - MH, India - 2026-11-17 - via Career site
+- **Persistent Systems** - [AWS Full Stack Engineer](https://careers.persistent.com/jobview/programmer-dev-india-pune-2026110613284194) (x2 openings) - MH, India - 2026-11-16 - via Career site
 - **PTC** - [Associate Software Analyst](https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Associate-Software-Analyst_JR113044-1) - MH, India - 2026-11-16 - via Career site
+- **Stratacent** - [Full stack Developer .Net](https://www1.jobdiva.com/candidates/myjobs/openjob_outside.jsp?a=vqjdnwibrcguxcqp74rha5zjkosno404d9burg01bh02ofcavw4j1rn7lu04rsuz&SearchString=&StatesString=&source=indeed.com&id=33640265&compid=-1) - MH, India - 2026-11-17 - via Career site
+- **WeIntern** - [Full Stack Developer](https://in.indeed.com/viewjob?jk=dd210d760b46fb4d) - MH, India - 2026-11-16 - via Indeed
 
-## Delhi NCR (2)
+## Delhi NCR (4)
 
-- **Genpact** - [F2F Drive- Java Backend Developer- Noida Location](https://www.naukri.com/job-listings-f2f-drive-java-backend-developer-noida-location-genpact-noida-5-to-10-years-161126021056) - Noida, India - 2026-11-16 - via Naukri
-- **PR Management Consultant Faridabad** - [Software Developer](https://www.naukri.com/job-listings-software-developer-pr-management-consultant-faridabad-gurugram-8-to-12-years-161126025864) - Gurugram(Udyog Vihar Phase 2), India - 2026-11-16 - via Naukri
+- **Accenture** - [Custom Software Engineer](https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5902705-S2076027_en&title=Custom+Software+Engineer&SRC=RECNau) (x2 openings) - Gurugram, India - 2026-11-18 - via Career site
+- **Juuuno** - [Software Python/FastAPI Backend Engineer](https://www.naukri.com/job-listings-software-python-fastapi-backend-engineer-juuuno-noida-4-to-7-years-181126018656) - Noida(Sector 18), India - 2026-11-18 - via Naukri
+- **Techbliss Digital Solution** - [Fullstack Developer](https://www.naukri.com/job-listings-fullstack-developer-techbliss-digital-solution-gurugram-4-to-8-years-181126021207) - Gurugram, India - 2026-11-18 - via Naukri
+- **Vidysea Education Noida** - [Fullstack Developer](https://www.naukri.com/job-listings-fullstack-developer-vidysea-education-noida-noida-0-to-5-years-181126020350) - Noida(B Block Sector 132), India - 2026-11-18 - via Naukri
 
-## Chennai (2)
+## Chennai (10)
 
-- **Accenture** - [Custom Software Engineer](https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5436472-S1977995_en&title=AI+Native+Software+Engineer&SRC=RECNau) (x4 openings) - Chennai, India - 2026-11-16 - via Career site
-- **GE VERNOVA** - [Software Engineer](https://www.naukri.com/job-listings-software-engineer-ge-renewable-energy-technologies-private-limited-chennai-3-to-5-years-211026922515) - Chennai, India - 2026-11-16 - via Naukri
+- **Accenture** - [Custom Software Engineer](https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5780825-S2076008_en&title=Custom+Software+Engineer&SRC=RECNau) (x5 openings) - Chennai, India - 2026-11-18 - via Career site
+- **BNP Paribas** - [Java Developer with Docker](https://www.naukri.com/job-listings-java-developer-with-docker-bnp-paribas-chennai-5-to-10-years-021126009668) - Chennai, India - 2026-11-17 - via Naukri
+- **E Solutions** - [Frontend / GenAI Engineer](https://www.naukri.com/job-listings-frontend-genai-engineer-e-solutions-chennai-8-to-13-years-171126029936) - Chennai, India - 2026-11-17 - via Naukri
+- **Hitachi Energy** - [Full Stack .Net Developer](https://www.naukri.com/job-listings-full-stack-net-developer-hitachi-energy-chennai-2-to-5-years-181126020599) - Chennai, India - 2026-11-18 - via Naukri
+- **iLink Digital** - [Front-end developer](https://www.naukri.com/job-listings-front-end-developer-ilink-multitech-solutions-private-limited-chennai-5-to-9-years-171126931819) - Chennai, India - 2026-11-17 - via Naukri
+- **Infyjob Technology Services** - [Walk-in || Python Software Developer](https://www.naukri.com/job-listings-python-software-developer-infyjob-technology-services-chennai-8-to-13-years-181126021018) - Chennai, India - 2026-11-18 - via Naukri
+- **Mastek** - [Java Backend Developer (Java17/Microservices/ Spring/CICD/AWS)](https://www.naukri.com/job-listings-java-backend-developer-java17-microservices-spring-cicd-aws-mastek-chennai-5-to-10-years-181126014884) - Chennai, India - 2026-11-18 - via Naukri
+- **Metro Talent Consultancy** - [Software Developer](https://www.naukri.com/job-listings-software-developer-metro-talent-consultancy-chennai-0-to-1-years-181126021121) - Chennai, India - 2026-11-18 - via Naukri
+- **Prolync** - [Frontend Developer](https://prolync.in/careers/) - Chennai, India - 2026-11-17 - via Career site
+- **Serendipity Corporate Services** - [Java Developer – BFSI](https://www.naukri.com/job-listings-java-developer-bfsi-serendipity-corporate-services-chennai-6-to-10-years-181126913585) - Chennai, India - 2026-11-18 - via Naukri
 
-## Remote (6)
+## Remote (8)
 
-- **Anthropic** - [Software Engineer, Datacenter Server Lifecycle](https://job-boards.greenhouse.io/anthropic/jobs/5484171008) - Remote-Friendly, United States - 2026-11-16 - via Greenhouse
-- **Iyyappan Side Projects** - [Software Engineer](https://in.indeed.com/viewjob?jk=55a491479e2c469e) - Remote, India - 2026-11-16 - via Indeed
-- **Matrix Global** - [Java Developer-AML](https://www.comeet.com/jobs/matrix-ifs/19.00F/java-developer-aml/A5.570?coref=1.11.p4B_CD1B) - Remote, India - 2026-11-16 - via Career site
-- **Segment** - [Software Engineer (L2)](https://jobs.twilio.com/careers/job/1099555456788) - Engineering Remote - US - via Crawler
-- **SGH Management India Pvt Ltd** - [Python Full Stack Developer](https://in.indeed.com/viewjob?jk=788f2acf5e67bfb8) - Remote, India - 2026-11-16 - via Indeed
-- **Terminus** - [.NET Full Stack Engineer (Azure Cloud Migration & Modernization)](https://in.indeed.com/viewjob?jk=af33672a9ea95a1b) (x2 openings) - Remote, India - 2026-11-16 - via Indeed
+- **Classify Marketing** - [Backend Developer – Java / Spring Boot (SaaS CRM Software)](https://in.indeed.com/viewjob?jk=9b03247432c69211) - Remote, India - 2026-11-17 - via Indeed
+- **Classify Marketing** - [Full Stack Software Developer – SaaS CRM (Frontend, Backend & Mobile App)](https://in.indeed.com/viewjob?jk=cd19243e899854bd) - Remote, India - 2026-11-17 - via Indeed
+- **digisetups** - [Full Stack Software Developer – SaaS CRM (Frontend, Backend & Mobile App)](https://in.indeed.com/viewjob?jk=70ff8ebf515509ea) - Remote, India - 2026-11-17 - via Indeed
+- **Genrichers Innovation** - [Software Engineer - Backend (Freelancing)](https://in.indeed.com/viewjob?jk=c8fe1fe4fe896a4e) - Remote, India - 2026-11-18 - via Indeed
+- **Gitlab** - [Backend Engineer (Ruby), AI Engineering: AI Catalog ](https://job-boards.greenhouse.io/gitlab/jobs/8940898002) - Remote, United Kingdom - 2026-11-17 - via Greenhouse
+- **Patna Labs** - [Backend Software Engineer (Part-Time | Fully Remote)](https://in.indeed.com/viewjob?jk=b46285891deaf4da) - Remote, India - 2026-11-18 - via Indeed
+- **Raah Techservices** - [Python Full Stack Developer (React with AWS)](https://in.indeed.com/viewjob?jk=dd4c5a660485cd73) - Remote, India - 2026-11-18 - via Indeed
+- **Segment** - [Developer Evangelist](https://jobs.twilio.com/careers/job/1099557204707) - Marketing Remote - US - via Crawler
 
-## Other / unspecified (11)
+## Other / unspecified (17)
 
-- **Cognizant** - [AI Developer](https://careers.cognizant.com/global-en/jobs/00070176251/ai-developer/) -  - via Crawler
-- **Cognizant** - [AI-Augmented Software Engineer](https://careers.cognizant.com/global-en/jobs/00070660511/ai-augmented-software-engineer/) -  - via Crawler
-- **Cognizant** - [DataStage Developer](https://careers.cognizant.com/global-en/jobs/00071309121/datastage-developer/) -  - via Crawler
-- **Cognizant** - [Java Developer -Bangalore](https://careers.cognizant.com/global-en/jobs/00070562472/java-developer-bangalore/) -  - via Crawler
-- **Cognizant** - [Microsoft Copilot Studio developer](https://careers.cognizant.com/global-en/jobs/45802/microsoft-copilot-studio-developer/) -  - via Crawler
-- **Cognizant** - [Software Engineering Internship](https://careers.cognizant.com/global-en/jobs/00071182796/software-engineering-internship/) (x9 openings) -  - via Crawler
-- **JKL Info Solutions** - [Front-end and PHP developers](https://jklinfosolutions.com/careers.html) - Kannur, India - 2026-11-17 - via Career site
-- **Narayana Group** - [QA Engineer 1](https://jobs.narayanahealth.org/NH-India/job/Bangalore-QA-Engineer-1-KA-560099/61594144/) -  - via Crawler
-- **Techpulse It Services** - [Backend Developer (Java)](https://techpulseitservices.com/jobs/backend-developer) - Pimpri-Chinchwad, India - 2026-11-16 - via Career site
-- **Wadhwani AI** - [Software Development Engineer - I](https://wadhwaniai.zohorecruit.in/jobs/Careers/146520000006894001/Software-Development-Engineer-I?source=CareerSite) -  - via Crawler
-- **Zoom Video Communications** - [Full Stack Developer](https://www.careers.zoom.us/job-details/full-stack-developer-in-engineering-jobs-1799183) -  - via Crawler
+- **Allegis Group** - [Java Backend Developer](https://www.naukri.com/job-listings-java-backend-developer-allegis-group-hyderabad-9-to-14-years-171126022136) - India - 2026-11-17 - via Naukri
+- **Experion** - [Software Developer](https://www.naukri.com/job-listings-software-developer-experion-kochi-thiruvananthapuram-4-to-9-years-181126017324) - Kochi, Thiruvananthapuram, India - 2026-11-18 - via Naukri
+- **EY** - [AI Engineer](https://careers.ey.com/ey/job/Amsterdam-AI-Engineer-1083-HP/1259008501/) -  - via Crawler
+- **EY** - [InfoSec GRC Developer - EY GDS](https://careers.ey.com/ey/job/CABA-InfoSec-GRC-Developer-EY-GDS-B-1001/1458162533/) -  - via Crawler
+- **EY** - [ServiceNow Developer (Contract), Digital and Emerging Tech, Technology Consulting](https://careers.ey.com/ey/job/ServiceNow-Developer-%28Contract%29%2C-Digital-and-Emerging-Tech%2C-Technology-Consulting-048583/1407841633/) -  - via Crawler
+- **HCLTech** - [Java Developer](https://www.naukri.com/job-listings-java-developer-hcltech-madurai-6-to-11-years-181126011830) (x2 openings) - Madurai, India - 2026-11-18 - via Naukri
+- **Ignitefortune Tech** - [Java Developer](https://www.naukri.com/job-listings-java-developer-ignitefortune-tech-pune-0-to-1-years-171126033465) - India - 2026-11-17 - via Naukri
+- **Intuitive** - [Software Development Engineer](https://careers.intuitive.com/en/jobs/744000162133129/JOB217923/software-development-engineer/) -  - via Crawler
+- **Kaspersky** - [Testing Engineer (NGFW)](https://careers.kaspersky.com/vacancy/25820) (x2 openings) -  - via Crawler
+- **Koantek** - [Fullstack Developer ( Databricks Apps & Flask)](https://www.naukri.com/job-listings-fullstack-developer-databricks-apps-flask-koantek-hyderabad-4-to-8-years-181126021047) - India - 2026-11-18 - via Naukri
+- **Muthoot FinCorp (MFL)** - [Java Developer](https://www.naukri.com/job-listings-java-developer-muthoot-fincorp-mfl-thiruvananthapuram-2-to-7-years-171126027605) - Thiruvananthapuram, India - 2026-11-17 - via Naukri
+- **Nrich It Consulting Services** - [Frontend Engineer (React)](https://www.nrichit.com/careers/#open-roles) - India - 2026-11-16 - via Career site
+- **Programmers io** - [.NET Software Developer](https://www.naukri.com/job-listings-net-software-developer-programmers-io-jaipur-5-to-10-years-181126020642) - India - 2026-11-18 - via Naukri
+- **Seven Consultancy** - [Java Developer](https://www.naukri.com/job-listings-java-developer-seven-consultancy-hyderabad-4-to-7-years-190826037845) - India - 2026-11-17 - via Naukri
+- **Swiss Re** - [Workplace Endpoint Engineer (Hybrid set up), Madrid (M, ES)](https://www.swissre.com/careers/job/Workplace-Endpoint-Engineer-Hybrid-set-up-/1457632233) -  - via Crawler
+- **Zenq** - [24366- IT Infrastructure & Systems Engineer](https://careers.quality-ai.com/job/Petach-_-Tikva-24366-IT-Infrastructure-&-Systems-Engineer/61559644/) -  - via Crawler
+- **Zenq** - [Automation Engineer](https://careers.quality-ai.com/job/Bangalore-Automation-Engineer-560045/61613044/) -  - via Crawler
