@@ -1661,7 +1661,8 @@
   "ats": null
  },
  "Raytheon Technologies": {
-  "ats": null
+  "ats": "workday",
+  "slug": "globalhr|wd5|REC_RTX_Ext_Gateway"
  },
  "RPM International Inc.": {
   "ats": null
