@@ -287,7 +287,6 @@ Rogers Communications	https://www.rogers.com/careers
 Quick Ride	https://quickride.in/careers
 Reliance Jio	https://careers.jio.com/
 Ruckus Networks	https://www.ruckusnetworks.com/company/careers
-Raytheon Technologies	https://www.rtx.com/careers
 RPM International Inc.	https://hcwx.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_8/requisitions?mode=location
 Salesforce	https://www.salesforce.com/in/company/careers/
 Royal Enfield	https://careers.royalenfield.com/
